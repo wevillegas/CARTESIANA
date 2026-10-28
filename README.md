@@ -352,3 +352,5 @@ Para usarlo:
 Documentación: `docs/protocolo_cartesiana.md` (protocolo v2) y `docs/CARTESIANA_virtualizacion.pdf` (documento de la entrega). El mundo `cartesian_robot.wbt` y su controlador siguen funcionando igual: la validación original sigue aprobando 23 de 23 comprobaciones.
 
 La versión anterior, que usaba puerto serie COM5 y bridge HW VSP, se descartó porque la máquina no tiene Arduino. Quedó guardada en `backups/obsoleto_arduino_com/`.
+#   C A R T E S I A N A  
+ 
