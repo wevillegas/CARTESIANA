@@ -1,0 +1,18 @@
+#VRML_SIM R2025a utf8
+EXTERNPROTO "../protos/CartesianRobot.proto"
+WorldInfo { title "CARTESIANA - gemelo digital con conexion TCP/IP" basicTimeStep 16 coordinateSystem "ENU" randomSeed 1 }
+Viewpoint { orientation -0.138354 0.0717103 0.987783 2.19523 position 1.15 -1.75 1.65 fieldOfView 0.9 near 0.05 }
+Background { skyColor [ 0.16 0.20 0.25 ] }
+DirectionalLight { direction -0.4 0.6 -1 intensity 1 ambientIntensity 0.6 }
+DirectionalLight { direction 0.6 -0.4 -0.7 intensity 1 }
+Solid { translation 0 0 -0.015 name "piso" children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 5 5 0.03 } } ] boundingObject Box { size 5 5 0.03 } }
+DEF CARTESIAN_ROBOT CartesianRobot { controller "cartesiana_tcp" }
+DEF ZOCALO_A Solid { translation -0.147 -0.247 0.86 name "zocalo_A" children [
+  Transform { translation 0 0 0.096 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.04 0.04 0.192 } } ] }
+  Transform { translation 0 0 0.197 children [ Shape { appearance PBRAppearance { baseColor 0.1 0.65 0.22 metalness 0 roughness 0.6 } geometry Box { size 0.05 0.05 0.01 } } ] }
+] boundingObject Group { children [ Transform { translation 0 0 0.096 children [ Box { size 0.04 0.04 0.192 } ] } Transform { translation 0 0 0.197 children [ Box { size 0.05 0.05 0.01 } ] } ] } }
+DEF ZOCALO_B Solid { translation 0.153 -0.147 0.86 name "zocalo_B" children [
+  Transform { translation 0 0 0.096 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.04 0.04 0.192 } } ] }
+  Transform { translation 0 0 0.197 children [ Shape { appearance PBRAppearance { baseColor 0.12 0.38 0.92 metalness 0 roughness 0.6 } geometry Box { size 0.05 0.05 0.01 } } ] }
+] boundingObject Group { children [ Transform { translation 0 0 0.096 children [ Box { size 0.04 0.04 0.192 } ] } Transform { translation 0 0 0.197 children [ Box { size 0.05 0.05 0.01 } ] } ] } }
+DEF PIEZA Solid { translation -0.147 -0.247 1.074 name "pieza" children [ Shape { appearance PBRAppearance { baseColor 0.85 0.12 0.08 metalness 0 roughness 0.6 } geometry Box { size 0.024 0.024 0.024 } } ] }

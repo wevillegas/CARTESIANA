@@ -1,0 +1,394 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-30T01:30:52.435476+00:00",
+  "passed": false,
+  "exit_status": 1,
+  "simulation_time_s": 0.24,
+  "basic_timestep_ms": 16,
+  "parameters_file": "E:\\ROBOTICA\\CARTESIANO\\config\\robot_parameters.json",
+  "parameters": {
+    "status": "PROVISIONAL: los recorridos y masas no fueron medidos en el robot real",
+    "limits": {
+      "x": {
+        "min": -0.25,
+        "max": 0.25
+      },
+      "y": {
+        "min": -0.2,
+        "max": 0.2
+      },
+      "z": {
+        "min": -0.09,
+        "max": 0.09
+      }
+    },
+    "speeds": {
+      "x": 0.04,
+      "y": 0.04,
+      "z": 0.025
+    },
+    "acceleration": 0.1,
+    "control_gain": 3.0,
+    "tolerance": 0.0008,
+    "settle_seconds": 0.2,
+    "telemetry_period": 1.0,
+    "timeout_seconds": 35,
+    "tool_tip_zero": [
+      0,
+      -0.15,
+      1.16
+    ],
+    "measured_dimensions": {
+      "table": [
+        0.9,
+        0.6,
+        0.85
+      ],
+      "rubber_thickness": 0.01,
+      "lower_crossbar_height": 0.205,
+      "main_bar_width": 0.045,
+      "side_bar_width": 0.055,
+      "cabinet": [
+        0.6,
+        0.334,
+        0.6
+      ],
+      "cabinet_with_cover_depth": 0.35,
+      "cabinet_floor_clearance": 0.05,
+      "support": [
+        0.035,
+        0.152,
+        0.155
+      ],
+      "x_module": [
+        0.815,
+        0.11,
+        0.055
+      ],
+      "x_servo": [
+        0.2,
+        0.06,
+        0.06
+      ],
+      "y_module": [
+        0.042,
+        0.71,
+        0.093
+      ],
+      "y_servo": [
+        0.06,
+        0.2,
+        0.06
+      ],
+      "z_module": [
+        0.04,
+        0.095,
+        0.355
+      ],
+      "z_servo": [
+        0.06,
+        0.06,
+        0.24
+      ]
+    },
+    "approximate_dimensions": {
+      "y_carriage": [
+        0.1,
+        0.16,
+        0.043
+      ],
+      "x_carriage": [
+        0.12,
+        0.14,
+        0.035
+      ],
+      "z_carriage": [
+        0.085,
+        0.035,
+        0.08
+      ],
+      "tool_body": [
+        0.06,
+        0.055,
+        0.12
+      ],
+      "tool_shaft_radius": 0.012,
+      "tool_shaft_length": 0.12
+    },
+    "approximate_mass_kg": {
+      "y_assembly": 12,
+      "x_assembly": 5,
+      "z_assembly": 1.5
+    },
+    "simulation_max_force_N": {
+      "x": 250,
+      "y": 500,
+      "z": 150
+    },
+    "geometry_margin_m": 0.02,
+    "table_surface_z": 0.86,
+    "placements": {
+      "fixed_y": [
+        -0.32,
+        0,
+        1.0615
+      ],
+      "y_carriage": [
+        -0.32,
+        0,
+        1.1295
+      ],
+      "x_module_in_y": [
+        0.32,
+        0,
+        0.049
+      ],
+      "x_carriage_in_y": [
+        0.32,
+        -0.02,
+        0.106
+      ],
+      "z_module_in_x": [
+        0,
+        -0.068,
+        0.177
+      ],
+      "z_carriage_in_x": [
+        0,
+        -0.13,
+        0.1645
+      ],
+      "tool_in_z": [
+        0,
+        0,
+        -0.16
+      ],
+      "tool_tip_in_z": [
+        0,
+        0,
+        -0.24
+      ],
+      "cabinet": [
+        0,
+        -0.475,
+        0.35
+      ]
+    }
+  },
+  "coordinate_system": "ENU (+X derecha, +Y fondo, +Z arriba)",
+  "provisional_limits": true,
+  "checks": [
+    {
+      "name": "devices_and_config",
+      "passed": true,
+      "details": {
+        "motor_names": [
+          "motor_x",
+          "motor_y",
+          "motor_z"
+        ],
+        "sensor_names": [
+          "sensor_x",
+          "sensor_y",
+          "sensor_z"
+        ],
+        "limits_m": {
+          "x": [
+            -0.25,
+            0.25
+          ],
+          "y": [
+            -0.2,
+            0.2
+          ],
+          "z": [
+            -0.09,
+            0.09
+          ]
+        },
+        "motor_limits_match_json": true,
+        "sensor_sampling_period_ms": 16
+      }
+    },
+    {
+      "name": "execution_completed",
+      "passed": false,
+      "details": {
+        "error": "'NoneType' object has no attribute 'getSFVec3f'",
+        "type": "AttributeError"
+      }
+    }
+  ],
+  "failed_checks": [
+    "execution_completed"
+  ],
+  "continuous_metrics": {
+    "maximum_sensor_limit_excess_m": 0.0,
+    "maximum_fixed_drift_m": 0.0,
+    "maximum_orientation_difference": 0.0,
+    "maximum_tip_kinematic_error_m": 3.891784581222524e-05,
+    "minimum_tool_clearance_m": 0.2999587698217655
+  },
+  "snapshot_count": 1,
+  "exported_snapshot_count": 1,
+  "exported_snapshot_period_s": 0.5,
+  "snapshot_sampling_note": "Métricas en cada timestep; muestras exportadas cada 0.5 s más transiciones y extremos.",
+  "timestep_snapshots": [
+    {
+      "time_s": 0.016,
+      "phase": "startup",
+      "sensor_m": {
+        "x": 1.718373944095955e-08,
+        "y": 1.1519604401238138e-09,
+        "z": -2.312332422118014e-06
+      },
+      "target_m": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "positions": {
+        "FIXED_Y": [
+          -0.32,
+          0.0,
+          1.0615
+        ],
+        "Y_CARRIAGE": [
+          -0.3199999896730368,
+          4.1207679372450116e-08,
+          1.1294712584584814
+        ],
+        "X_MODULE": [
+          -9.340391238232826e-10,
+          -3.692408565534923e-09,
+          1.1784713319996443
+        ],
+        "X_CARRIAGE": [
+          -4.014139132202388e-09,
+          -0.020000008491680706,
+          1.235461279076209
+        ],
+        "Z_MODULE": [
+          -6.504882845915527e-08,
+          -0.08800026745748715,
+          1.4124611795862927
+        ],
+        "Z_CARRIAGE": [
+          -6.070552878842336e-08,
+          -0.15000025011697485,
+          1.3999587698214624
+        ],
+        "TOOL": [
+          -5.529728513148259e-09,
+          -0.15000000188179533,
+          1.2399587698216645
+        ],
+        "TOOL_TIP": [
+          2.205817162448929e-08,
+          -0.14999987776420556,
+          1.1599587698217655
+        ]
+      },
+      "orientations": {
+        "FIXED_Y": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "Y_CARRIAGE": [
+          0.9999999999999736,
+          -1.2427699433034585e-11,
+          -2.2981620242497378e-07,
+          1.22170940012333e-11,
+          0.9999999999995801,
+          -9.164081103686821e-07,
+          2.298162024362661e-07,
+          9.164081103658503e-07,
+          0.9999999999995537
+        ],
+        "X_MODULE": [
+          0.9999999999999736,
+          -1.2427699433034585e-11,
+          -2.298162024249738e-07,
+          1.22170940012333e-11,
+          0.9999999999995801,
+          -9.164081103686821e-07,
+          2.2981620243626614e-07,
+          9.164081103658503e-07,
+          0.9999999999995537
+        ],
+        "X_CARRIAGE": [
+          0.9999999999999407,
+          -1.53005617280869e-11,
+          -3.448346314415277e-07,
+          1.4796039674315837e-11,
+          0.9999999999989297,
+          -1.463084063356463e-06,
+          3.4483463146354467e-07,
+          1.4630840633512736e-06,
+          0.9999999999988702
+        ],
+        "Z_MODULE": [
+          0.9999999999999407,
+          -1.53005617280869e-11,
+          -3.448346314415277e-07,
+          1.4796039674315837e-11,
+          0.9999999999989297,
+          -1.463084063356463e-06,
+          3.4483463146354467e-07,
+          1.4630840633512736e-06,
+          0.9999999999988702
+        ],
+        "Z_CARRIAGE": [
+          0.9999999999999407,
+          -1.636124115131968e-11,
+          -3.448487517204694e-07,
+          1.582621870260092e-11,
+          0.9999999999987965,
+          -1.5514698720255536e-06,
+          3.448487517454384e-07,
+          1.5514698720200038e-06,
+          0.999999999998737
+        ],
+        "TOOL": [
+          0.9999999999999407,
+          -1.6361241151319682e-11,
+          -3.4484875172046943e-07,
+          1.5826218702600924e-11,
+          0.9999999999987965,
+          -1.5514698720255536e-06,
+          3.4484875174543843e-07,
+          1.5514698720200038e-06,
+          0.999999999998737
+        ],
+        "TOOL_TIP": [
+          0.9999999999999407,
+          -1.6361241151319682e-11,
+          -3.4484875172046943e-07,
+          1.5826218702600924e-11,
+          0.9999999999987965,
+          -1.5514698720255536e-06,
+          3.4484875174543843e-07,
+          1.5514698720200038e-06,
+          0.999999999998737
+        ]
+      },
+      "tip_kinematic_error_m": 3.891784581222524e-05,
+      "fixed_drift_m": 0.0,
+      "orientation_difference": 0.0,
+      "tool_clearance_above_rubber_m": 0.2999587698217655,
+      "tip_table_horizontal_margins_m": [
+        0.4499999779418284,
+        0.15000012223579443
+      ]
+    }
+  ],
+  "screenshot": "E:\\ROBOTICA\\CARTESIANO\\docs\\validation.jpg",
+  "screenshot_error": null
+}

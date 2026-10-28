@@ -1,0 +1,59 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "../protos/CartesianRobot.proto"
+
+WorldInfo {
+  title "Robot cartesiano industrial XYZ - etapa 2B CAD"
+  basicTimeStep 16
+  randomSeed 1
+}
+Viewpoint {
+  fieldOfView 0.9
+  orientation -0.02863259101345138 0.0015514768270037524 0.9995887992827409 3.033335521506894
+  position 4.855802825532355 -0.4571891819759761 1.0703770851752026
+}
+Background {
+  skyColor [
+    0.16 0.2 0.25
+  ]
+}
+DirectionalLight {
+  ambientIntensity 0.6
+  direction -0.4 0.6 -1
+}
+DirectionalLight {
+  direction 0.6 -0.4 -0.7
+}
+Solid {
+  translation 0 0 -0.015
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.68 0.7 0.67
+        roughness 0.7
+        metalness 0.35
+      }
+      geometry Box {
+        size 5 5 0.03
+      }
+    }
+  ]
+  name "piso"
+  boundingObject Box {
+    size 5 5 0.03
+  }
+}
+DEF CARTESIAN_ROBOT CartesianRobot {
+  hidden position_0_0 0.11965832543549633
+  hidden translation_3 -0.32 0.11965832543549633 1.1295
+  hidden position_3_0 -8.513179605706966e-10
+  hidden linearVelocity_3 -4.387363008044078e-10 0.0010773341653506079 9.946067469475902e-09
+  hidden angularVelocity_3 1.795846729100127e-08 9.710600987789586e-14 1.598737201513327e-09
+  hidden translation_5 0.31999999914868205 -0.02 0.106
+  hidden position_5_0 -4.905003825907833e-05
+  hidden linearVelocity_5 1.6072806220800124e-09 0.0010772563082011438 7.963923735587929e-09
+  hidden angularVelocity_5 2.5661942127085594e-08 1.4405476403641236e-13 2.3981184235364217e-09
+  hidden translation_7 0 -0.13 0.16445094996174092
+  hidden linearVelocity_7 1.7901442895252559e-09 0.0010772439904001513 6.173144261841278e-09
+  hidden angularVelocity_7 2.4386206829880534e-08 1.4613007564575404e-13 2.3981151748893188e-09
+}

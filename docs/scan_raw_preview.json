@@ -1,0 +1,38 @@
+{
+  "mode": "inspect",
+  "blender_version": "5.2.2 LTS",
+  "source_obj": "blender/derived/scan_raw.obj",
+  "source_counts": {
+    "vertices": 16217,
+    "faces": 25000,
+    "triangles": 25000
+  },
+  "source_bbox_m": {
+    "min": [
+      -0.5552048683166504,
+      -0.7958295941352844,
+      -0.006296967621892691
+    ],
+    "max": [
+      0.3981778025627136,
+      0.8713800311088562,
+      1.658525824546814
+    ],
+    "dimensions": [
+      0.953382670879364,
+      1.6672096252441406,
+      1.6648227921687067
+    ]
+  },
+  "coordinate_system": "+X right, +Y back, +Z up; metres; OBJ export Y-forward/Z-up identity",
+  "textures": [
+    "blender/derived/scan_atlas.png"
+  ],
+  "renders": [
+    "docs/scan_views/raw_isometric.png",
+    "docs/scan_views/raw_front.png",
+    "docs/scan_views/raw_top.png",
+    "docs/scan_views/raw_side.png"
+  ],
+  "blend_file": "blender/scan_inspection.blend"
+}

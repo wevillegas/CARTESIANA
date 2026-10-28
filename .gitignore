@@ -1,0 +1,25 @@
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Herramientas locales usadas para preparar CAD/fotos (no hacen falta para correr) ---
+.tools/
+
+# --- Copias de seguridad (el historial de Git cumple esa función) ---
+backups/
+
+# --- Material original pesado o con derechos del fabricante ---
+referencias/
+cad/source/
+cad/converted/
+cad/reports/*.png
+
+# --- Archivos de trabajo regenerables ---
+blender/derived/
+*.blend1
+
+# --- Configuración de ventanas que Webots guarda sola ---
+worlds/.*.wbproj
+
+# --- Informe interno viejo (anterior a la conexión TCP) ---
+docs/Informe_Robot_Cartesiano.pdf

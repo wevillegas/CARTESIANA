@@ -1,0 +1,127 @@
+{
+  "blender_version": "5.2.2 LTS",
+  "classification": "C",
+  "integrated_into_webots": false,
+  "blend": "blender/official_cad_components.blend",
+  "blend_bytes": 2368268,
+  "source": "cad/converted/ax5203_native.obj",
+  "source_sha256": "097a8e5dd8fcb679d1243a931d6687fe343bdf4a9be563ff2379b5c2959aafc9",
+  "collection": "BECKHOFF_AX5203",
+  "object": "AX5203_OFFICIAL_LIBRARY_CLASS_C",
+  "units": "metres",
+  "before": {
+    "vertices": 126346,
+    "faces": 151990,
+    "triangles": 151990
+  },
+  "after": {
+    "vertices": 36661,
+    "faces": 30000,
+    "triangles": 30000
+  },
+  "before_count_scope": "Raw source OBJ counts",
+  "target_triangles": 30000,
+  "reduction_percent": 80.26185933285085,
+  "native_bbox_before_m": {
+    "min": [
+      -0.06312387628948257,
+      -0.26041996050575894,
+      0.04356930575766933
+    ],
+    "max": [
+      0.029635827665733222,
+      -0.014619960505758875,
+      0.4003075015860193
+    ],
+    "dimensions": [
+      0.0927597039552158,
+      0.24580000000000007,
+      0.35673819582835
+    ]
+  },
+  "native_bbox_after_m": {
+    "min": [
+      -0.06313870847225189,
+      -0.26041996479034424,
+      0.043546706438064575
+    ],
+    "max": [
+      0.029650583863258362,
+      -0.014591830782592297,
+      0.4003075063228607
+    ],
+    "dimensions": [
+      0.09278929233551025,
+      0.24582813400775194,
+      0.35676079988479614
+    ]
+  },
+  "display_bbox_m": {
+    "min": [
+      -0.06313870847225189,
+      0.23958003520965576,
+      0.043546706438064575
+    ],
+    "max": [
+      0.029650583863258362,
+      0.48540815711021423,
+      0.4003075063228607
+    ],
+    "dimensions": [
+      0.09278929233551025,
+      0.24582812190055847,
+      0.35676079988479614
+    ]
+  },
+  "display_translation_m": [
+    0,
+    0.5,
+    0
+  ],
+  "rotation": "identity",
+  "scale": [
+    1,
+    1,
+    1
+  ],
+  "bbox_dimension_difference_m": [
+    2.958838029445965e-05,
+    2.8134007751867696e-05,
+    2.26040564461627e-05
+  ],
+  "orientation_note": "Native STEP axes retained; no shaft or functional axis inferred for this cabinet drive.",
+  "collections_before": [
+    "BECKHOFF_AM3023",
+    "BECKHOFF_AX5203",
+    "Collection",
+    "OPTIONAL_PANEL_COMPONENTS",
+    "REXROTH_CKK",
+    "WEBOTS_EXPORTS"
+  ],
+  "collections_after": [
+    "BECKHOFF_AM3023",
+    "BECKHOFF_AX5203",
+    "Collection",
+    "OPTIONAL_PANEL_COMPONENTS",
+    "REXROTH_CKK",
+    "WEBOTS_EXPORTS"
+  ],
+  "existing_collections_preserved": true,
+  "existing_objects_preserved": true,
+  "existing_object_count": 9,
+  "integrated_mesh_sha256_before": {
+    "meshes/cad/servo_z_am3023_brake_material_0.obj": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e",
+    "meshes/cad/servo_z_am3023_brake_material_1.obj": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241",
+    "meshes/cad/servo_z_am3023_brake_material_2.obj": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4"
+  },
+  "integrated_mesh_sha256_after": {
+    "meshes/cad/servo_z_am3023_brake_material_0.obj": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e",
+    "meshes/cad/servo_z_am3023_brake_material_1.obj": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241",
+    "meshes/cad/servo_z_am3023_brake_material_2.obj": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4"
+  },
+  "integrated_meshes_unchanged": true,
+  "scan_cleanup_blend_unchanged": true,
+  "preview": "docs/cad_views/ax5203_blender.jpg",
+  "preview_bytes": 87966,
+  "exported_robot_meshes": []
+}

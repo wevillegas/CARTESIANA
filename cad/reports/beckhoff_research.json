@@ -1,0 +1,344 @@
+{
+  "schema_version": 1,
+  "scope": "Official AM3023 family CAD research only. Conversion, integration and final validation handled separately.",
+  "queried_at_utc": "2026-09-30T02:08:31Z",
+  "queried_local_date": "2026-09-29",
+  "timezone": "America/Buenos_Aires",
+  "sources": [
+    {
+      "kind": "repo",
+      "url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AM30xx",
+      "official": true
+    },
+    {
+      "kind": "product",
+      "url": "https://www.beckhoff.com/en-en/support/service-products/motion-service-products/am3023-wcyz-000a.html",
+      "official": true
+    },
+    {
+      "kind": "manual",
+      "url": "https://download.beckhoff.com/download/Document/motion/am3000_am3500_ba_en.pdf",
+      "official": true
+    },
+    {
+      "kind": "terms",
+      "url": "https://www.beckhoff.com/en-en/terms-of-use/",
+      "official": true
+    }
+  ],
+  "assets": [
+    {
+      "file": "cad/source/beckhoff/am3023-1xx0_stp.zip",
+      "bytes": 446884,
+      "format": "ZIP",
+      "sha256": "4FA845F53C9FE9237F3B6F1BF993FC7953542D94BD74C423898A5A401BD87749",
+      "source_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AM30xx/am3023-1xx0_stp.zip",
+      "component": "AM3023-1xx0",
+      "manufacturer": "Beckhoff Automation GmbH & Co. KG",
+      "official": true,
+      "queried_at_utc": "2026-09-30T02:08:31Z",
+      "usage": "Local academic visualization and technical comparison only; no external redistribution",
+      "license_status": "No specific open CAD license found in archive; manufacturer rights reserved"
+    },
+    {
+      "file": "cad/source/beckhoff/AM3023-1xx0.step",
+      "bytes": 2477003,
+      "format": "STEP AP214",
+      "sha256": "D35F2877596C5495A2905BE1C80671CCA097CEA173DB05A0AC7D88BBEDA2CD35",
+      "source_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AM30xx/am3023-1xx0_stp.zip",
+      "component": "AM3023-1xx0",
+      "extracted_from": "cad/source/beckhoff/am3023-1xx0_stp.zip",
+      "units": "mm",
+      "header_timestamp": "2008-07-11T07:24:46",
+      "exporter": "SolidWorks 2008 / SwSTEP 2.0",
+      "manufacturer": "Beckhoff Automation GmbH & Co. KG",
+      "official": true,
+      "queried_at_utc": "2026-09-30T02:08:31Z",
+      "usage": "Local academic visualization and technical comparison only; no external redistribution",
+      "license_status": "No specific open CAD license found in archive; manufacturer rights reserved"
+    },
+    {
+      "file": "cad/source/beckhoff/am3023-1xx1_stp.zip",
+      "bytes": 453078,
+      "format": "ZIP",
+      "sha256": "F9D1998738C678429F493EBAE884A4358AAFC864E5F287CE3D2943AF03844669",
+      "source_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AM30xx/am3023-1xx1_stp.zip",
+      "component": "AM3023-1xx1",
+      "manufacturer": "Beckhoff Automation GmbH & Co. KG",
+      "official": true,
+      "queried_at_utc": "2026-09-30T02:08:31Z",
+      "usage": "Local academic visualization and technical comparison only; no external redistribution",
+      "license_status": "No specific open CAD license found in archive; manufacturer rights reserved"
+    },
+    {
+      "file": "cad/source/beckhoff/AM3023-1xx1.step",
+      "bytes": 2583682,
+      "format": "STEP AP214",
+      "sha256": "C1B03DBFBDC256F13E44F4D73003205D634F8BBB695BAE4CF5645AF41CAD281E",
+      "source_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AM30xx/am3023-1xx1_stp.zip",
+      "component": "AM3023-1xx1",
+      "extracted_from": "cad/source/beckhoff/am3023-1xx1_stp.zip",
+      "units": "mm",
+      "header_timestamp": "2008-07-11T07:17:32",
+      "exporter": "SolidWorks 2008 / SwSTEP 2.0",
+      "manufacturer": "Beckhoff Automation GmbH & Co. KG",
+      "official": true,
+      "queried_at_utc": "2026-09-30T02:08:31Z",
+      "usage": "Local academic visualization and technical comparison only; no external redistribution",
+      "license_status": "No specific open CAD license found in archive; manufacturer rights reserved"
+    },
+    {
+      "file": "cad/source/beckhoff/am3000_am3500_ba_en.pdf",
+      "bytes": 3578630,
+      "format": "PDF",
+      "sha256": "EAB989658D9D810374F07DA8292285BC43F7E437D0B4500B5750E746D7A92BF6",
+      "source_url": "https://download.beckhoff.com/download/Document/motion/am3000_am3500_ba_en.pdf",
+      "component": "AM3000/AM3500 documentation",
+      "version": "1.5",
+      "relevant_pages": [
+        7,
+        14,
+        17,
+        41
+      ],
+      "manufacturer": "Beckhoff Automation GmbH & Co. KG",
+      "official": true,
+      "queried_at_utc": "2026-09-30T02:08:31Z",
+      "usage": "Local academic visualization and technical comparison only; no external redistribution",
+      "license_status": "No specific open CAD license found in archive; manufacturer rights reserved"
+    }
+  ],
+  "nomenclature": {
+    "pattern": "AM30uv-wxyz-000a",
+    "u_2": "58 mm flange",
+    "v_3": "Motor length code 3",
+    "w_0": "Smooth shaft",
+    "w_1": "Feather key groove",
+    "x_C": "Winding C",
+    "y_4": "BiSS multi-turn encoder",
+    "z_0": "No holding brake",
+    "z_1": "24 V holding brake",
+    "a_0": "Rotatable angular connectors"
+  },
+  "manufacturer_dimensions_mm": {
+    "flange_width": 58,
+    "flange_height": 58,
+    "pilot_diameter": 40,
+    "shaft_diameter": 9,
+    "free_shaft_length": 20,
+    "mounting_hole_count": 4,
+    "mounting_hole_diameter": 4.8,
+    "mounting_hole_pitch_circle_diameter": 63,
+    "connector_center_spacing": 28,
+    "connector_protrusion_above_body": 39,
+    "approximate_complete_cross_section_with_connectors": [
+      58,
+      97
+    ],
+    "body_axial_length_without_brake": 133.4,
+    "body_axial_length_with_brake": 167.5,
+    "total_axial_length_with_free_shaft_without_brake": 153.4,
+    "total_axial_length_with_free_shaft_with_brake": 187.5,
+    "source": "https://download.beckhoff.com/download/Document/motion/am3000_am3500_ba_en.pdf",
+    "pdf_page": 41,
+    "dimension_endpoint_note": "Y/Z drawing dimensions start at front flange mounting plane and end at rear casing; 20 mm shaft is separate. Drawing Z is not robot Z."
+  },
+  "physical_evidence": [
+    {
+      "photo": "docs/reference_previews/IMG_0275.jpg",
+      "part_number": "AM3023-0C41-0000",
+      "label": "Br. 24 VDC; +EXT -13M1",
+      "orientation": "vertical",
+      "axis_assignment": "Z",
+      "axis_assignment_confidence": "High visual inference from whole-machine views; not proven by Beckhoff nomenclature"
+    },
+    {
+      "photo": "docs/reference_previews/IMG_0280.jpg",
+      "part_number": "AM3023-0C40-0000",
+      "label": "+EXT -9M1",
+      "orientation": "horizontal",
+      "axis_assignment": "X or Y unresolved from close-up",
+      "axis_assignment_confidence": "No exact assignment"
+    },
+    {
+      "photo": "docs/reference_previews/IMG_0283.jpg",
+      "part_number": null,
+      "note": "Logo/regulatory markings only; no model discriminator"
+    }
+  ],
+  "comparison_to_user_measurements": [
+    {
+      "feature": "flange_width",
+      "cad_mm": 58,
+      "real_approx_mm": 60,
+      "cad_minus_real_mm": -2,
+      "absolute_difference_percent": 3.333333
+    },
+    {
+      "feature": "flange_height",
+      "cad_mm": 58,
+      "real_approx_mm": 60,
+      "cad_minus_real_mm": -2,
+      "absolute_difference_percent": 3.333333
+    },
+    {
+      "feature": "without_brake_total_axial_with_shaft_vs_X_or_Y",
+      "cad_mm": 153.4,
+      "real_approx_mm": 200,
+      "cad_minus_real_mm": -46.6,
+      "absolute_difference_percent": 23.3
+    },
+    {
+      "feature": "with_brake_total_axial_with_shaft_vs_Z",
+      "cad_mm": 187.5,
+      "real_approx_mm": 240,
+      "cad_minus_real_mm": -52.5,
+      "absolute_difference_percent": 21.875
+    }
+  ],
+  "measurement_limitation": "User lengths differ substantially. Measurement endpoints, mount inclusion and cable inclusion are not documented; do not claim the difference is caused by a mount or rescale CAD. Re-measure bare motor flange-to-rear and free shaft separately.",
+  "candidates": [
+    {
+      "cad_part_number": "AM3023-1xx0",
+      "target_part_number": "AM3023-0C40-0000",
+      "correspondence": "family",
+      "classification": "B - MISMA FAMILIA, GEOMETRIA VERIFICADA",
+      "exact_part_number": false,
+      "confidence": "High manufacturer family housing and mounting geometry verified; target shaft variant differs and manual axial measurement endpoints unresolved",
+      "known_differences": [
+        "Keyed shaft in CAD vs smooth shaft in target",
+        "Winding and encoder are generic placeholders in CAD filename"
+      ],
+      "integration_scope": "Family housing visualization at manufacturer size, with explicitly documented shaft difference and unresolved physical total-length comparison",
+      "classification_scope": "Official manufacturer housing, flange, pilot, shaft diameter, mounting holes and brake-length variant. Not exact target shaft or exact real-machine layout."
+    },
+    {
+      "cad_part_number": "AM3023-1xx1",
+      "target_part_number": "AM3023-0C41-0000",
+      "correspondence": "family",
+      "classification": "B - MISMA FAMILIA, GEOMETRIA VERIFICADA",
+      "exact_part_number": false,
+      "confidence": "High manufacturer family housing and mounting geometry verified; target shaft variant differs and manual axial measurement endpoints unresolved",
+      "known_differences": [
+        "Keyed shaft in CAD vs smooth shaft in target",
+        "Winding and encoder are generic placeholders in CAD filename"
+      ],
+      "integration_scope": "Braked family housing visualization at manufacturer size; do not substitute unbraked silhouette for vertical braked target",
+      "classification_scope": "Official manufacturer housing, flange, pilot, shaft diameter, mounting holes and brake-length variant. Not exact target shaft or exact real-machine layout."
+    }
+  ],
+  "classification_rules": {
+    "A": "Not obtained: no exact complete target part-number STEP",
+    "B": "Official same-family geometry checked against manufacturer dimensions; visual use only with differences disclosed",
+    "C": "If dimensional CAD verification fails, preserve as approximation and do not auto-integrate",
+    "D": "Different motor family or incompatible variant; no candidate of this class downloaded"
+  },
+  "license": {
+    "open_license_found": false,
+    "cad_license_in_archive_found": false,
+    "terms_url": "https://www.beckhoff.com/en-en/terms-of-use/",
+    "manual_copyright_page": 7,
+    "rights_holder": "Beckhoff Automation GmbH & Co. KG",
+    "redistribution": false,
+    "usage": "Local academic project only",
+    "note": "Public availability does not imply an open redistribution license. Source originals retained; no external publication performed."
+  },
+  "download_policy": {
+    "existing_files_overwritten": false,
+    "zip_originals_retained": true,
+    "extracted_step_original_bytes_retained": true,
+    "manufacturer_direct_download": true
+  },
+  "verification_pending": [
+    "Blender and Webots visual validation",
+    "Original kinematic invariants",
+    "Physical remeasurement with identical motor endpoints"
+  ],
+  "geometry_verification": {
+    "status": "PASS: STEP features and native envelopes match manufacturer drawings",
+    "kernel": "OpenCascade 7.9.3.1 via cadquery-ocp-novtk 7.9.3.1.1",
+    "reports": [
+      "cad/reports/am3023_no_brake_conversion.json",
+      "cad/reports/am3023_brake_conversion.json",
+      "cad/reports/am3023_mounting_features.json"
+    ],
+    "shaft_axis_native": [
+      0,
+      0,
+      1
+    ],
+    "mounting_plane_native_z_mm": -0.8,
+    "shaft_tip_native_z_mm": 19.2,
+    "shaft_diameter_mm": 9,
+    "pilot_diameter_mm": 40,
+    "mounting_hole_count": 4,
+    "mounting_hole_diameter_mm": 4.8,
+    "mounting_hole_pitch_circle_diameter_mm": 63,
+    "mounting_hole_xy_centers_mm": [
+      [
+        -22.2738636074,
+        -22.2738636074
+      ],
+      [
+        22.2738636074,
+        -22.2738636074
+      ],
+      [
+        -22.2738636074,
+        22.2738636074
+      ],
+      [
+        22.2738636074,
+        22.2738636074
+      ]
+    ],
+    "per_variant": [
+      {
+        "cad_part_number": "AM3023-1xx0",
+        "cad_solids": 1,
+        "cad_faces": 615,
+        "cad_bbox_mm": {
+          "min": [
+            -29.0000001,
+            -29.00000010000008,
+            -134.20000010000007
+          ],
+          "max": [
+            29.000000099999998,
+            68.0000001,
+            19.200000000000006
+          ],
+          "dimensions": [
+            58.0000002,
+            97.00000020000007,
+            153.40000010000009
+          ]
+        },
+        "source_hash_unchanged": true
+      },
+      {
+        "cad_part_number": "AM3023-1xx1",
+        "cad_solids": 1,
+        "cad_faces": 623,
+        "cad_bbox_mm": {
+          "min": [
+            -29.0000001,
+            -29.00000010000008,
+            -168.3000001000001
+          ],
+          "max": [
+            29.000000099999998,
+            68.0000001,
+            19.200000000000006
+          ],
+          "dimensions": [
+            58.0000002,
+            97.00000020000007,
+            187.5000001000001
+          ]
+        },
+        "source_hash_unchanged": true
+      }
+    ]
+  }
+}

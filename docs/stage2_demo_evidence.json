@@ -1,0 +1,29 @@
+{
+  "checked_at_utc": "2026-09-30T01:41:28.3410745Z",
+  "world": "worlds/cartesian_robot.wbt",
+  "webots_pid": 5680,
+  "webots_running": true,
+  "webots_cpu_seconds": 9.015625,
+  "children": [
+    {
+      "ProcessId": 6348,
+      "Name": "python.exe",
+      "CommandLine": "C:\\Python314\\python.exe  -u -u cartesian_controller.py"
+    }
+  ],
+  "controller": "cartesian_controller",
+  "original_demo_validation_checks": [
+    {
+      "name": "automatic_demo",
+      "passed": true,
+      "details": {
+        "last_position_m": {
+          "x": -2.561056439468206E-10,
+          "y": -0.0001467036190800295,
+          "z": -4.905002162145509E-05
+        }
+      }
+    }
+  ],
+  "scope": "Mundo final cargado con controlador original en modo demo continuo; pruebas de secuencia registradas en validación principal. No se mide FPS."
+}

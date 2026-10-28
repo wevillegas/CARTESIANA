@@ -1,0 +1,57 @@
+{
+  "formato": "CARTESIANA trayectoria v2",
+  "unidad": "mm de máquina (cero en los sensores de inicio de carrera)",
+  "velocidad_mm_s": 40,
+  "descripcion": "Pick & place simple: zócalo A -> zócalo B. Requiere inicializar (HOME) antes.",
+  "puntos": [
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -40.0,
+      "pinza": "OPEN",
+      "espera_ms": 0
+    },
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -160.0,
+      "pinza": "CLOSE",
+      "espera_ms": 300
+    },
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -160.0,
+      "pinza": "OPEN",
+      "espera_ms": 300
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    },
+    {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "pinza": "",
+      "espera_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "formato": "CARTESIANA trayectoria v1",
+  "unidad": "mm desde home",
+  "velocidad_mm_s": 40.0,
+  "puntos": [
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -40.0,
+      "pinza": "OPEN",
+      "espera_ms": 0
+    },
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -160.0,
+      "pinza": "CLOSE",
+      "espera_ms": 300
+    },
+    {
+      "x": 100.0,
+      "y": 100.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -160.0,
+      "pinza": "OPEN",
+      "espera_ms": 300
+    },
+    {
+      "x": 400.0,
+      "y": 200.0,
+      "z": -40.0,
+      "pinza": "",
+      "espera_ms": 0
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "components": [
+    {"name": "am3023_no_brake", "source_obj": "cad/converted/am3023_no_brake_native.obj", "target_triangles": 15000},
+    {"name": "am3023_brake", "source_obj": "cad/converted/am3023_brake_native.obj", "target_triangles": 15000}
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "git_state": "No Git repository initialized; file backup used, no commit made",
+  "scope": "Project artifacts; excludes references, backups, local dependencies, Python caches and this manifest itself.",
+  "files": [
+    {
+      "path": "blender/cartesian_scan_cleanup.blend",
+      "status": "created",
+      "bytes": 1860494,
+      "sha256": "a4f964d93ecbf720af0acec635256fda2df8af2b50db165ae7d971e74aacda6e"
+    },
+    {
+      "path": "blender/cartesian_scan_cleanup.blend1",
+      "status": "created",
+      "bytes": 1860050,
+      "sha256": "575d807d0295f7a0293c78827c266a40579578105ec318f6b40e9e53161985a9"
+    },
+    {
+      "path": "blender/derived/scan_atlas.png",
+      "status": "created",
+      "bytes": 6371216,
+      "sha256": "566e330a9f9813f684a5152ff1c277960b02e2f9b80d628a5fbc17b36defe7f4"
+    },
+    {
+      "path": "blender/derived/scan_raw.mtl",
+      "status": "created",
+      "bytes": 61,
+      "sha256": "86f6435d2241357b8fa97f3d469fabd56bd4aaa1f7463296f1e0cc791b9eb30f"
+    },
+    {
+      "path": "blender/derived/scan_raw.npz",
+      "status": "created",
+      "bytes": 491539,
+      "sha256": "90142ed8e02aa4ede1e5dc10510159f1c5b8c3036fa68adaf7452036da22bd51"
+    },
+    {
+      "path": "blender/derived/scan_raw.obj",
+      "status": "created",
+      "bytes": 1899596,
+      "sha256": "d8e4e573abe5847a47e0405757d4c06c5c21dd324f80a37c3082043e1422fb58"
+    },
+    {
+      "path": "blender/scan_inspection.blend",
+      "status": "created",
+      "bytes": 970683,
+      "sha256": "24224912e210fac10ff2b5c46d47e019b93296030a264a348c3cbfc0bb2859b4"
+    },
+    {
+      "path": "config/scan_integration.json",
+      "status": "created",
+      "bytes": 1957,
+      "sha256": "b7922496c5292f215d0434fae59684126713e3e06c2f531eb01ef90d8389ca5b"
+    },
+    {
+      "path": "controllers/mesh_visual_validation/mesh_visual_validation.py",
+      "status": "created",
+      "bytes": 8750,
+      "sha256": "9c1d312d750ed2ca5f504381ca42e52edc248d0f6bae4af9dea6984ba2c90986"
+    },
+    {
+      "path": "controllers/mesh_visual_validation/runtime.ini",
+      "status": "created",
+      "bytes": 121,
+      "sha256": "6c74f095e94f73b6fc1fd8f9836fedf92cf3ebf9f6f2311addc727308816d71a"
+    },
+    {
+      "path": "docs/kinematic_invariants.json",
+      "status": "created",
+      "bytes": 24993,
+      "sha256": "cfcb0969dccab052b73e47f47aa68d196143255c503b468b33003b11233123cb"
+    },
+    {
+      "path": "docs/mesh_integration.md",
+      "status": "created",
+      "bytes": 15413,
+      "sha256": "da3dee1e9cb795b77c350baba18e3c2be05942403aaba62e3b532065560e04a7"
+    },
+    {
+      "path": "docs/mesh_processing.json",
+      "status": "created",
+      "bytes": 3620,
+      "sha256": "414a0dd83635ae7bda58a35a21ba665efe2d4e7aa63c8b0e52339074c4a31388"
+    },
+    {
+      "path": "docs/reference_integrity.json",
+      "status": "modified",
+      "bytes": 150,
+      "sha256": "fa4f0b965d9f1466a1a65da2c719ea0f5d72d2097cd7e9a15466780ff791e6ce"
+    },
+    {
+      "path": "docs/scan_alignment_candidates.json",
+      "status": "created",
+      "bytes": 24043,
+      "sha256": "52d10a2d3c0ff608a21985678f22cb39b2645c8d71b1d9f20f877a4b56129070"
+    },
+    {
+      "path": "docs/scan_analysis.json",
+      "status": "created",
+      "bytes": 19139,
+      "sha256": "f44af8176e0250cddc5ab71b1ef7fe3802c6cf4859f31d8b9680f28cb1864d6a"
+    },
+    {
+      "path": "docs/scan_analysis.md",
+      "status": "created",
+      "bytes": 8294,
+      "sha256": "3f72b4ac8a91a0fbfb81da1b3bbdc51d86ae8588d9e88d5ac0a8f58610a2b103"
+    },
+    {
+      "path": "docs/scan_analysis_base.md",
+      "status": "created",
+      "bytes": 3618,
+      "sha256": "d83cbfaeb9c0c9a752b0cc45c59be26a0a40962c82b9ffd085c7e8465ae8f003"
+    },
+    {
+      "path": "docs/scan_performance.json",
+      "status": "created",
+      "bytes": 2344,
+      "sha256": "531b9e62020ad717aaef002398bb08fc9b375413132eea5d7db77a7cb08f4035"
+    },
+    {
+      "path": "docs/scan_raw_preview.json",
+      "status": "created",
+      "bytes": 932,
+      "sha256": "ba1ed5f7a68c6240afd9e52758fbd39e80a50473b6c04d944811e5eee7cbe44a"
+    },
+    {
+      "path": "docs/scan_views/processed_front.png",
+      "status": "created",
+      "bytes": 916017,
+      "sha256": "2bc76ff10747e996aeb5ff21a2ad755cd6e79999c490034cd3ea52f5a8969dc2"
+    },
+    {
+      "path": "docs/scan_views/processed_isometric.png",
+      "status": "created",
+      "bytes": 944417,
+      "sha256": "c494faf6aef0ba632f6098a1401a6955c528a985cf6045ec60820aee1628626a"
+    },
+    {
+      "path": "docs/scan_views/processed_side.png",
+      "status": "created",
+      "bytes": 1023626,
+      "sha256": "0b1f3ff43bfd944884f5b606376f029855f45193dca4138564fecd312dd65103"
+    },
+    {
+      "path": "docs/scan_views/processed_top.png",
+      "status": "created",
+      "bytes": 901365,
+      "sha256": "6effae718f3a2a1398dfabd549d78348e124056edb73fdd1b6ce1f928cdb844e"
+    },
+    {
+      "path": "docs/scan_views/raw_coordinate_projections.jpg",
+      "status": "created",
+      "bytes": 261158,
+      "sha256": "4ed87b4488c3dcab87d02e1c2aa232f7342576b4de3c11a5c36f71b5d0924d73"
+    },
+    {
+      "path": "docs/scan_views/raw_front.png",
+      "status": "created",
+      "bytes": 1238718,
+      "sha256": "bde8a685d5cabf332a522be9accc6a0d51fbfa500636a77598a3bc41b0b34635"
+    },
+    {
+      "path": "docs/scan_views/raw_isometric.png",
+      "status": "created",
+      "bytes": 1262998,
+      "sha256": "8978074c7801a420bd3e0a0365c1352327f6b62db778b674813d66075b172e83"
+    },
+    {
+      "path": "docs/scan_views/raw_side.png",
+      "status": "created",
+      "bytes": 1237683,
+      "sha256": "926c400954336e209dc1db0365ebe703a720f680f53ac9792f30d7a5cd7b2e0d"
+    },
+    {
+      "path": "docs/scan_views/raw_top.png",
+      "status": "created",
+      "bytes": 1163054,
+      "sha256": "837694ad31d1ba09d8ac5b1d4c267858de5b7d89d24ff280be2b5fc5b82b12b7"
+    },
+    {
+      "path": "docs/scan_views/webots_mesh_closeup.jpg",
+      "status": "created",
+      "bytes": 65770,
+      "sha256": "c2f83035ec5c0e70daedb0ff4112fa22a723b40b4e75f43e067beffa8df71c0e"
+    },
+    {
+      "path": "docs/scan_views/webots_x_center.jpg",
+      "status": "created",
+      "bytes": 63245,
+      "sha256": "d3642d8f589e83cd22f79b54c869cded2091f169c10e9e087986c42d933b9d78"
+    },
+    {
+      "path": "docs/scan_views/webots_x_negative.jpg",
+      "status": "created",
+      "bytes": 64318,
+      "sha256": "4e9a8133a85369dc137d4c07a803f10c47351232f110f97443b3f866cc951a46"
+    },
+    {
+      "path": "docs/scan_views/webots_x_positive.jpg",
+      "status": "created",
+      "bytes": 63463,
+      "sha256": "bf7f442847e840de8dc27a01a3aca69ba8ab76b959934fb87d826b42a8dc76c5"
+    },
+    {
+      "path": "docs/scan_views/webots_y_center.jpg",
+      "status": "created",
+      "bytes": 63082,
+      "sha256": "7339188f86138d37353e92227a4a424d4f6e67de1ad10ee16c9da0d818cde117"
+    },
+    {
+      "path": "docs/scan_views/webots_y_negative.jpg",
+      "status": "created",
+      "bytes": 63570,
+      "sha256": "7d645cd2386d4ff649b5a1cceb2aa8e936ba83f07c24a3db387410274e8de16a"
+    },
+    {
+      "path": "docs/scan_views/webots_y_positive.jpg",
+      "status": "created",
+      "bytes": 63461,
+      "sha256": "59eeabcd469695311af4b8ef74f6d2839a6b3b5097283ef8c413334a9b0ca2f0"
+    },
+    {
+      "path": "docs/scan_views/webots_z_center.jpg",
+      "status": "created",
+      "bytes": 63119,
+      "sha256": "aadd012fbb8956a2818ed9e6378a25673e4cc8350eaf41dc66ed2fa9584b3377"
+    },
+    {
+      "path": "docs/scan_views/webots_z_negative.jpg",
+      "status": "created",
+      "bytes": 64001,
+      "sha256": "e5e5d43a60fb1a8f97901add9e902b0477b9fea703e22e4425baa7f01c1b9a5c"
+    },
+    {
+      "path": "docs/scan_views/webots_z_positive.jpg",
+      "status": "created",
+      "bytes": 63363,
+      "sha256": "451af068a4f7200007826094e70a1fdaa1bb4c197842b9637c2e298f14401dec"
+    },
+    {
+      "path": "docs/scan_visual_initial_failure.json",
+      "status": "created",
+      "bytes": 9087,
+      "sha256": "99ab4ac8ba2e2b78b7b9fa18493550b8694e0d5ed4db431ff1e78cbc920f6440"
+    },
+    {
+      "path": "docs/scan_visual_initial_failure_stderr.log",
+      "status": "created",
+      "bytes": 541,
+      "sha256": "d8414372b7b91d0f47454d8812a860c216838e99cdbbac972890621d2d304338"
+    },
+    {
+      "path": "docs/scan_visual_validation.json",
+      "status": "created",
+      "bytes": 2371382,
+      "sha256": "f124caff6d9f0201ec837f4167a0cde899397d1f15774596992a8abaa7549003"
+    },
+    {
+      "path": "docs/scan_visual_validation_notes.md",
+      "status": "created",
+      "bytes": 1502,
+      "sha256": "1439585ab652e16ccbd8f433af98416ca240771a437a5a1487659978ef5b0251"
+    },
+    {
+      "path": "docs/scan_visual_webots_stderr.log",
+      "status": "created",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/scan_visual_webots_stdout.log",
+      "status": "created",
+      "bytes": 29145,
+      "sha256": "3a420ed7f142fd6137d1baa82b22ff674205f7ff5058088ff7c029b7ed336236"
+    },
+    {
+      "path": "docs/stage2_demo_evidence.json",
+      "status": "created",
+      "bytes": 862,
+      "sha256": "24480096c244af5c9c1cfb250b3c252e0ca8f5ebe83f8cfc013b483565d8f2c8"
+    },
+    {
+      "path": "docs/stage2_final_report.md",
+      "status": "created",
+      "bytes": 8210,
+      "sha256": "a4c3943365fe61df15282270d2972645f59ec1043d7ed4e64cb93b491d35c772"
+    },
+    {
+      "path": "docs/stage2_regression_comparison.json",
+      "status": "created",
+      "bytes": 1839,
+      "sha256": "fe2cb384c950e1942125876080d5ad8b2bd852f2a2857b867a8229e82524ce9b"
+    },
+    {
+      "path": "docs/validation.jpg",
+      "status": "modified",
+      "bytes": 63995,
+      "sha256": "bc64ebc5fa2ccba35106416da3127f4dfacf65343495467d2f06e42fdc889f02"
+    },
+    {
+      "path": "docs/validation_report.json",
+      "status": "modified",
+      "bytes": 1761478,
+      "sha256": "5f691bacfa53687b93f1c6a9dc9165c0529b8868d3e1318680a407ba1807a63b"
+    },
+    {
+      "path": "meshes/axis_x_surface_visual.obj",
+      "status": "created",
+      "bytes": 32157,
+      "sha256": "1401ac72ce767e33ccadffc3772acf3ad27eeb5160b094cac63c34892fa3f8f0"
+    },
+    {
+      "path": "meshes/README.md",
+      "status": "modified",
+      "bytes": 1013,
+      "sha256": "82ec96a37a9297bad0dd94e552609026cb04c121d3434d47eb0dbe718a2964e6"
+    },
+    {
+      "path": "protos/CartesianRobot.proto",
+      "status": "modified",
+      "bytes": 17006,
+      "sha256": "ce4f961ce6c253d45029c882299724ec04af03838197c1434582091a93bdc572"
+    },
+    {
+      "path": "README.md",
+      "status": "modified",
+      "bytes": 22351,
+      "sha256": "95a32c585872cf192c889f47ed726204640320cf6aed6869323227a6d993b140"
+    },
+    {
+      "path": "textures/scan_atlas.jpg",
+      "status": "created",
+      "bytes": 854785,
+      "sha256": "7e78fdb1796acc2f19f10a57e88e06d275fcee1f1839e60f4b88f383f5915924"
+    },
+    {
+      "path": "tools/build_model.py",
+      "status": "modified",
+      "bytes": 14460,
+      "sha256": "afa7fcf6a348c76fd2eca4e6ba1050887c022e3113da3af809ce6942433b82de"
+    },
+    {
+      "path": "tools/check_kinematic_invariants.py",
+      "status": "created",
+      "bytes": 19855,
+      "sha256": "f3d6558121a6e108ba277239267b84800d0e5b9f85a820ec8115a02ea5d1f753"
+    },
+    {
+      "path": "tools/finalize_stage2_report.py",
+      "status": "created",
+      "bytes": 5289,
+      "sha256": "f28740a6192bdaa171a2f3a9e8917aa6554a686be5949271a3ae0ea958c6dc12"
+    },
+    {
+      "path": "tools/inspect_scans.py",
+      "status": "created",
+      "bytes": 12488,
+      "sha256": "b4845a795a7b0a7a2a4ff3d8dcb83192317b3e33f58fb1fb08925ce82bd2ddf7"
+    },
+    {
+      "path": "tools/prepare_blender_scene.py",
+      "status": "created",
+      "bytes": 19870,
+      "sha256": "cf8a18d14a2e5cff3a1e7ba626f4e482d15b3561c3980b1064fb8fd97a1824c3"
+    },
+    {
+      "path": "tools/validate_scan_visuals.ps1",
+      "status": "created",
+      "bytes": 3998,
+      "sha256": "f87a8744269ddf3efc9ce8efa0dcf21be47f5008e3a8068590d6cfc27894beca"
+    },
+    {
+      "path": "tools/validate_webots.ps1",
+      "status": "modified",
+      "bytes": 4600,
+      "sha256": "0e6a6d55ada8e35b74b6bff2fe478c3da937084752e440d0ef40dde6045c2e1f"
+    },
+    {
+      "path": "worlds/.cartesian_mesh_validation.wbproj",
+      "status": "created",
+      "bytes": 681,
+      "sha256": "a48c3de2b9324e60536d69178c0847ed9eae74fae7e00ca5e90a2b9ee55fd47a"
+    },
+    {
+      "path": "worlds/cartesian_mesh_validation.wbt",
+      "status": "created",
+      "bytes": 790,
+      "sha256": "75d995125a975406edcfe84477d0f54001519052f2c475f195d014e62c29e224"
+    },
+    {
+      "path": "worlds/cartesian_robot.wbt",
+      "status": "modified",
+      "bytes": 754,
+      "sha256": "d3635476b06942eb3dd37205b23b94ff71d2a4f3c656356335f65aeb986b9f81"
+    }
+  ]
+}

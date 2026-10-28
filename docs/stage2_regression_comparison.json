@@ -1,0 +1,66 @@
+{
+  "passed": true,
+  "core_checks": 23,
+  "core_check_names_unchanged": true,
+  "visual_total_checks": 34,
+  "protected_files_byte_identical": {
+    "config/robot_parameters.json": true,
+    "controllers/cartesian_controller/cartesian_controller.py": true,
+    "controllers/cartesian_controller/runtime.ini": true
+  },
+  "validated_asset_unchanged": true,
+  "original_reference_integrity": {
+    "all_originals_unchanged": true,
+    "verified_file_count": 13,
+    "differences": [],
+    "checked_at_utc": "2026-09-30T01:45:12.751870+00:00"
+  },
+  "continuous_metrics_comparison": {
+    "maximum_sensor_limit_excess_m": {
+      "stage1": 4.904999467464366e-05,
+      "stage2": 4.904999467464366e-05,
+      "delta": 0.0
+    },
+    "maximum_fixed_drift_m": {
+      "stage1": 0.0,
+      "stage2": 0.0,
+      "delta": 0.0
+    },
+    "maximum_orientation_difference": {
+      "stage1": 1.9261444782768455e-05,
+      "stage2": 1.9261444782768455e-05,
+      "delta": 0.0
+    },
+    "maximum_tip_kinematic_error_m": {
+      "stage1": 0.00020249713824282978,
+      "stage2": 0.00020249713824282978,
+      "delta": 0.0
+    },
+    "minimum_tool_clearance_m": {
+      "stage1": 0.20974872083545948,
+      "stage2": 0.20974872083545948,
+      "delta": 0.0
+    }
+  },
+  "core_simulation_time_s": 193.424,
+  "core_simulation_time_unchanged": true,
+  "logs": {
+    "validation_webots_stdout.log": {
+      "bytes": 21657,
+      "warning_error_lines": []
+    },
+    "validation_webots_stderr.log": {
+      "bytes": 0,
+      "warning_error_lines": []
+    },
+    "scan_visual_webots_stdout.log": {
+      "bytes": 29145,
+      "warning_error_lines": []
+    },
+    "scan_visual_webots_stderr.log": {
+      "bytes": 0,
+      "warning_error_lines": []
+    }
+  },
+  "regressions_detected": false
+}

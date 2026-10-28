@@ -1,0 +1,61 @@
+﻿{
+    "schema_version":  1,
+    "generated_at_utc":  "2026-09-30T02:28:47.5341892Z",
+    "passed":  true,
+    "world":  "E:\\ROBOTICA\\CARTESIANO\\worlds\\cartesian_mesh_validation.wbt",
+    "total_validation_wall_s":  53.502672499999996,
+    "simulation_time_s":  258.32,
+    "simulated_seconds_per_wall_second":  4.82817003206709,
+    "timing_scope":  "Incluye generación, arranque, nueve poses, capturas, 23 pruebas de etapa 1 y cierre. No mide tiempo aislado de carga ni FPS.",
+    "fps":  null,
+    "isolated_world_load_time_s":  null,
+    "approximate_process_launch_to_first_step_wall_s":  2.8202290534973145,
+    "process_launch_to_first_step_scope":  "Aproximación por reloj Unix: arranque de proceso, carga de world/recursos y configuración del controlador hasta primer step. No mide carga aislada ni FPS.",
+    "mesh_and_material_bytes":  32157,
+    "texture_bytes":  854785,
+    "files":  [
+                  {
+                      "bytes":  32157,
+                      "path":  "E:\\ROBOTICA\\CARTESIANO\\meshes\\axis_x_surface_visual.obj"
+                  },
+                  {
+                      "bytes":  854785,
+                      "path":  "E:\\ROBOTICA\\CARTESIANO\\textures\\scan_atlas.jpg"
+                  }
+              ],
+    "mesh_resource_and_local_bounds":  {
+                                           "asset":  "meshes\\axis_x_surface_visual.obj",
+                                           "sha256":  "1401ac72ce767e33ccadffc3772acf3ad27eeb5160b094cac63c34892fa3f8f0",
+                                           "vertices":  274,
+                                           "faces":  300,
+                                           "bytes":  32157,
+                                           "local_bounds_m":  {
+                                                                  "min":  [
+                                                                              -0.404343,
+                                                                              -0.05678,
+                                                                              -0.027299
+                                                                          ],
+                                                                  "max":  [
+                                                                              0.406437,
+                                                                              0.055634,
+                                                                              0.032359
+                                                                          ]
+                                                              },
+                                           "vertices_inside_config_regions":  true,
+                                           "url":  "../meshes/axis_x_surface_visual.obj",
+                                           "unit_scale":  true,
+                                           "controller_configuration_to_first_step_wall_s":  0.018716200000199024,
+                                           "runtime_node_type":  "Pose",
+                                           "runtime_base_type":  "Pose",
+                                           "runtime_scale":  [
+                                                                 1.0,
+                                                                 1.0,
+                                                                 1.0
+                                                             ],
+                                           "scale_source":  "Pose: escala implícita unitaria",
+                                           "local_pose_difference_from_identity":  5.2939559203393771E-23,
+                                           "timing_scope":  "Configuración del controlador hasta primer step; excluye carga previa de Webots.",
+                                           "approximate_process_launch_to_first_step_wall_s":  2.8202290534973145,
+                                           "launch_timing_scope":  "Aproximación por reloj Unix: arranque del proceso, carga del world/recursos y configuración hasta primer step. No es carga aislada ni FPS."
+                                       }
+}

@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-30T02:26:55.2085198Z",
+  "passed": true,
+  "world": "E:\\ROBOTICA\\CARTESIANO\\worlds\\cartesian_cad_validation.wbt",
+  "enabled_part_count": 1,
+  "expected_cad_check_count": 11,
+  "total_validation_wall_s": 63.3965974,
+  "simulation_time_s": 258.32,
+  "simulated_seconds_per_wall_second": 4.07466663187195,
+  "timing_scope": "Incluye generación, arranque, nueve poses, capturas, 23 pruebas de etapa 1 y cierre. No mide carga aislada ni FPS.",
+  "fps": null,
+  "isolated_world_load_time_s": null,
+  "approximate_process_launch_to_first_step_wall_s": 2.9434611797332764,
+  "process_launch_to_first_step_scope": "Aproximación Unix: arranque, carga de world/recursos y configuración hasta primer step. No mide carga aislada ni FPS.",
+  "cad_mesh_bytes": 1141125,
+  "files": [
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_0.obj",
+      "bytes": 91299,
+      "sha256": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e"
+    },
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_1.obj",
+      "bytes": 547156,
+      "sha256": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241"
+    },
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_2.obj",
+      "bytes": 502670,
+      "sha256": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4"
+    }
+  ],
+  "cad_resource_checks": [
+    {
+      "name": "cad_resource_servo_z_am3023_brake",
+      "passed": true,
+      "details": {
+        "part_name": "servo_z_am3023_brake",
+        "solid_def": "Z_MODULE",
+        "visual_def": "CAD_SERVO_Z_VISUAL",
+        "resources": [
+          {
+            "path": "meshes/cad/servo_z_am3023_brake_material_0.obj",
+            "sha256": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e",
+            "expected_sha256": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e",
+            "sha256_matches_config": true,
+            "vertices": 1342,
+            "triangles": 1306,
+            "bytes": 91299,
+            "finite_values": true,
+            "triangular_valid_indices": true,
+            "local_bounds_m": {
+              "min": [
+                -0.029,
+                -0.029,
+                0.160495
+              ],
+              "max": [
+                0.029,
+                0.029,
+                0.184542
+              ]
+            }
+          },
+          {
+            "path": "meshes/cad/servo_z_am3023_brake_material_1.obj",
+            "sha256": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241",
+            "expected_sha256": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241",
+            "sha256_matches_config": true,
+            "vertices": 6597,
+            "triangles": 6664,
+            "bytes": 547156,
+            "finite_values": true,
+            "triangular_valid_indices": true,
+            "local_bounds_m": {
+              "min": [
+                -0.029,
+                -0.029024,
+                0.1775
+              ],
+              "max": [
+                0.029,
+                0.02904,
+                0.345051
+              ]
+            }
+          },
+          {
+            "path": "meshes/cad/servo_z_am3023_brake_material_2.obj",
+            "sha256": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4",
+            "expected_sha256": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4",
+            "sha256_matches_config": true,
+            "vertices": 7415,
+            "triangles": 7029,
+            "bytes": 502670,
+            "finite_values": true,
+            "triangular_valid_indices": true,
+            "local_bounds_m": {
+              "min": [
+                -0.026869,
+                -0.007482,
+                0.1575
+              ],
+              "max": [
+                0.026869,
+                0.068,
+                0.30447
+              ]
+            }
+          }
+        ],
+        "runtime_urls": [
+          [
+            "../meshes/cad/servo_z_am3023_brake_material_0.obj"
+          ],
+          [
+            "../meshes/cad/servo_z_am3023_brake_material_1.obj"
+          ],
+          [
+            "../meshes/cad/servo_z_am3023_brake_material_2.obj"
+          ]
+        ],
+        "shape_mesh_urls_match_config": true,
+        "local_bounds_m": {
+          "min": [
+            -0.029,
+            -0.029024,
+            0.1575
+          ],
+          "max": [
+            0.029,
+            0.068,
+            0.345051
+          ]
+        },
+        "unit_scale": true,
+        "runtime_node_type": "Pose",
+        "runtime_base_type": "Pose",
+        "runtime_scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "scale_source": "Pose: escala implícita unitaria",
+        "local_pose_difference_from_identity": 4.440892098500626e-16,
+        "controller_configuration_to_first_step_wall_s": 0.019903800000975025,
+        "approximate_process_launch_to_first_step_wall_s": 2.9434611797332764,
+        "launch_timing_scope": "Aproximación Unix desde arranque de proceso hasta primer step. Incluye carga/configuración; no mide carga aislada ni FPS."
+      }
+    }
+  ]
+}

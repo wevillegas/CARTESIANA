@@ -1,0 +1,6 @@
+{
+  "_nota": "El controlador cartesiana_tcp es SERVIDOR TCP. 0.0.0.0 acepta conexiones locales y de otras PC (abrir el puerto en el firewall). El bridge COM o el programa externo se conectan a 127.0.0.1:5000 si corren en la misma PC.",
+  "host": "0.0.0.0",
+  "port": 5000,
+  "log_messages": true
+}

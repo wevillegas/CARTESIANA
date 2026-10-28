@@ -1,0 +1,437 @@
+{
+  "schema_version": 1,
+  "scope": "Rexroth R036037003 / legacy CKK12-90 research. No Webots/core mutations; no Rexroth CAD integrated.",
+  "queried_at_utc": "2026-09-30T02:48:30Z",
+  "queried_local_date": "2026-09-29",
+  "timezone": "America/Buenos_Aires",
+  "conclusion": {
+    "exact_cad_downloaded": false,
+    "family_verified_cad_downloaded": false,
+    "rexroth_step_available_locally": false,
+    "integration_decision": "Keep existing scan/primitives. No reliable A/B replacement obtained.",
+    "reasons": [
+      "MNR R036037003 is visible but its complete legacy configuration is not decoded by a primary source.",
+      "Body section 90x40 and carriage-top H1=56 require independent real datum verification against X110x55.",
+      "Official configurator generated a distinct MNR R030537116 for a deliberately chosen modern family candidate.",
+      "Official CAD generation requires email delivery; manufacturer PARTcommunity CAD export requires SSO."
+    ],
+    "longitudinal_difference_alone_is_rejection": false
+  },
+  "sources": [
+    {
+      "kind": "official_documentation_index",
+      "url": "https://www.boschrexroth.com/en/us/c/documentation-and-resources-linear-motion-technology/",
+      "official": true,
+      "use": "Direct manufacturer link to Compact Modules catalogue"
+    },
+    {
+      "kind": "official_catalogue_details",
+      "url": "https://www.boschrexroth.com/en/us/media-details/e8278bcd-f4c8-4191-814e-9e557f6c5f27",
+      "official": true,
+      "portal_date": "2025-10-01",
+      "printed_edition": "R999000499/2025-05",
+      "use": "Current CKK090 geometry and options, not exact legacy MNR"
+    },
+    {
+      "kind": "official_catalogue_pdf",
+      "url": "https://www.boschrexroth.com/media/e8278bcd-f4c8-4191-814e-9e557f6c5f27",
+      "official": true,
+      "format": "PDF",
+      "relevant_pages": [
+        14,
+        15,
+        20,
+        21,
+        22,
+        42,
+        52,
+        58,
+        59,
+        196
+      ]
+    },
+    {
+      "kind": "manufacturer_authored_legacy_manual_distributor_copy",
+      "url": "https://www.cmafh.com/WebsiteCatalog/Data%20Sheets/BRL-LT%20CKK%20CKR/Rexroth%20Instructions%20for%20Compact%20Modules%20CKK%20R320103982%202009_08.pdf",
+      "official_host": false,
+      "official_document_author": true,
+      "manufacturer": "Bosch Rexroth AG",
+      "host": "CMA/Flodyne/Hydradyne",
+      "edition": "R320103982 (2009.08)",
+      "format": "PDF",
+      "relevant_pages": [
+        8,
+        9,
+        10
+      ],
+      "use": "Legacy type sizes and numbered nameplate field semantics; not exact configuration proof"
+    },
+    {
+      "kind": "official_configurator_index",
+      "url": "https://www.boschrexroth.com/en/in/service-and-support/econfigurators-and-tools/",
+      "official": true
+    },
+    {
+      "kind": "official_econfigurator",
+      "url": "https://www.boschrexroth.com/ics/ref/config?c=ar&language=en&matno=R036_CKx",
+      "official": true,
+      "formats_observed": [
+        "STEP",
+        "PDF3D",
+        "DXF"
+      ],
+      "download_status": "Configuration finished; CAD delivery requires recipient email; no email supplied or request submitted"
+    },
+    {
+      "kind": "official_modern_base_product",
+      "url": "https://www.boschrexroth.com/en/au/p/compact-module-r036030000/",
+      "official": true,
+      "model": "CKK-090-NN-1",
+      "part_number": "R036030000",
+      "use": "Current base product only; not interpretation of photographed SYN field"
+    },
+    {
+      "kind": "manufacturer_catalogue_CADENAS_PARTcommunity",
+      "url": "https://boschrexroth.partcommunity.com/3d-cad-models/ckk-compact-module-with-ball-screw-assembly-bosch-rexroth?info=bosch_rexroth_mcd%2Flinear_motion_technology%2Fcompact_modules%2Fckk%2Fckk_asmtab.prj",
+      "official_manufacturer_catalogue": true,
+      "official_host": false,
+      "host_operator": "CADENAS",
+      "catalogue_date_observed": "2026-05-05",
+      "download_status": "Generate CAD redirected to SSO requiring commercial email/login/registration",
+      "sso_url": "https://boschrexroth.partcommunity.com/3d-cad-models/sso/?cwid=7888"
+    },
+    {
+      "kind": "manufacturer_catalogue_TraceParts",
+      "url": "https://www.traceparts.com/tr/product/bosch-rexroth-lineartechnik-compact-modules-ckk-with-ball-screw-drive-and-double-ball-rail-guiding?CatalogPath=BOSCH_LINEAR%3ABOSCH_LINEAR_2023_060_010&Product=90-19042023-058074",
+      "official_manufacturer_catalogue": true,
+      "official_host": false,
+      "result": "Product search listing states No CAD available. General STEP format footer not a downloadable asset."
+    },
+    {
+      "kind": "non_primary_commercial_lead",
+      "url": "https://www.seda-hydraulic.com/lineartechnik-bosch-rexroth",
+      "official": false,
+      "result": "Lists R036037003 as CKK12-90 compact module with R036030000",
+      "confidence": "Corroborating lead only; not used as authoritative geometry/configuration proof"
+    }
+  ],
+  "assets": [
+    {
+      "component": "Rexroth Compact Modules reference document",
+      "manufacturer": "Bosch Rexroth AG",
+      "file": "cad/source/rexroth/EN_CKx_R999000499_2025_05_01_10_2025.pdf",
+      "format": "PDF",
+      "bytes": 33397427,
+      "sha256": "E4E120C2C9C051037A9C90B91B09A6BF2CB81273E2A7846C054BD01E71C12DE1",
+      "source_url": "https://www.boschrexroth.com/media/e8278bcd-f4c8-4191-814e-9e557f6c5f27",
+      "official_host": true,
+      "official_document_author": true,
+      "edition": "R999000499/2025-05",
+      "file_modified_at_utc": "2026-09-30T02:28:27Z",
+      "queried_at_utc": "2026-09-30T02:48:30Z",
+      "usage": "Local academic technical consultation only; no external redistribution",
+      "license_status": "No specific open license found; manufacturer copyright/provenance retained, redistribution rights not inferred",
+      "official": true
+    },
+    {
+      "component": "Rexroth Compact Modules reference document",
+      "manufacturer": "Bosch Rexroth AG",
+      "file": "cad/source/rexroth/R320103982_2009_08_CMAFH.pdf",
+      "format": "PDF",
+      "bytes": 7352030,
+      "sha256": "21B46183B423CDE12F139644DAE1E867150A06AB7C69BADE3915F54CF5FAE7A2",
+      "source_url": "https://www.cmafh.com/WebsiteCatalog/Data%20Sheets/BRL-LT%20CKK%20CKR/Rexroth%20Instructions%20for%20Compact%20Modules%20CKK%20R320103982%202009_08.pdf",
+      "official_host": false,
+      "official_document_author": true,
+      "edition": "R320103982 (2009.08)",
+      "file_modified_at_utc": "2026-09-30T02:31:52Z",
+      "queried_at_utc": "2026-09-30T02:48:30Z",
+      "usage": "Local academic technical consultation only; no external redistribution",
+      "license_status": "No specific open license found; manufacturer copyright/provenance retained, redistribution rights not inferred",
+      "official": false
+    }
+  ],
+  "nameplate_semantics": {
+    "source_document": "cad/source/rexroth/R320103982_2009_08_CMAFH.pdf",
+    "pages": [
+      8,
+      9
+    ],
+    "figure": "2.2",
+    "MNR": "Compact Module material / ordering code",
+    "SYN": "Serial number, per numbered manufacturer manual figure",
+    "CS": "Customer order number",
+    "FD": "Date of manufacture; FD005 not decoded into date",
+    "warning": "Modern product R036030000 also exists as base material, but coincidence with photographed SYN does not prove configuration."
+  },
+  "photo_evidence": [
+    {
+      "file": "docs/reference_previews/IMG_0279.jpg",
+      "visible_MNR": "R036037003",
+      "visible_SYN": "R036030000",
+      "visible_CS": "1004752497 /20",
+      "visible_FD": "005",
+      "assigned_axis": "X",
+      "assignment_type": "Inference from same plate/location and four-bolt mounting in IMG0278, horizontal cross-beam supported by Y carriage and carrying Z",
+      "confidence": "high context inference, not explicit manufacturer axis marking",
+      "context_files": [
+        "docs/reference_previews/IMG_0278.jpg",
+        "docs/reference_previews/IMG_0277.jpg"
+      ],
+      "sha256": "FE63A6BBF7FCC59F22B8AFFC43CD27052021C21726658E0006BA1A006A89841A"
+    },
+    {
+      "file": "docs/reference_previews/IMG_0276.jpg",
+      "visible_MNR": "R055712186",
+      "visible_SYN": "R036030000",
+      "visible_CS": "1004752497 /40",
+      "visible_FD": "005",
+      "assigned_axis": "Z probable",
+      "assignment_type": "Inference from vertical module under black block and adjacent tooling in IMG0277",
+      "confidence": "medium-high context inference; distinct MNR, not assumed same assembly",
+      "sha256": "22F11C0DDAC64E515F70153D0B6F8B4D7C226723A80183742D47AF193C9454E9"
+    }
+  ],
+  "identity_assessment": {
+    "target_MNR": "R036037003",
+    "provided_family": "CKK12-90",
+    "MNR_nature": "Ordering/material identifier of mounted Compact Module per Bosch legacy nameplate; complete options remain unknown",
+    "official_exact_MNR_record_found": false,
+    "decoded_length": null,
+    "decoded_stroke": null,
+    "decoded_ball_screw_pitch": null,
+    "decoded_carriage": null,
+    "decoded_motor_attachment": null,
+    "legacy_to_current_equivalence": "CKK12-90 and current CKK090 share nominal 90x40 body dimensions; no exact configuration equivalence established."
+  },
+  "dimension_evidence": {
+    "legacy_CKK12_90": {
+      "A_mm": 90,
+      "H_mm": 40,
+      "source": "R320103982 (2009.08), p.8",
+      "length_limit_proven_for_R036037003": null
+    },
+    "current_CKK090": {
+      "A_mm": 90,
+      "H_body_mm": 40,
+      "H1_carriage_top_mm": 56,
+      "OF01_shaft_diameter_mm": 8,
+      "OF01_shaft_projection_L1_mm": 20,
+      "current_Lmax_mm": 750,
+      "source": "R999000499/2025-05 pp.14-15,22,52",
+      "L_datum": "Current p.52 total body/endblock length excludes projecting journal; not proven datum of real 815mm measurement",
+      "length_limit_applies_to": "Current standard CKK090 only, not established for legacy R036037003",
+      "H1_datum": "Upper assembly height represented in p.52; real carriage/connection plate variant not confirmed. H=40 is body height."
+    },
+    "current_CKK110_control_only": {
+      "A_mm": 110,
+      "H_body_mm": 50,
+      "H1_carriage_top_mm": 66,
+      "current_Lmax_mm": 1500,
+      "source": "R999000499/2025-05 pp.14-15,52",
+      "interpretation": "Width alone is insufficient to select a different family for photographed MNR"
+    },
+    "real_approximate_user_measurements": {
+      "X_mm": [
+        815,
+        110,
+        55
+      ],
+      "Y_mm": [
+        710,
+        42,
+        93
+      ],
+      "Z_mm": [
+        355,
+        95,
+        40
+      ],
+      "measurement_datums_confirmed": false
+    },
+    "comparisons": [
+      {
+        "axis": "X",
+        "real_section_mm": [
+          110,
+          55
+        ],
+        "family_body_section_mm": [
+          90,
+          40
+        ],
+        "body_section_difference_mm": [
+          -20,
+          -15
+        ],
+        "body_relative_difference_percent": [
+          -18.1818,
+          -27.2727
+        ],
+        "family_H1_vs_measured_height_mm": [
+          56,
+          55
+        ],
+        "H1_difference_mm": 1,
+        "current750_vs_real815_difference_mm": -65,
+        "length_relative_difference_percent": -7.9755,
+        "match": "unverified",
+        "reason": "Body versus carriage measurement datum unknown; longitudinal configurable family does not establish exact variant."
+      },
+      {
+        "axis": "Y",
+        "real_rotated_section_mm": [
+          93,
+          42
+        ],
+        "family_rotated_body_section_mm": [
+          90,
+          40
+        ],
+        "difference_mm": [
+          -3,
+          -2
+        ],
+        "match": "similar section only; MNR not identified"
+      },
+      {
+        "axis": "Z",
+        "real_rotated_section_mm": [
+          95,
+          40
+        ],
+        "family_rotated_body_section_mm": [
+          90,
+          40
+        ],
+        "difference_mm": [
+          -5,
+          0
+        ],
+        "match": "similar section only; photo probable Z has different MNR"
+      }
+    ],
+    "nonuniform_scale_used": false,
+    "invented_adapter_explanation": false
+  },
+  "cad_candidates": [
+    {
+      "component": "Modern CKK090 configurable comparison candidate",
+      "manufacturer": "Bosch Rexroth AG",
+      "target_part_number": "R036037003",
+      "generated_part_number": "R030537116",
+      "source_url": "https://www.boschrexroth.com/ics/ref/config?c=ar&language=en&matno=R036_CKx",
+      "official": true,
+      "format_options": [
+        "STEP",
+        "PDF3D"
+      ],
+      "local_file": null,
+      "sha256": null,
+      "classification": "C",
+      "classification_label": "Approximation / insufficiently confirmed; no local CAD obtained",
+      "correspondence": "family only, deliberately chosen modern options not verified real machine",
+      "configuration": {
+        "product": "CKK",
+        "size": "090",
+        "length_L_mm": 750,
+        "version": "OF01",
+        "guide": "001",
+        "lubrication": "LSS",
+        "drive": "001 BASA12x5 shaft8mm",
+        "carriage": "001 Lca35mm",
+        "ratio": 1,
+        "mechanical_interface": "0",
+        "motor_attachment": "000",
+        "motor_code": "0",
+        "motor": "000",
+        "cover": "002 cover strip and plate",
+        "sensor_count": 0,
+        "duct": "000",
+        "socket_plug": "000",
+        "documentation": "001",
+        "carriage_position_mm": 0
+      },
+      "model_name_observed": "CKK_090_NN_1_750_mm_OF01_001_001_001_000",
+      "download_blocker": "Recipient email is required for documents; no direct STEP link observed",
+      "integrated": false
+    },
+    {
+      "component": "PARTcommunity public default CKK110 L140",
+      "manufacturer": "Bosch Rexroth AG",
+      "source_url": "https://boschrexroth.partcommunity.com/3d-cad-models/ckk-compact-module-with-ball-screw-assembly-bosch-rexroth?info=bosch_rexroth_mcd%2Flinear_motion_technology%2Fcompact_modules%2Fckk%2Fckk_asmtab.prj",
+      "official_manufacturer_catalogue": true,
+      "local_file": null,
+      "classification": null,
+      "correspondence": "Wrong default size for named CKK12-90 search; not selected as replacement",
+      "download_blocker": "Generate CAD requires SSO",
+      "integrated": false,
+      "downloaded": false
+    }
+  ],
+  "classification_summary": {
+    "A": [],
+    "B": [],
+    "C": [
+      "Modern CKK090 L750 unexported comparison candidate; not geometry-verified"
+    ],
+    "D": [],
+    "only_ABC_D_applies_to_CAD_not_PDF": true
+  },
+  "access_evidence": [
+    {
+      "surface": "official eConfigurator CAD dialog",
+      "visible_heading": "CAD",
+      "observed_text": [
+        "Please select the desired CAD documents.",
+        "Your selected formats STEP, PDF3D",
+        "Please enter the e-mail address to which the selected documents should be sent:",
+        "Request selected documents"
+      ],
+      "submitted_email": false,
+      "created_account": false
+    },
+    {
+      "surface": "manufacturer PARTcommunity after Generate CAD",
+      "url": "https://boschrexroth.partcommunity.com/3d-cad-models/sso/?cwid=7888",
+      "observed_text": [
+        "Iniciar sesión",
+        "Correo electrónico comercial",
+        "Seguir iniciando sesión",
+        "Registrarse",
+        "OR LOG IN WITH"
+      ],
+      "submitted_email": false,
+      "created_account": false
+    }
+  ],
+  "derived_evidence": [
+    {
+      "file": "cad/reports/rexroth_legacy_manual_page8.png",
+      "format": "PNG",
+      "origin": "Local Poppler rasterization of corresponding preserved PDF, not CAD",
+      "sha256": "162F51CB37CD737693B9BAECFCC60C315E7F985883D9B961794DB6570ABB0661"
+    },
+    {
+      "file": "cad/reports/rexroth_catalog_page52.png",
+      "format": "PNG",
+      "origin": "Local Poppler rasterization of corresponding preserved PDF, not CAD",
+      "sha256": "FAF09D66327EE265C87CECA4732B645780A2435A3B6F70D6CBEDD9C5BFEE46C2"
+    }
+  ],
+  "notes_file": "docs/cad_rexroth_research_notes.md",
+  "limitations": [
+    "Exact MNR R036037003 configuration not available from primary documents found.",
+    "No STEP/STP/ZIP Rexroth CAD locally obtained.",
+    "Legacy catalogue terminology and modern configurable options cannot be equated automatically.",
+    "No proven decode for FD005.",
+    "Local measurement endpoints and mounted carriage dimensions require confirmation."
+  ],
+  "preservation": {
+    "original_downloads_modified": false,
+    "existing_files_overwritten": false,
+    "photo_sources_modified": false,
+    "core_files_modified": false,
+    "external_redistribution": false
+  }
+}

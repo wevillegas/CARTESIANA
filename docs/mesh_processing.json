@@ -1,0 +1,165 @@
+{
+  "mode": "final",
+  "blender_version": "5.2.2 LTS",
+  "source_obj": "blender/derived/scan_raw.obj",
+  "source_counts": {
+    "vertices": 16217,
+    "faces": 25000,
+    "triangles": 25000
+  },
+  "source_bbox_m": {
+    "min": [
+      -0.5552048683166504,
+      -0.7958295941352844,
+      -0.006296967621892691
+    ],
+    "max": [
+      0.3981778025627136,
+      0.8713800311088562,
+      1.658525824546814
+    ],
+    "dimensions": [
+      0.953382670879364,
+      1.6672096252441406,
+      1.6648227921687067
+    ]
+  },
+  "coordinate_system": "+X right, +Y back, +Z up; metres; OBJ export Y-forward/Z-up identity",
+  "textures": [
+    "blender/derived/scan_atlas.png"
+  ],
+  "alignment": {
+    "scale": 1.0,
+    "rotation_z": 0.0450294947014537,
+    "translation": [
+      0.16,
+      -0.34982,
+      0.0365
+    ]
+  },
+  "aligned_bbox_m": {
+    "min": [
+      -0.4114702641963959,
+      -1.156922698020935,
+      0.03020303137600422
+    ],
+    "max": [
+      0.5419861078262329,
+      0.504906415939331,
+      1.6950258016586304
+    ],
+    "dimensions": [
+      0.9534563720226288,
+      1.6618291139602661,
+      1.6648227702826262
+    ]
+  },
+  "parts": [
+    {
+      "name": "axis_x_surface_visual",
+      "solid_def": "X_MODULE",
+      "origin_world_m": [
+        0.0,
+        0.0,
+        1.1785
+      ],
+      "regions_world_m": [
+        {
+          "min": [
+            -0.4075,
+            -0.0575,
+            1.151
+          ],
+          "max": [
+            0.4075,
+            0.0575,
+            1.2115
+          ]
+        }
+      ],
+      "selection_mode": "all_vertices",
+      "source_faces_selected": 359,
+      "faces_discarded_small_components": 13,
+      "component_sizes_faces": [
+        135,
+        115,
+        88,
+        8,
+        3,
+        3,
+        3,
+        2,
+        1,
+        1
+      ],
+      "before_decimate": {
+        "vertices": 298,
+        "faces": 346,
+        "triangles": 346
+      },
+      "after_decimate": {
+        "vertices": 274,
+        "faces": 300,
+        "triangles": 300
+      },
+      "triangle_reduction_percent": 13.294797687861271,
+      "bbox_local_m": {
+        "min": [
+          -0.4043428599834442,
+          -0.056779973208904266,
+          -0.02729928493499756
+        ],
+        "max": [
+          0.4064370393753052,
+          0.05563429743051529,
+          0.03235924243927002
+        ],
+        "dimensions": [
+          0.8107798993587494,
+          0.11241427063941956,
+          0.05965852737426758
+        ]
+      },
+      "bbox_world_m": {
+        "min": [
+          -0.4043428599834442,
+          -0.056779973208904266,
+          1.151200771331787
+        ],
+        "max": [
+          0.4064370393753052,
+          0.05563429743051529,
+          1.2108592987060547
+        ],
+        "dimensions": [
+          0.8107798993587494,
+          0.11241427063941956,
+          0.05965852737426758
+        ]
+      },
+      "object_rotation_rad": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "object_scale": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "obj_file": "meshes/axis_x_surface_visual.obj",
+      "obj_bytes": 32157,
+      "uv_layers": [
+        "UVMap"
+      ]
+    }
+  ],
+  "renders": [
+    "docs/scan_views/processed_isometric.png",
+    "docs/scan_views/processed_front.png",
+    "docs/scan_views/processed_top.png",
+    "docs/scan_views/processed_side.png"
+  ],
+  "blend_file": "blender/cartesian_scan_cleanup.blend",
+  "total_obj_bytes": 32157
+}

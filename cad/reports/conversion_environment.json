@@ -1,0 +1,429 @@
+{
+  "generated_utc": "2026-09-30T02:13:37.142825+00:00",
+  "python": "C:\\Users\\Baltasar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "python_version": "3.12.14",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "executables_on_path": {
+    "FreeCAD": null,
+    "FreeCADCmd": null,
+    "FreeCADCmd.exe": null,
+    "FreeCAD.exe": null,
+    "CADAssistant": null,
+    "cadassistant.exe": null,
+    "assimp": null,
+    "gmsh": null
+  },
+  "standard_install_roots_checked": [
+    "C:\\Program Files",
+    "C:\\Program Files (x86)",
+    "C:\\Users\\Baltasar\\AppData\\Local\\Programs",
+    "E:\\SteamLibrary\\steamapps\\common"
+  ],
+  "matching_directories": [
+    "E:\\SteamLibrary\\steamapps\\common\\Blender"
+  ],
+  "scope": "PATH and standard install directories; no exhaustive drive search.",
+  "chosen_converter": "cadquery-ocp-novtk 7.9.3.1.1, OCCT 7.9.3, project-local Python bindings",
+  "local_dependency_directory": ".tools\\cad_reader",
+  "local_distributions": [
+    {
+      "name": "cadquery-ocp-novtk",
+      "version": "7.9.3.1.1",
+      "license": "Apache-2.0",
+      "requires": [
+        "cadquery-ocp-proxy==7.9.3.1.1"
+      ]
+    },
+    {
+      "name": "cadquery-ocp-proxy",
+      "version": "7.9.3.1.1",
+      "license": "Apache-2.0",
+      "requires": null
+    }
+  ],
+  "local_dependency_size_bytes": 158766250,
+  "local_binaries": [
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\deflate-0c8d7e40b4512d86969e2003a7d8bede.dll",
+      "bytes": 177664,
+      "sha256": "0c8d7e40b4512d86969e2003a7d8bede601cfb9bc0a2d2472056a08a769769d5"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\FreeImage-cdc93a325d5d072e5fb5e9d45cff8d2e.dll",
+      "bytes": 1125376,
+      "sha256": "670ad2bf7cf19d05a739bc7fc508d27205dade420375a475c0f9437096a37850"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\freetype-111bbfd18798ec20698ad64fb25a600c.dll",
+      "bytes": 670720,
+      "sha256": "f22aff08a7088afca5fbac8f60ff9b4f0f8ece2d09e8e7ed5f6807597f23387b"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\Iex-fae5e0881fcdc423b6db34b2e97d9dd0.dll",
+      "bytes": 292864,
+      "sha256": "454ff06ae67c59ebc072ca2d323cb86dc662a350027e31f880e7de0d462b630f"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\IlmThread-765b26b0caa5ec89c300feae4fd8d0e0.dll",
+      "bytes": 45568,
+      "sha256": "7fc67d74ea0686d8d3a48a4379766738b02e508771b288188aa789d0368a7a82"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\Imath-93e5719ce25c27e234d7d3cfef1a30c5.dll",
+      "bytes": 338432,
+      "sha256": "5a6f13d69d70f8342d86affed788f8ff882afc14ff4acb0ad25da6da78ae84c1"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\jpeg8-77bef8b5257987800e01806f64a189e3.dll",
+      "bytes": 686592,
+      "sha256": "77bef8b5257987800e01806f64a189e312ba057e138356e69dc4367555bd0d93"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\lcms2-7ba64f6e0c66e90b06b6fdda7ed89f37.dll",
+      "bytes": 581632,
+      "sha256": "7ba64f6e0c66e90b06b6fdda7ed89f37da5988d876860d407965a87fde6b8292"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\Lerc-8e574cd1bc0b7f8e260d4530daa7446d.dll",
+      "bytes": 540672,
+      "sha256": "27385d40523237cf998f5c5030c2c1673e5dbb94872b44f21959175d98aee51e"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\liblzma-64eb6567bead1a5b7386bd7acd1cdd9d.dll",
+      "bytes": 188416,
+      "sha256": "64eb6567bead1a5b7386bd7acd1cdd9db8f9a03133eef7ae8208ae555738d680"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\libpng16-c3f4406bf6331f0eb2bdd3c3323d921a.dll",
+      "bytes": 198656,
+      "sha256": "10429b82f82ac04dbc0633ed61616e5c5057812e30e2a9fcb12b598b4d2fb7d5"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\libsharpyuv-c910eeed9d8f2bbf76ba6edf2e292ff7.dll",
+      "bytes": 25600,
+      "sha256": "c910eeed9d8f2bbf76ba6edf2e292ff7534a2674e2fb284a40514fe4e5f0a653"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\libwebp-d04c2bb4fae02ef22f9f33389e8fa295.dll",
+      "bytes": 383488,
+      "sha256": "6ccb85825bff74d705ee5ac491a30a6555afb69d5e2ca8aec63e73c00929a3be"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\libwebpmux-91ab52d47d455f8c682d0bb688b4702f.dll",
+      "bytes": 43008,
+      "sha256": "13204ad8022e8022eaab8fba417de3208f5485ba474187ce5844ab3c076d00e5"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\msvcp140-639342ea9a67c0009122238ce070a825.dll",
+      "bytes": 642720,
+      "sha256": "639342ea9a67c0009122238ce070a8257e2e04d367d627509fec29f8442afb42"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\OpenEXR-bf6fe40a5b675f43bf836498a2ac2d38.dll",
+      "bytes": 850432,
+      "sha256": "503835435d1a94b1a72aaf9c9fc37be097e3f46a8354d913110d07227cee88a7"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\OpenEXRCore-43a3d1e6dcf808d3b52c6aa1d1b3149b.dll",
+      "bytes": 311296,
+      "sha256": "ff9bec06b9b37952cbc4fbcf176a04ac4a36fe5d2df9131b84099b64313d2392"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\openjp2-274e6a200cd564b014389546f6472d38.dll",
+      "bytes": 360448,
+      "sha256": "274e6a200cd564b014389546f6472d387717dece95b7d03db5f99195bd1d6e03"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\openjph-c9b5711ab6c6a22bd06855ce333ce0ce.dll",
+      "bytes": 344064,
+      "sha256": "c9b5711ab6c6a22bd06855ce333ce0ce6a2f11b7c578786f79c1a84c93d43bfa"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\raw-45784079ff4d194ec274ed36f7b6b205.dll",
+      "bytes": 1132544,
+      "sha256": "23efe5297b755d4fedf0ddb1ce36b51fd2e6ada5409e4ac5696d91757b2dbe4a"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\tiff-36f0745325765f7bfe29a721cde40b8e.dll",
+      "bytes": 497152,
+      "sha256": "e143c6d3d2f6240d7259f0f8a7c28d027333e8ce731b99db377e08ab1e9228d1"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBin-359f163697df751782d4bb2b7ad6287d.dll",
+      "bytes": 114688,
+      "sha256": "48ef85b0f07ddab2a5d5b5bdf770f2a31738a4e50d848a1f4689ee637b74bc70"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBinL-3b54e4d89c98bd7b216050cf0b95cf74.dll",
+      "bytes": 259072,
+      "sha256": "6af8ce03252109c497cddde4abcb3dc67095d0f47941d1911ebb32f51f3ee753"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBinTObj-8149721748185c18d43fb2fa8e071408.dll",
+      "bytes": 56832,
+      "sha256": "e09139b59dc8d5a13339184a75b10360cb30e496492bcbf7a5a8b7b3e6e024cb"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBinXCAF-4a89eb2f0390337ae72b20eb6ce523af.dll",
+      "bytes": 117760,
+      "sha256": "bb76222b05a7cb91f43731a5acc56b171f35a735bea9bd2f5ecabc702cea64a7"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBO-181884807961aa12106e9b00b6c8f97a.dll",
+      "bytes": 1971712,
+      "sha256": "63bf1ae60232edc6560a5949ca93d6eeec9e3b6365a4d9e0c5d86b6416f29b3b"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBool-de10c63adb18baef5d1cb43a0a3b9d80.dll",
+      "bytes": 3739136,
+      "sha256": "62de9f5ab5f6076534cc29886bc981b73dac5cba6f515be5f123fb0ef8307eb5"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKBRep-d9538ffae7f33c9da46be50b2891e6b4.dll",
+      "bytes": 925696,
+      "sha256": "4bac4cf632a0bb6d5565a9873dfb72512df1430fe6c63d5b2ffd605d7ebc8f3d"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKCAF-381201aaf7212956a54cd7d217542c0b.dll",
+      "bytes": 527872,
+      "sha256": "3146a94c851e3fec2a116fa23d0b622981eb1cb0ad919abb298a2cbb817600bd"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKCDF-3006622272751a246ff01130a24a3e94.dll",
+      "bytes": 283136,
+      "sha256": "364de468798939f52654ec1466e25dc3216b810fb8e00ab3ec0853afb2616cd6"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDE-4d17b5a9b20e59b673ba4724e26729f6.dll",
+      "bytes": 142848,
+      "sha256": "2f9ca276dca801ea804bd5a33564da481696d8e289697d5e2761c362cb5e1e87"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDEGLTF-bc19d5503c3bb369e2f96cab2da0c89c.dll",
+      "bytes": 460800,
+      "sha256": "2da69cf5c129b5eadc6e30c24d071e6553fa365da83ffc9fe98eac2c4ab09078"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDEIGES-ea821cb59d5b2a7cfc23b65f37fb0b09.dll",
+      "bytes": 3267584,
+      "sha256": "4d751ec643acf6552892d7b36bc424eed3a1291a8ff754f4ade74208287cda51"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDESTEP-cff0e6c7a0cb580b6b4994cae004b562.dll",
+      "bytes": 5988352,
+      "sha256": "4e05623104ea39390aa60b20105fc5bd4b093b872b241970f7bfe71cd4b9b391"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDESTL-fb49adda80758e146266162964a10548.dll",
+      "bytes": 120320,
+      "sha256": "1312375cbc56a32d5e5e60395092cc4a14c8f5001f44cf436b967782a5788c2b"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKDEVRML-f692d2a34c1be9a56e06c28f802447fa.dll",
+      "bytes": 512512,
+      "sha256": "bb0c7a2cd2199cc87eb0a45d869c115834855bcbf5115f83cd789e9e95b0f19d"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKernel-786b2c05f2eb625096ce113f42aff5ab.dll",
+      "bytes": 1742848,
+      "sha256": "04b6ca973b957640a5979536cb71df3f24dd7c977809307384abbcee3f826e1f"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKExpress-2de680b1b49602d53d06544591291988.dll",
+      "bytes": 501248,
+      "sha256": "661ca73ffcb8f2c1220e0e91c959ffdbb71bbc00b99727771ed0f751bf4f2ab2"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKFeat-8d98e30c176794e34638dee70e6a3aef.dll",
+      "bytes": 1084416,
+      "sha256": "93c5149084fc7c71d523da69bdecb87b7e064319b786a73e06181074c144cdfd"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKFillet-7e9b595258fe2337a8792efc6eb24f13.dll",
+      "bytes": 2292224,
+      "sha256": "cfb90dfc7fbba3a0bb5a743356c5109d9c3df9145087273c23b85d77e731ea20"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKG2d-00922788096d03cd21f356b42766f816.dll",
+      "bytes": 287744,
+      "sha256": "2b815de486a260a5e1c961a93dc85e3a65b76239482868793a14aa86dda149d7"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKG3d-21a71417ef15c621cf13a8fc4922fee3.dll",
+      "bytes": 914432,
+      "sha256": "58c36fe7c79597af9874095a14be858bc12d136e899aeaa2b531b4ca96c10b38"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKGeomAlgo-b3dc4dcf77b887b26c618d46f6f21692.dll",
+      "bytes": 4301312,
+      "sha256": "15c9de8fe863a1233436804372521d5aae854b391ee2da1c46e39e0b62bf395b"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKGeomBase-edfbde5482387c4d733a37888db9f186.dll",
+      "bytes": 4072448,
+      "sha256": "89ed58d436405e93a04735b581c9722e367b21aa2155ef92be17c2060e16cefc"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKHLR-bcaf41dceeb8f75987b8843bc0345e9e.dll",
+      "bytes": 992256,
+      "sha256": "816a0090b49f2b4e967bfab6596b7b5fde7d6218312090d175e0f6ad4dc5dcc4"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKLCAF-8bbf1fa403c76830a212c33c5a5dc771.dll",
+      "bytes": 694272,
+      "sha256": "8d2e0cb26f7df7be80cdf81f3e164677fb4ea140d4b1034911fe2b5eb631401e"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKMath-57b4075304d769b4835c37b3c1ae724e.dll",
+      "bytes": 1366528,
+      "sha256": "10a7eb8a445c439f5f187c9ba54a07c237d672643c1990b233e1da73ff0d7cc4"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKMesh-fb68517546283288672d4c07101d4848.dll",
+      "bytes": 617984,
+      "sha256": "46b6d5f9f31f0048e7cbf4ca25fd36ab92ce85ab9fdba03a9f23fefc7fe49cbe"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKMeshVS-70d8c7771a0508ca0532d55bcaf3f012.dll",
+      "bytes": 306176,
+      "sha256": "42efe0de074a5d2479f39ebd62d9ca8669485c0b12b11cd6ea71430b145f16f2"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKOffset-b108bb64d473d3e15f144f17a3586f73.dll",
+      "bytes": 1904128,
+      "sha256": "c0f3165d58120648d79c9a4b116ee9b3f029832ccbd3a5ead1c8d9fd44d02a63"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKOpenGl-a5846a10b50cfca8583142ab0b745461.dll",
+      "bytes": 1337344,
+      "sha256": "6085d05687975bd6da277784e93c42297515861a24a0e89777dd1c0e65c59388"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKPrim-3a15c5abd691998c6b571c03620ded02.dll",
+      "bytes": 312320,
+      "sha256": "204d47f52eb795b037baca9efb3f66221425c6c5a168c59e93ea25f8981606b6"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKRWMesh-7a21bce04af7abae11f30be39f302d33.dll",
+      "bytes": 154112,
+      "sha256": "f5ca7a21f4144f850b6ed6603399829be9d7d8472929d5e7ef3269f2f1b4dd35"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKService-56d4f23b6bccb82b79a8367d184aadfd.dll",
+      "bytes": 1015808,
+      "sha256": "a1b972f1104023c0e3d12117a9e9bdfcf0f47c0f369bbe4de9bd63b05b981576"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKShHealing-b61cb847292cf5c88d87b4e4833a956f.dll",
+      "bytes": 2599936,
+      "sha256": "b92a2ecd46b219aec0e68a5f5d5c3dcd5aeaabd3a376aac6da6c28ed87685af0"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKStd-f89a376f0d8b6c1778a13794bc061652.dll",
+      "bytes": 616960,
+      "sha256": "62a7c747f821933f06d1b586b4e31fabecfee23ea22132aac2ed56a86459e0f2"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKStdL-afa569d1510de1a3affbe8a1f33284a2.dll",
+      "bytes": 235520,
+      "sha256": "511a1ceb27d0a2b41cac15582df07871c82d127df096a873922b84438246ea75"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKTObj-760affd03988164ac4d086c6b9a4b283.dll",
+      "bytes": 217600,
+      "sha256": "619c392041e90dc3bcc11b5569012fcda61805f349bc698e8497f9213312db0e"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKTopAlgo-611862cb948a0662bf90255bf2e87ed5.dll",
+      "bytes": 2401280,
+      "sha256": "2034af3d8c6b7488462cfb676e4861bcaebb4fe573735ea2580a530e1d2e1929"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKV3d-7b4cd66656a0b43c46c9f3557412901f.dll",
+      "bytes": 2502656,
+      "sha256": "28b2fb2a1775c5faaaadaa34fff6ff44c7176b196b8fbcd56b08183ee0ad8836"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKVCAF-a6c43d5bef6f47c345a1c3c9b1ca6945.dll",
+      "bytes": 193536,
+      "sha256": "ae1c59e580349857f51a211841e4f54e5d2170afcc788ace1d9d54612644da50"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXCAF-45ba5ec2814fc75866302c9b0eb28f7c.dll",
+      "bytes": 845824,
+      "sha256": "2ba14174b276b2414b7812a76fb50bd88307401df6f6c641f4b0e5176f13eb11"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXml-e6ba4fac83be76cbade8a24bc795af06.dll",
+      "bytes": 171008,
+      "sha256": "cec647a6e2cef5cc35fbbf91a9d9cb620988d510bbce9232962df2431c01e955"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXmlL-866c7e62496ed2230164d9baa1a807f8.dll",
+      "bytes": 344576,
+      "sha256": "5303c249f8996e6e1c5ece0f91d88de42ff7942dfe0ce31d0518670628ce49fb"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXmlTObj-a4c11c273fff87b8b621004b86e6c29c.dll",
+      "bytes": 55808,
+      "sha256": "50104364bb5b50e62bf0888b5cbd2efb8bc2079723879e85f7f91c06c37eda6f"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXmlXCAF-1a43af85f46ad7f046820c3c44d52734.dll",
+      "bytes": 148480,
+      "sha256": "88179cc9159d68bde71ae2fcaccd0db651cf11dcf75e1a942942dafb808fb3f3"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\TKXSBase-fe17f0fefd08d5a814e80113f7a78b63.dll",
+      "bytes": 1753600,
+      "sha256": "6ff5f660c4c3c4510695050eb60ca8d28df269118aec5eae2ce41dac893f8dfc"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\vcomp140-f96f3a14d88d8846f31f3ab38a490304.dll",
+      "bytes": 213072,
+      "sha256": "f96f3a14d88d8846f31f3ab38a490304ce7d6e4f70fae4304c63e59c7aea2d30"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\zlib-85c711c83f96bed93184bede15be6b5a.dll",
+      "bytes": 90624,
+      "sha256": "85c711c83f96bed93184bede15be6b5a3e5444df09dfffef00564107189dc722"
+    },
+    {
+      "path": ".tools\\cad_reader\\cadquery_ocp_novtk.libs\\zstd-ca228f0f33b8296d6650b4694bb38ba9.dll",
+      "bytes": 658432,
+      "sha256": "ca228f0f33b8296d6650b4694bb38ba9ea8796c523b6b5e0682fcc05a5edab0a"
+    },
+    {
+      "path": ".tools\\cad_reader\\OCP\\OCP.cp312-win_amd64.pyd",
+      "bytes": 93748736,
+      "sha256": "9b103790e366dc33509f7ee8958dfa40334076eaddc40daba275bf18e6a50b20"
+    }
+  ],
+  "download": {
+    "pypi": "https://pypi.org/project/cadquery-ocp-novtk/7.9.3.1.1/",
+    "wheel": "cadquery_ocp_novtk-7.9.3.1.1-cp312-cp312-win_amd64.whl",
+    "wheel_size_bytes": 46364919,
+    "wheel_sha256_from_pypi": "5d22339cdaac64c396f0658de8728915acfac9b868406f0078e52f50a3c25c65",
+    "additional_dependency": "cadquery-ocp-proxy 7.9.3.1.1 (approximately 3.3 kB wheel)"
+  },
+  "license": {
+    "python_wrapper": "Apache-2.0",
+    "occt": "LGPL-2.1 with Open CASCADE exception",
+    "wrapper_source": "https://github.com/CadQuery/OCP",
+    "occt_source": "https://dev.opencascade.org/resources/licensing"
+  },
+  "reproduce_install": [
+    "C:\\Users\\Baltasar\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+    "-m",
+    "pip",
+    "install",
+    "--target",
+    ".tools/cad_reader",
+    "cadquery-ocp-novtk==7.9.3.1.1"
+  ],
+  "conversion_method": "STEP via OCCT XCAF, native face colors and solid inheritance; BRepMesh absolute deflection; metre-scale OBJ+MTL.",
+  "reliability": "Native OpenCascade STEP reader and CAD tessellator. Each source hash verified unchanged; BRep validity and missing faces checked. Blender optimization is a separate derivative stage.",
+  "other_software_installed": false,
+  "global_python_changes": false,
+  "blender_step_support": "No native STEP import used. Only converted OBJ goes into background Blender."
+}

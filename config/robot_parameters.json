@@ -1,0 +1,239 @@
+{
+  "status": "PROVISIONAL: los recorridos y masas no fueron medidos en el robot real",
+  "limits": {
+    "x": {
+      "min": -0.25,
+      "max": 0.25
+    },
+    "y": {
+      "min": -0.2,
+      "max": 0.2
+    },
+    "z": {
+      "min": -0.09,
+      "max": 0.09
+    }
+  },
+  "speeds": {
+    "x": 0.04,
+    "y": 0.04,
+    "z": 0.025
+  },
+  "acceleration": 0.1,
+  "control_gain": 3.0,
+  "tolerance": 0.0008,
+  "settle_seconds": 0.2,
+  "telemetry_period": 1.0,
+  "timeout_seconds": 35,
+  "tool_tip_zero": [
+    0,
+    -0.15,
+    1.16
+  ],
+  "measured_dimensions": {
+    "table": [
+      0.9,
+      0.6,
+      0.85
+    ],
+    "rubber_thickness": 0.01,
+    "lower_crossbar_height": 0.205,
+    "main_bar_width": 0.045,
+    "side_bar_width": 0.055,
+    "cabinet": [
+      0.6,
+      0.334,
+      0.6
+    ],
+    "cabinet_with_cover_depth": 0.35,
+    "cabinet_floor_clearance": 0.05,
+    "support": [
+      0.035,
+      0.152,
+      0.155
+    ],
+    "x_module": [
+      0.815,
+      0.11,
+      0.055
+    ],
+    "x_servo": [
+      0.2,
+      0.06,
+      0.06
+    ],
+    "y_module": [
+      0.042,
+      0.71,
+      0.093
+    ],
+    "y_servo": [
+      0.06,
+      0.2,
+      0.06
+    ],
+    "z_module": [
+      0.04,
+      0.095,
+      0.355
+    ],
+    "z_servo": [
+      0.06,
+      0.06,
+      0.24
+    ]
+  },
+  "approximate_dimensions": {
+    "y_carriage": [
+      0.1,
+      0.16,
+      0.043
+    ],
+    "x_carriage": [
+      0.12,
+      0.14,
+      0.035
+    ],
+    "z_carriage": [
+      0.085,
+      0.035,
+      0.08
+    ],
+    "tool_body": [
+      0.06,
+      0.055,
+      0.12
+    ],
+    "tool_shaft_radius": 0.012,
+    "tool_shaft_length": 0.12
+  },
+  "approximate_mass_kg": {
+    "y_assembly": 12,
+    "x_assembly": 5,
+    "z_assembly": 1.5
+  },
+  "simulation_max_force_N": {
+    "x": 250,
+    "y": 500,
+    "z": 150
+  },
+  "geometry_margin_m": 0.02,
+  "table_surface_z": 0.86,
+  "placements": {
+    "fixed_y": [
+      -0.32,
+      0,
+      1.0615
+    ],
+    "y_carriage": [
+      -0.32,
+      0,
+      1.1295
+    ],
+    "x_module_in_y": [
+      0.32,
+      0,
+      0.049
+    ],
+    "x_carriage_in_y": [
+      0.32,
+      -0.02,
+      0.106
+    ],
+    "z_module_in_x": [
+      0,
+      -0.068,
+      0.177
+    ],
+    "z_carriage_in_x": [
+      0,
+      -0.13,
+      0.1645
+    ],
+    "tool_in_z": [
+      0,
+      0,
+      -0.16
+    ],
+    "tool_tip_in_z": [
+      0,
+      0,
+      -0.24
+    ],
+    "cabinet": [
+      0.64,
+      0,
+      0.35
+    ],
+    "cabinet_rotation": [
+      0,
+      0,
+      1,
+      1.5708
+    ]
+  },
+  "gripper": {
+    "_nota": "Pinza de dos dedos agregada para la virtualización TCP. Medidas APROXIMADAS: el grip real no fue relevado.",
+    "finger_size": [
+      0.008,
+      0.02,
+      0.034
+    ],
+    "finger_open_x": 0.03,
+    "finger_center_z_in_tool": -0.087,
+    "travel": 0.02,
+    "max_velocity": 0.03,
+    "max_force": 20,
+    "finger_mass_kg": 0.02,
+    "grip_center_below_tip": 0.013,
+    "piece_size": 0.024,
+    "piece_tolerance_xy": 0.008,
+    "piece_tolerance_z": 0.008
+  },
+  "workcell": {
+    "_nota": "Zócalos en COORDENADAS DE MÁQUINA (mm, cero en los sensores de inicio de carrera). Están sobre columnas porque el recorrido Z provisional no llega a la mesa.",
+    "socket_plate": [
+      0.05,
+      0.05,
+      0.01
+    ],
+    "pedestal_size_xy": [
+      0.04,
+      0.04
+    ],
+    "piece_start": "A",
+    "sockets_mm": {
+      "A": [
+        100,
+        100
+      ],
+      "B": [
+        400,
+        200
+      ]
+    },
+    "pick_z_mm": -160
+  },
+  "homing": {
+    "_nota": "Ciclo de inicialización como la máquina real: encoders relativos, un sensor de inicio de carrera por eje. Al arrancar la posición es desconocida; HOME busca cada sensor en orden y define ahí el cero.",
+    "order": [
+      "x",
+      "y",
+      "z"
+    ],
+    "switch_at": {
+      "x": "min",
+      "y": "min",
+      "z": "max"
+    },
+    "fast_speed": 0.025,
+    "slow_speed": 0.01,
+    "backoff": 0.006,
+    "switch_tolerance": 0.003,
+    "timeout_s": 120,
+    "random_start": true,
+    "random_margin": 0.03,
+    "random_z_min": 0.0,
+    "_nota_sensor": "El sensor se activa 3 mm antes del tope mecánico del eje, como en una máquina real."
+  }
+}

@@ -1,0 +1,199 @@
+#VRML_SIM R2025a utf8
+# Modelo generado por tools/build_model.py; parámetros SI y visuales en config/.
+# Recorridos, carros, posiciones de montaje, masas y fuerzas son aproximados.
+PROTO CartesianRobot [
+  field SFVec3f translation 0 0 0
+  field SFRotation rotation 0 0 1 0
+  field SFString name "cartesian_robot"
+  field SFString controller "cartesian_controller"
+] {
+  Robot {
+    translation IS translation
+    rotation IS rotation
+    name IS name
+    controller IS controller
+    supervisor TRUE
+    selfCollision FALSE
+    children [
+Transform { translation -0.4275 -0.2725 0.4025 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.045 0.055 0.805 } } ] }
+Transform { translation -0.4275 0.2725 0.4025 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.045 0.055 0.805 } } ] }
+Transform { translation 0.4275 -0.2725 0.4025 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.045 0.055 0.805 } } ] }
+Transform { translation 0.4275 0.2725 0.4025 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.045 0.055 0.805 } } ] }
+Transform { translation 0 -0.2775 0.8275 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.9 0.045 0.045 } } ] }
+Transform { translation 0 0.2775 0.8275 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.9 0.045 0.045 } } ] }
+Transform { translation -0.4225 0 0.8275 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.055 0.6 0.045 } } ] }
+Transform { translation 0.4225 0 0.8275 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.055 0.6 0.045 } } ] }
+Transform { translation 0 -0.2775 0.205 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.9 0.045 0.045 } } ] }
+Transform { translation 0 0.2775 0.205 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.9 0.045 0.045 } } ] }
+Transform { translation -0.4225 0 0.205 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.055 0.6 0.045 } } ] }
+Transform { translation 0.4225 0 0.205 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.055 0.6 0.045 } } ] }
+Transform { translation 0 0 0.855 children [ Shape { appearance PBRAppearance { baseColor 0.065 0.065 0.06 metalness 0 roughness 0.95 } geometry Box { size 0.9 0.6 0.01 } } ] }
+DEF CABINET Solid { translation 0.64 0 0.35 rotation 0 0 1 1.5708 name "gabinete_electrico" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.82 0.83 0.80 metalness 0.15 roughness 0.7 } geometry Box { size 0.6 0.334 0.6 } } ] }
+Transform { translation 0 -0.175 0 children [ Shape { appearance PBRAppearance { baseColor 0.82 0.83 0.80 metalness 0.15 roughness 0.7 } geometry Box { size 0.6 0.016 0.6 } } ] }
+Transform { translation 0.245 -0.184 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.016 0.016 0.08 } } ] }
+] boundingObject Group { children [
+Transform { translation 0 -0.008 0 children [ Box { size 0.6 0.35 0.6 } ] }
+Transform { translation 0.245 -0.184 0 children [ Box { size 0.016 0.016 0.08 } ] }
+] }  }
+Transform { translation -0.32 -0.22 0.9375 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.035 0.152 0.155 } } ] }
+Transform { translation -0.32 0.22 0.9375 children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 0.035 0.152 0.155 } } ] }
+DEF FIXED_Y Solid { translation -0.32 0 1.0615 name "modulo_y_fijo" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.042 0.71 0.093 } } ] }
+Transform { translation 0 0 0.048 children [ Shape { appearance PBRAppearance { baseColor 0.40 0.43 0.47 metalness 0.8 roughness 0.3 } geometry Box { size 0.025 0.67 0.006 } } ] }
+Transform { translation 0 0.455 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.06 0.2 0.06 } } ] }
+Transform { translation 0 -0.346 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.057 0.018 0.098 } } ] }
+Transform { translation 0.028 -0.288 0.03 children [ Shape { appearance PBRAppearance { baseColor 0.95 0.78 0.05 metalness 0 roughness 0.5 } geometry Box { size 0.014 0.012 0.02 } } ] }
+] boundingObject Group { children [
+Transform { translation 0 0 0 children [ Box { size 0.042 0.71 0.093 } ] }
+Transform { translation 0 0.455 0 children [ Box { size 0.06 0.2 0.06 } ] }
+] }  }
+DEF JOINT_Y SliderJoint {
+      jointParameters JointParameters {
+        axis 0 1 0 position 0
+        minStop -0.205 maxStop 0.205
+        dampingConstant 2
+      }
+      device [
+        LinearMotor { name "motor_y" minPosition -0.2 maxPosition 0.2
+          maxVelocity 0.04 acceleration 0.1
+          maxForce 500 controlPID 3.0 0 0 sound "" }
+        PositionSensor { name "sensor_y" }
+      ]
+      endPoint DEF Y_CARRIAGE Solid { translation -0.32 0 1.1295 name "carro_y_con_eje_x" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.1 0.16 0.043 } } ] }
+DEF X_MODULE Solid { translation 0.32 0 0.049 name "modulo_x_y_servo" children [
+Transform { translation 0.5075 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.2 0.06 0.06 } } ] }
+Transform { translation -0.398 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.019 0.118 0.062 } } ] }
+Transform { translation 0.37 -0.058 0 children [ Shape { appearance PBRAppearance { baseColor 0.85 0.12 0.08 metalness 0 roughness 0.6 } geometry Box { size 0.032 0.01 0.03 } } ] }
+Transform { translation -0.318 -0.062 0.02 children [ Shape { appearance PBRAppearance { baseColor 0.95 0.78 0.05 metalness 0 roughness 0.5 } geometry Box { size 0.012 0.012 0.02 } } ] }
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.805 0.025 0.04 } } ] }
+DEF SCAN_X_VISUAL Transform {
+              children [ Shape {
+                appearance PBRAppearance { baseColor 1 1 1 metalness 0 roughness 0.85
+                  baseColorMap ImageTexture { url [ "../textures/scan_atlas.jpg" ] } }
+                geometry Mesh { url [ "../meshes/axis_x_surface_visual.obj" ] }
+              } ]
+            }
+]   }
+DEF JOINT_X SliderJoint {
+      jointParameters JointParameters {
+        axis 1 0 0 position 0
+        minStop -0.255 maxStop 0.255
+        dampingConstant 2
+      }
+      device [
+        LinearMotor { name "motor_x" minPosition -0.25 maxPosition 0.25
+          maxVelocity 0.04 acceleration 0.1
+          maxForce 250 controlPID 3.0 0 0 sound "" }
+        PositionSensor { name "sensor_x" }
+      ]
+      endPoint DEF X_CARRIAGE Solid { translation 0.32 -0.02 0.106 name "carro_x_con_eje_z" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.12 0.14 0.035 } } ] }
+Transform { translation 0 0 -0.021 children [ Shape { appearance PBRAppearance { baseColor 0.40 0.43 0.47 metalness 0.8 roughness 0.3 } geometry Box { size 0.1 0.065 0.007 } } ] }
+Transform { translation 0 -0.055 0.025 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.1 0.05 0.07 } } ] }
+DEF Z_MODULE Solid { translation 0 -0.068 0.177 name "modulo_z_y_servo" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.04 0.095 0.355 } } ] }
+Transform { translation 0 -0.049 0 children [ Shape { appearance PBRAppearance { baseColor 0.40 0.43 0.47 metalness 0.8 roughness 0.3 } geometry Box { size 0.024 0.006 0.335 } } ] }
+Transform { translation 0 -0.04 0.112 children [ Shape { appearance PBRAppearance { baseColor 0.12 0.38 0.92 metalness 0 roughness 0.6 } geometry Box { size 0.042 0.015 0.03 } } ] }
+Transform { translation 0 -0.052 0.1255 children [ Shape { appearance PBRAppearance { baseColor 0.95 0.78 0.05 metalness 0 roughness 0.5 } geometry Box { size 0.012 0.012 0.012 } } ] }
+DEF CAD_SERVO_Z_VISUAL Transform { children [ Shape { appearance PBRAppearance { baseColor 0.752941 0.752941 0.752941 metalness 0.65 roughness 0.4 } geometry Mesh { url [ "../meshes/cad/servo_z_am3023_brake_material_0.obj" ] } }
+Shape { appearance PBRAppearance { baseColor 0.25098 0.25098 0.25098 metalness 0.15 roughness 0.4 } geometry Mesh { url [ "../meshes/cad/servo_z_am3023_brake_material_1.obj" ] } }
+Shape { appearance PBRAppearance { baseColor 1 1 1 metalness 0.65 roughness 0.4 } geometry Mesh { url [ "../meshes/cad/servo_z_am3023_brake_material_2.obj" ] } } ] }
+]   }
+DEF JOINT_Z SliderJoint {
+      jointParameters JointParameters {
+        axis 0 0 1 position 0
+        minStop -0.095 maxStop 0.095
+        dampingConstant 2
+      }
+      device [
+        LinearMotor { name "motor_z" minPosition -0.09 maxPosition 0.09
+          maxVelocity 0.025 acceleration 0.1
+          maxForce 150 controlPID 3.0 0 0 sound "" }
+        PositionSensor { name "sensor_z" }
+      ]
+      endPoint DEF Z_CARRIAGE Solid { translation 0 -0.13 0.1645 name "carro_z_y_herramienta" children [
+Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.085 0.035 0.08 } } ] }
+Transform { translation 0 -0.022 0 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.08 0.01 0.07 } } ] }
+Transform { translation -0.028 0 -0.065  children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Cylinder { radius 0.006 height 0.1 subdivision 20 } } ] }
+Transform { translation 0.028 0 -0.065  children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Cylinder { radius 0.006 height 0.1 subdivision 20 } } ] }
+DEF TOOL Solid { translation 0 0 -0.16 name "herramienta_neumatica_aproximada" children [
+Transform { translation 0 0 0.03 children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Box { size 0.06 0.055 0.12 } } ] }
+Transform { translation 0 0 -0.02  children [ Shape { appearance PBRAppearance { baseColor 0.72 0.75 0.78 metalness 0.8 roughness 0.35 } geometry Cylinder { radius 0.012 height 0.12 subdivision 20 } } ] }
+Transform { translation 0 0 -0.071 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.07 0.024 0.008 } } ] }
+]   }
+SliderJoint {
+      jointParameters JointParameters { axis 1 0 0 position 0 minStop -0.001 maxStop 0.021 dampingConstant 1 }
+      device [
+        LinearMotor { name "grip_left" minPosition 0 maxPosition 0.02 maxVelocity 0.03 maxForce 20 sound "" }
+        PositionSensor { name "grip_left_sensor" }
+      ]
+      endPoint Solid { translation -0.03 0 -0.247 name "dedo_left" children [ Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.7 0.05 0.03 metalness 0.1 roughness 0.6 } geometry Box { size 0.008 0.02 0.034 } } ] } Transform { translation 0.005 0 -0.0085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.002 0.02 0.017 } } ] } ] boundingObject Transform { translation 0 0 0 children [ Box { size 0.008 0.02 0.034 } ] } physics Physics { density -1 mass 0.02 } }
+    }
+SliderJoint {
+      jointParameters JointParameters { axis -1 0 0 position 0 minStop -0.001 maxStop 0.021 dampingConstant 1 }
+      device [
+        LinearMotor { name "grip_right" minPosition 0 maxPosition 0.02 maxVelocity 0.03 maxForce 20 sound "" }
+        PositionSensor { name "grip_right_sensor" }
+      ]
+      endPoint Solid { translation 0.03 0 -0.247 name "dedo_right" children [ Transform { translation 0 0 0 children [ Shape { appearance PBRAppearance { baseColor 0.7 0.05 0.03 metalness 0.1 roughness 0.6 } geometry Box { size 0.008 0.02 0.034 } } ] } Transform { translation -0.005 0 -0.0085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.002 0.02 0.017 } } ] } ] boundingObject Transform { translation 0 0 0 children [ Box { size 0.008 0.02 0.034 } ] } physics Physics { density -1 mass 0.02 } }
+    }
+DEF TOOL_TIP Solid { translation 0 0 -0.24 name "punto_herramienta" children [
+
+]   }
+] boundingObject Group { children [
+Transform { translation 0 0 0 children [ Box { size 0.085 0.035 0.08 } ] }
+Transform { translation 0 0 -0.13 children [ Box { size 0.06 0.055 0.12 } ] }
+Transform { translation 0 0 -0.18  children [ Cylinder { radius 0.012 height 0.12 subdivision 20 } ] }
+Transform { translation 0 0 -0.231 children [ Box { size 0.07 0.024 0.008 } ] }
+] } physics Physics { density -1 mass 1.5 } }
+    }
+] boundingObject Group { children [
+Transform { translation 0 0 0 children [ Box { size 0.12 0.14 0.035 } ] }
+Transform { translation 0 -0.068 0.177 children [ Box { size 0.04 0.095 0.355 } ] }
+Transform { translation 0 -0.068 0.4745 children [ Box { size 0.06 0.06 0.24 } ] }
+] } physics Physics { density -1 mass 5 } }
+    }
+Transform { translation 0.04 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.083 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.126 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.169 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.212 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.255 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.298 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.341 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.384 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.427 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.47 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.513 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.556 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.599 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.642 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0.685 0.072 0.085 children [ Shape { appearance PBRAppearance { baseColor 0.035 0.04 0.045 metalness 0.1 roughness 0.65 } geometry Box { size 0.035 0.027 0.018 } } ] }
+Transform { translation 0 -0.085 0.005 children [ Shape { appearance PBRAppearance { baseColor 0.1 0.65 0.22 metalness 0 roughness 0.6 } geometry Box { size 0.028 0.01 0.022 } } ] }
+] boundingObject Group { children [
+Transform { translation 0 0 0 children [ Box { size 0.1 0.16 0.043 } ] }
+Transform { translation 0.32 0 0.049 children [ Box { size 0.815 0.11 0.055 } ] }
+Transform { translation 0.8275 0 0.049 children [ Box { size 0.2 0.06 0.06 } ] }
+] } physics Physics { density -1 mass 12 } }
+    }
+] boundingObject Group { children [
+Transform { translation -0.4275 -0.2725 0.4025 children [ Box { size 0.045 0.055 0.805 } ] }
+Transform { translation -0.4275 0.2725 0.4025 children [ Box { size 0.045 0.055 0.805 } ] }
+Transform { translation 0.4275 -0.2725 0.4025 children [ Box { size 0.045 0.055 0.805 } ] }
+Transform { translation 0.4275 0.2725 0.4025 children [ Box { size 0.045 0.055 0.805 } ] }
+Transform { translation 0 -0.2775 0.8275 children [ Box { size 0.9 0.045 0.045 } ] }
+Transform { translation 0 0.2775 0.8275 children [ Box { size 0.9 0.045 0.045 } ] }
+Transform { translation -0.4225 0 0.8275 children [ Box { size 0.055 0.6 0.045 } ] }
+Transform { translation 0.4225 0 0.8275 children [ Box { size 0.055 0.6 0.045 } ] }
+Transform { translation 0 -0.2775 0.205 children [ Box { size 0.9 0.045 0.045 } ] }
+Transform { translation 0 0.2775 0.205 children [ Box { size 0.9 0.045 0.045 } ] }
+Transform { translation -0.4225 0 0.205 children [ Box { size 0.055 0.6 0.045 } ] }
+Transform { translation 0.4225 0 0.205 children [ Box { size 0.055 0.6 0.045 } ] }
+Transform { translation 0 0 0.855 children [ Box { size 0.9 0.6 0.01 } ] }
+Transform { translation -0.32 -0.22 0.9375 children [ Box { size 0.035 0.152 0.155 } ] }
+Transform { translation -0.32 0.22 0.9375 children [ Box { size 0.035 0.152 0.155 } ] }
+] }
+}
+}

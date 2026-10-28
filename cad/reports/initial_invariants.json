@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-30T02:06:45.216138+00:00",
+  "baseline_directory": "E:\\ROBOTICA\\CARTESIANO\\backups\\stage2_validated",
+  "project_root": "E:\\ROBOTICA\\CARTESIANO",
+  "passed": true,
+  "checks": [
+    {
+      "name": "bytewise:config/robot_parameters.json",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "8b3eb7c8ec9bab58be86beb1dea6c88cd8f53ce53012b3b3a82fb114cb14a56b",
+        "current_sha256": "8b3eb7c8ec9bab58be86beb1dea6c88cd8f53ce53012b3b3a82fb114cb14a56b"
+      }
+    },
+    {
+      "name": "bytewise:controllers/cartesian_controller/cartesian_controller.py",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "82dce36625a92606a67624c5a2ffd93595f55a1bb8c46e62a5b4e7fd76b22589",
+        "current_sha256": "82dce36625a92606a67624c5a2ffd93595f55a1bb8c46e62a5b4e7fd76b22589"
+      }
+    },
+    {
+      "name": "bytewise:controllers/cartesian_controller/runtime.ini",
+      "passed": true,
+      "details": {
+        "baseline_sha256": "ab02f42ee61d52e9f92f5ddc999fd7e3ec773af9faa4cd095b1dc369d3d58e58",
+        "current_sha256": "ab02f42ee61d52e9f92f5ddc999fd7e3ec773af9faa4cd095b1dc369d3d58e58"
+      }
+    },
+    {
+      "name": "protected_vrml:protos/CartesianRobot.proto",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "solid_hierarchy:protos/CartesianRobot.proto",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "primitive_collisions_only:protos/CartesianRobot.proto",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "relative_existing_mesh_urls:protos/CartesianRobot.proto",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "three_linear_joints_and_devices",
+      "passed": true,
+      "details": {
+        "SliderJoint": 3,
+        "LinearMotor": 3,
+        "PositionSensor": 3
+      }
+    },
+    {
+      "name": "no_rotary_joints",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "protected_vrml:worlds/cartesian_robot.wbt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "solid_hierarchy:worlds/cartesian_robot.wbt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "name": "primitive_collisions_only:worlds/cartesian_robot.wbt",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "relative_existing_mesh_urls:worlds/cartesian_robot.wbt",
+      "passed": true,
+      "details": []
+    },
+    {
+      "name": "checker_adversarial_cases",
+      "passed": true,
+      "details": [
+        {
+          "name": "visual_replacement_accepted",
+          "passed": true
+        },
+        {
+          "name": "visual_transform_accepted",
+          "passed": true
+        },
+        {
+          "name": "comments_and_strings_accepted",
+          "passed": true
+        },
+        {
+          "name": "pid_change_rejected",
+          "passed": true
+        },
+        {
+          "name": "axis_change_rejected",
+          "passed": true
+        },
+        {
+          "name": "link_offset_rejected",
+          "passed": true
+        },
+        {
+          "name": "bounding_object_change_rejected",
+          "passed": true
+        },
+        {
+          "name": "mass_change_rejected",
+          "passed": true
+        },
+        {
+          "name": "parent_change_rejected",
+          "passed": true
+        },
+        {
+          "name": "mesh_collision_rejected",
+          "passed": true
+        },
+        {
+          "name": "unbalanced_vrml_rejected",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "models": {
+    "protos/CartesianRobot.proto": {
+      "baseline_sha256": "ce4f961ce6c253d45029c882299724ec04af03838197c1434582091a93bdc572",
+      "current_sha256": "ce4f961ce6c253d45029c882299724ec04af03838197c1434582091a93bdc572",
+      "protected_baseline_sha256": "6caaf5c93962f3d76bae177b436ee1a79e8198c424cde11120e9529ac9968b8c",
+      "protected_current_sha256": "6caaf5c93962f3d76bae177b436ee1a79e8198c424cde11120e9529ac9968b8c",
+      "node_inventory": {
+        "Robot": 1,
+        "Transform": 90,
+        "Shape": 60,
+        "PBRAppearance": 60,
+        "Box": 85,
+        "Solid": 9,
+        "Group": 6,
+        "SliderJoint": 3,
+        "JointParameters": 3,
+        "LinearMotor": 3,
+        "PositionSensor": 3,
+        "ImageTexture": 1,
+        "Mesh": 1,
+        "Cylinder": 4,
+        "Physics": 3
+      },
+      "solid_hierarchy": [
+        {
+          "id": "Robot:0",
+          "type": "Robot",
+          "parent_solid": null,
+          "name": [
+            "IS",
+            "name"
+          ],
+          "translation": [
+            "IS",
+            "translation"
+          ],
+          "rotation": [
+            "IS",
+            "rotation"
+          ],
+          "joints_from_root": [],
+          "physics_tokens": null,
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "-0.4275",
+            "-0.2725",
+            "0.4025",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.045",
+            "0.055",
+            "0.805",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.4275",
+            "0.2725",
+            "0.4025",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.045",
+            "0.055",
+            "0.805",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.4275",
+            "-0.2725",
+            "0.4025",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.045",
+            "0.055",
+            "0.805",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.4275",
+            "0.2725",
+            "0.4025",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.045",
+            "0.055",
+            "0.805",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "-0.2775",
+            "0.8275",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.9",
+            "0.045",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0.2775",
+            "0.8275",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.9",
+            "0.045",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.4225",
+            "0",
+            "0.8275",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.055",
+            "0.6",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.4225",
+            "0",
+            "0.8275",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.055",
+            "0.6",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "-0.2775",
+            "0.205",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.9",
+            "0.045",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0.2775",
+            "0.205",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.9",
+            "0.045",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.4225",
+            "0",
+            "0.205",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.055",
+            "0.6",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.4225",
+            "0",
+            "0.205",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.055",
+            "0.6",
+            "0.045",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "0.855",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.9",
+            "0.6",
+            "0.01",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.32",
+            "-0.22",
+            "0.9375",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.035",
+            "0.152",
+            "0.155",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.32",
+            "0.22",
+            "0.9375",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.035",
+            "0.152",
+            "0.155",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "CABINET",
+          "type": "Solid",
+          "parent_solid": "Robot:0",
+          "name": [
+            "\"gabinete_electrico\""
+          ],
+          "translation": [
+            "0",
+            "-0.475",
+            "0.35"
+          ],
+          "rotation": null,
+          "joints_from_root": [],
+          "physics_tokens": null,
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "-0.008",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.6",
+            "0.35",
+            "0.6",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.245",
+            "-0.184",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.016",
+            "0.016",
+            "0.08",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "FIXED_Y",
+          "type": "Solid",
+          "parent_solid": "Robot:0",
+          "name": [
+            "\"modulo_y_fijo\""
+          ],
+          "translation": [
+            "-0.32",
+            "0",
+            "1.0615"
+          ],
+          "rotation": null,
+          "joints_from_root": [],
+          "physics_tokens": null,
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.042",
+            "0.71",
+            "0.093",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0.455",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.06",
+            "0.2",
+            "0.06",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "Y_CARRIAGE",
+          "type": "Solid",
+          "parent_solid": "Robot:0",
+          "name": [
+            "\"carro_y_con_eje_x\""
+          ],
+          "translation": [
+            "-0.32",
+            "0",
+            "1.1295"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\""
+          ],
+          "physics_tokens": [
+            "Physics",
+            "{",
+            "density",
+            "-1",
+            "mass",
+            "12",
+            "}"
+          ],
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.1",
+            "0.16",
+            "0.043",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.32",
+            "0",
+            "0.049",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.815",
+            "0.11",
+            "0.055",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.8275",
+            "0",
+            "0.049",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.2",
+            "0.06",
+            "0.06",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "X_MODULE",
+          "type": "Solid",
+          "parent_solid": "Y_CARRIAGE",
+          "name": [
+            "\"modulo_x_y_servo\""
+          ],
+          "translation": [
+            "0.32",
+            "0",
+            "0.049"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\""
+          ],
+          "physics_tokens": null,
+          "bounding_object_tokens": null
+        },
+        {
+          "id": "X_CARRIAGE",
+          "type": "Solid",
+          "parent_solid": "Y_CARRIAGE",
+          "name": [
+            "\"carro_x_con_eje_z\""
+          ],
+          "translation": [
+            "0.32",
+            "-0.02",
+            "0.106"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\"",
+            "\"motor_x\""
+          ],
+          "physics_tokens": [
+            "Physics",
+            "{",
+            "density",
+            "-1",
+            "mass",
+            "5",
+            "}"
+          ],
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.12",
+            "0.14",
+            "0.035",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "-0.068",
+            "0.177",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.04",
+            "0.095",
+            "0.355",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "-0.068",
+            "0.4745",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.06",
+            "0.06",
+            "0.24",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "Z_MODULE",
+          "type": "Solid",
+          "parent_solid": "X_CARRIAGE",
+          "name": [
+            "\"modulo_z_y_servo\""
+          ],
+          "translation": [
+            "0",
+            "-0.068",
+            "0.177"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\"",
+            "\"motor_x\""
+          ],
+          "physics_tokens": null,
+          "bounding_object_tokens": null
+        },
+        {
+          "id": "Z_CARRIAGE",
+          "type": "Solid",
+          "parent_solid": "X_CARRIAGE",
+          "name": [
+            "\"carro_z_y_herramienta\""
+          ],
+          "translation": [
+            "0",
+            "-0.13",
+            "0.1645"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\"",
+            "\"motor_x\"",
+            "\"motor_z\""
+          ],
+          "physics_tokens": [
+            "Physics",
+            "{",
+            "density",
+            "-1",
+            "mass",
+            "1.5",
+            "}"
+          ],
+          "bounding_object_tokens": [
+            "Group",
+            "{",
+            "children",
+            "[",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "0",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.085",
+            "0.035",
+            "0.08",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "-0.13",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.06",
+            "0.055",
+            "0.12",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0",
+            "0",
+            "-0.18",
+            "children",
+            "[",
+            "Cylinder",
+            "{",
+            "radius",
+            "0.012",
+            "height",
+            "0.12",
+            "subdivision",
+            "20",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "-0.019",
+            "0",
+            "-0.229",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.012",
+            "0.022",
+            "0.022",
+            "}",
+            "]",
+            "}",
+            "Transform",
+            "{",
+            "translation",
+            "0.019",
+            "0",
+            "-0.229",
+            "children",
+            "[",
+            "Box",
+            "{",
+            "size",
+            "0.012",
+            "0.022",
+            "0.022",
+            "}",
+            "]",
+            "}",
+            "]",
+            "}"
+          ]
+        },
+        {
+          "id": "TOOL",
+          "type": "Solid",
+          "parent_solid": "Z_CARRIAGE",
+          "name": [
+            "\"herramienta_neumatica_aproximada\""
+          ],
+          "translation": [
+            "0",
+            "0",
+            "-0.16"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\"",
+            "\"motor_x\"",
+            "\"motor_z\""
+          ],
+          "physics_tokens": null,
+          "bounding_object_tokens": null
+        },
+        {
+          "id": "TOOL_TIP",
+          "type": "Solid",
+          "parent_solid": "Z_CARRIAGE",
+          "name": [
+            "\"punto_herramienta\""
+          ],
+          "translation": [
+            "0",
+            "0",
+            "-0.24"
+          ],
+          "rotation": null,
+          "joints_from_root": [
+            "\"motor_y\"",
+            "\"motor_x\"",
+            "\"motor_z\""
+          ],
+          "physics_tokens": null,
+          "bounding_object_tokens": null
+        }
+      ],
+      "bounding_objects": [
+        {
+          "solid": "Robot",
+          "node_types": {
+            "Group": 1,
+            "Transform": 15,
+            "Box": 15
+          }
+        },
+        {
+          "solid": "CABINET",
+          "node_types": {
+            "Group": 1,
+            "Transform": 2,
+            "Box": 2
+          }
+        },
+        {
+          "solid": "FIXED_Y",
+          "node_types": {
+            "Group": 1,
+            "Transform": 2,
+            "Box": 2
+          }
+        },
+        {
+          "solid": "Y_CARRIAGE",
+          "node_types": {
+            "Group": 1,
+            "Transform": 3,
+            "Box": 3
+          }
+        },
+        {
+          "solid": "X_CARRIAGE",
+          "node_types": {
+            "Group": 1,
+            "Transform": 3,
+            "Box": 3
+          }
+        },
+        {
+          "solid": "Z_CARRIAGE",
+          "node_types": {
+            "Group": 1,
+            "Transform": 5,
+            "Box": 4,
+            "Cylinder": 1
+          }
+        }
+      ],
+      "visual_meshes": [
+        {
+          "parent_solid": "X_MODULE",
+          "urls": [
+            "../meshes/axis_x_surface_visual.obj"
+          ],
+          "visual_transforms": [
+            {
+              "translation": null,
+              "rotation": null,
+              "scale": null
+            }
+          ]
+        }
+      ]
+    },
+    "worlds/cartesian_robot.wbt": {
+      "baseline_sha256": "d3635476b06942eb3dd37205b23b94ff71d2a4f3c656356335f65aeb986b9f81",
+      "current_sha256": "d3635476b06942eb3dd37205b23b94ff71d2a4f3c656356335f65aeb986b9f81",
+      "protected_baseline_sha256": "2a207524b8c9f3b56eff30cc73556909ddcf33f9e5e0952335cf38e7c97dfd2e",
+      "protected_current_sha256": "2a207524b8c9f3b56eff30cc73556909ddcf33f9e5e0952335cf38e7c97dfd2e",
+      "node_inventory": {
+        "WorldInfo": 1,
+        "Viewpoint": 1,
+        "Background": 1,
+        "DirectionalLight": 2,
+        "Solid": 1,
+        "Shape": 1,
+        "PBRAppearance": 1,
+        "Box": 2,
+        "CartesianRobot": 1
+      },
+      "solid_hierarchy": [
+        {
+          "id": "Solid:0",
+          "type": "Solid",
+          "parent_solid": null,
+          "name": [
+            "\"piso\""
+          ],
+          "translation": [
+            "0",
+            "0",
+            "-0.015"
+          ],
+          "rotation": null,
+          "joints_from_root": [],
+          "physics_tokens": null,
+          "bounding_object_tokens": [
+            "Box",
+            "{",
+            "size",
+            "5",
+            "5",
+            "0.03",
+            "}"
+          ]
+        }
+      ],
+      "bounding_objects": [
+        {
+          "solid": "Solid",
+          "node_types": {
+            "Box": 1
+          }
+        }
+      ],
+      "visual_meshes": []
+    }
+  },
+  "scope": "Comparación estática. No ejecuta Webots ni build_model.py ni modifica el modelo.",
+  "limitations": [
+    "Las posiciones de Solid no prueban posición, escala o segmentación de los vértices Mesh.",
+    "Requiere validar Webots y revisar meshes en extremos/centro de cada eje.",
+    "Los USE se preservan de forma conservadora; cambiar un USE visual requiere revisión explícita.",
+    "Cámara, luces, fondo y WorldInfo.title se omiten; física, timestep y coordinateSystem se conservan.",
+    "El generador puede cambiar para producir visuales; no se exige identidad byte a byte de build_model.py."
+  ]
+}

@@ -1,0 +1,9 @@
+#VRML_SIM R2025a utf8
+EXTERNPROTO "../protos/CartesianRobot.proto"
+WorldInfo { title "Robot cartesiano industrial XYZ - etapa 2B CAD" basicTimeStep 16 coordinateSystem "ENU" randomSeed 1 }
+Viewpoint { orientation -0.175098 0.0919434 0.980249 2.19087 position 2.6 -3.8 2.6 fieldOfView 0.9 near 0.05 }
+Background { skyColor [ 0.16 0.20 0.25 ] }
+DirectionalLight { direction -0.4 0.6 -1 intensity 1 ambientIntensity 0.6 }
+DirectionalLight { direction 0.6 -0.4 -0.7 intensity 1 }
+Solid { translation 0 0 -0.015 name "piso" children [ Shape { appearance PBRAppearance { baseColor 0.68 0.70 0.67 metalness 0.35 roughness 0.7 } geometry Box { size 5 5 0.03 } } ] boundingObject Box { size 5 5 0.03 } }
+DEF CARTESIAN_ROBOT CartesianRobot { controller "cad_visual_validation" }

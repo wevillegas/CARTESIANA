@@ -1,0 +1,71 @@
+{
+  "component": "AX5203",
+  "manufacturer": "Beckhoff",
+  "observed_model": "AX5203",
+  "full_electrical_suffix_on_machine": null,
+  "status": "DOWNLOADED_OFFICIAL_STEP",
+  "official": true,
+  "classification": "C - official AX5203 CAD; visual compatibility awaits envelope and hardware-revision reconciliation",
+  "exact_part_number": false,
+  "source_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AX5000/AX5203_stp.zip",
+  "directory_url": "https://download.beckhoff.com/download/technical_drawings/Drive_Technology/step/AX5000/",
+  "product_url": "https://www.beckhoff.com/en-en/products/motion/servo-drives/ax5000-digital-compact-servo-drives/ax5203.html",
+  "format": "ZIP containing STEP",
+  "consulted_utc": "2026-09-30T02:36:32.979575+00:00",
+  "assets": [
+    {
+      "path": "cad\\source\\beckhoff\\AX5203_stp.zip",
+      "bytes": 1225770,
+      "sha256": "03939da646c305c59f038d350f4aad20d2548a729f285ba6ac804f9d0c3fc2a5"
+    },
+    {
+      "path": "cad\\source\\beckhoff\\AX5203.stp",
+      "bytes": 7931005,
+      "sha256": "217b6d3acd91b67a3c8e7f7d305bf3588f33a95b8b348477bcf3540f3a7ea58d"
+    }
+  ],
+  "archive_members": [
+    "AX5203.stp"
+  ],
+  "usage": "Local academic project only; not redistributed externally",
+  "license": "Manufacturer CAD, all proprietary rights retained; no open redistribution license identified in archive",
+  "manual_real_dimensions_mm": null,
+  "official_product_dimensions_mm": {
+    "height_without_connectors": 274.0,
+    "depth_without_connectors": 232.0,
+    "width": 92.0
+  },
+  "published_order_code_family": "AX5203-0000-0x0x",
+  "step_header_created": "2008-03-04T09:09:25",
+  "step_internal_product_name": "AX-2Kanal-ohne-Modul",
+  "step_export_software": "Autodesk Inventor 2008",
+  "integration": "Prepared asset only; not integrated into the robot or cabinet",
+  "envelope_warning": "Current product dimensions exclude connectors. STEP includes a different full envelope; hardware revision and CAD state have not been reconciled. Do not claim an exact suffix match or automatically integrate.",
+  "converted_asset": {
+    "obj": "cad\\converted\\ax5203_native.obj",
+    "obj_sha256": "097a8e5dd8fcb679d1243a931d6687fe343bdf4a9be563ff2379b5c2959aafc9",
+    "obj_bytes": 15319742,
+    "cad_bbox_mm": {
+      "min": [
+        -63.12388789882269,
+        -260.4199605057589,
+        43.56930575766933
+      ],
+      "max": [
+        29.63583927507334,
+        -14.619960505758874,
+        400.30750158601927
+      ],
+      "dimensions": [
+        92.75972717389602,
+        245.80000000000004,
+        356.73819582834994
+      ]
+    },
+    "cad_solids": 1,
+    "cad_faces": 4320,
+    "triangles": 151990,
+    "report": "cad\\reports\\ax5203_conversion.json"
+  },
+  "lookup_budget": "Two searches; only official directory and product page; no priority3 research."
+}

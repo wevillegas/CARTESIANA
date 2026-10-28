@@ -1,0 +1,618 @@
+{
+  "scope": "Stage 2B artifacts, excludes this manifest, backups, local packages and Python caches",
+  "git_state": "No Git repository initialized",
+  "files": [
+    {
+      "path": "README.md",
+      "status": "modified",
+      "bytes": 26892,
+      "sha256": "9b04f3ac20f30b8c139e706af36991102c6605df6db48c2a5c0e6ac501836b5f"
+    },
+    {
+      "path": "blender/official_cad_components.blend",
+      "status": "created",
+      "bytes": 2368268,
+      "sha256": "fc2ca1f9b90787de096f55a0be8556997f66e39b66c79ab1fcbd0192fc34bdba"
+    },
+    {
+      "path": "cad/converted/am3023_brake_native.mtl",
+      "status": "created",
+      "bytes": 316,
+      "sha256": "6116eaab5e5864e5f221b82fdb3efad2c87a063cbbe0676a7878300b05d40127"
+    },
+    {
+      "path": "cad/converted/am3023_brake_native.obj",
+      "status": "created",
+      "bytes": 4961793,
+      "sha256": "6390357bf606c0b1fc1983110f60b17230bb92507ea5375c7fbae95c65b3ecd6"
+    },
+    {
+      "path": "cad/converted/am3023_no_brake_native.mtl",
+      "status": "created",
+      "bytes": 316,
+      "sha256": "6116eaab5e5864e5f221b82fdb3efad2c87a063cbbe0676a7878300b05d40127"
+    },
+    {
+      "path": "cad/converted/am3023_no_brake_native.obj",
+      "status": "created",
+      "bytes": 5023247,
+      "sha256": "57f6559cf24f15d436d100aaf3843f43eeafbf0f88e5a85bf85bbbcab596f8f8"
+    },
+    {
+      "path": "cad/converted/ax5203_native.mtl",
+      "status": "created",
+      "bytes": 1519,
+      "sha256": "1f842f0b4e4133da7b97d54d6052a51e9981030434f742300e3891ddf9119435"
+    },
+    {
+      "path": "cad/converted/ax5203_native.obj",
+      "status": "created",
+      "bytes": 15319742,
+      "sha256": "097a8e5dd8fcb679d1243a931d6687fe343bdf4a9be563ff2379b5c2959aafc9"
+    },
+    {
+      "path": "cad/reports/am3023_brake_conversion.json",
+      "status": "created",
+      "bytes": 71989,
+      "sha256": "8e869e87a368b174a3e24aaaebb3e76d67b4290bed61d8c9f2afe9114c69f9b8"
+    },
+    {
+      "path": "cad/reports/am3023_cad_measurements.json",
+      "status": "created",
+      "bytes": 22420,
+      "sha256": "c0741bd993ffc707ac7acf7bf9db8de9fb5491732a26f39489ccdfec829df0b9"
+    },
+    {
+      "path": "cad/reports/am3023_mounting_features.json",
+      "status": "created",
+      "bytes": 33981,
+      "sha256": "404b3c266dfc0775157d8b5cb3ba0c650e9fdc114ed197340ff69b74a3bc0214"
+    },
+    {
+      "path": "cad/reports/am3023_no_brake_conversion.json",
+      "status": "created",
+      "bytes": 71923,
+      "sha256": "f614e1f0a73438e9959100e3f43c5bdd4c020efcf6cce6d45945fa1f0f47deef"
+    },
+    {
+      "path": "cad/reports/am302x_manual_drawing_Im0.png",
+      "status": "created",
+      "bytes": 8970,
+      "sha256": "ea444bee57b5170e9e21e12e76d284eb43e8e5831a22c74cb03e479bd7e03844"
+    },
+    {
+      "path": "cad/reports/am302x_manual_drawing_Im1.png",
+      "status": "created",
+      "bytes": 51200,
+      "sha256": "b77c40ad57f510a90d839053901b14a936e2ffde7a9ee1c9a30e86063d80d22f"
+    },
+    {
+      "path": "cad/reports/am302x_manual_drawing_Im2.png",
+      "status": "created",
+      "bytes": 15815,
+      "sha256": "4c76d2fd93a3496816129a456b16d31fc7b784192e482cfe2a6d7dd2179310ff"
+    },
+    {
+      "path": "cad/reports/am302x_manual_page41.png",
+      "status": "created",
+      "bytes": 190130,
+      "sha256": "a0dc37c3e279f733807cb0eae1f77897f9c4c8949b905854f8109012c6f8a707"
+    },
+    {
+      "path": "cad/reports/ax5203_blender_processing.json",
+      "status": "created",
+      "bytes": 3643,
+      "sha256": "4b88f71dbcead19bbf943213fd576d092e2861f3933b483b8dc3ea5430df16fa"
+    },
+    {
+      "path": "cad/reports/ax5203_conversion.json",
+      "status": "created",
+      "bytes": 75689,
+      "sha256": "51c472144df0267d22c8d633b48d03424dcaa4d18a3bc85841603371d6727601"
+    },
+    {
+      "path": "cad/reports/ax5203_research.json",
+      "status": "created",
+      "bytes": 2931,
+      "sha256": "65c94953ca0aa1c58ea64cab8014aed641e05f6cf363ad33073da8d3e718a4b5"
+    },
+    {
+      "path": "cad/reports/beckhoff_research.json",
+      "status": "created",
+      "bytes": 13652,
+      "sha256": "90ccf4c46ca06950676471b44c1340b37825f11acbe34d1cc36f852133035ab7"
+    },
+    {
+      "path": "cad/reports/blender_processing.json",
+      "status": "created",
+      "bytes": 6810,
+      "sha256": "5d22403863f6b7a0bbbe1a7d6f1e0b43577e48cf73fce90517a3e0187347a6a7"
+    },
+    {
+      "path": "cad/reports/cad_comparison.json",
+      "status": "created",
+      "bytes": 19673,
+      "sha256": "b68320b8ec790e04b277751578d4bb4edf328b2c45553f15c57c1d614f0a7233"
+    },
+    {
+      "path": "cad/reports/cad_sources.json",
+      "status": "created",
+      "bytes": 18439,
+      "sha256": "20fc3a10efab2cf334d3a7da99bdf9e854330050930d375e00c925650ac626f9"
+    },
+    {
+      "path": "cad/reports/conversion_environment.json",
+      "status": "created",
+      "bytes": 19217,
+      "sha256": "54b6a4239145557afe7634a35b471fbbac160304ea6d3aec4e9dcf839da5a7e1"
+    },
+    {
+      "path": "cad/reports/initial_invariants.json",
+      "status": "created",
+      "bytes": 24993,
+      "sha256": "f164a173dca48796cd2b47829b5bfedcc6acdee4ac5bcfd3b590b350b5ecd60c"
+    },
+    {
+      "path": "cad/reports/kinematic_invariants.json",
+      "status": "created",
+      "bytes": 26004,
+      "sha256": "a83539e2e9b19557946b4e93e76485c74696a9b0d8714e688c2b016cec986765"
+    },
+    {
+      "path": "cad/reports/regression_comparison.json",
+      "status": "created",
+      "bytes": 9838,
+      "sha256": "8a6b46da6311447541314f335adf02a610ce8677ede07bed12004b713808aab4"
+    },
+    {
+      "path": "cad/reports/rexroth_catalog_page52.png",
+      "status": "created",
+      "bytes": 232067,
+      "sha256": "faf09d66327ee265c87ceca4732b645780a2435a3b6f70d6cbedd9c5bfee46c2"
+    },
+    {
+      "path": "cad/reports/rexroth_legacy_manual_page8.png",
+      "status": "created",
+      "bytes": 245383,
+      "sha256": "162f51cb37cd737693b9baecfcc60c315e7f985883d9b961794db6570abb0661"
+    },
+    {
+      "path": "cad/reports/rexroth_research.json",
+      "status": "created",
+      "bytes": 17007,
+      "sha256": "a361a81a3b41a6ec799b94f811982b774f402c50f733d481d1ec2e9c1f8256f7"
+    },
+    {
+      "path": "cad/reports/stage2b_protected_assets.json",
+      "status": "created",
+      "bytes": 1523,
+      "sha256": "a39f7d70fb962a7b46544af5f0e808068af7d74a757fbec2233e36433edf1ffb"
+    },
+    {
+      "path": "cad/reports/validation_helper_notes.md",
+      "status": "created",
+      "bytes": 1432,
+      "sha256": "4abf069b101c82219bb03231366d54395aee18c2553544304ba7bf6743d327cf"
+    },
+    {
+      "path": "cad/source/beckhoff/AM3023-1xx0.step",
+      "status": "created",
+      "bytes": 2477003,
+      "sha256": "d35f2877596c5495a2905be1c80671cca097cea173db05a0ac7d88bbeda2cd35"
+    },
+    {
+      "path": "cad/source/beckhoff/AM3023-1xx1.step",
+      "status": "created",
+      "bytes": 2583682,
+      "sha256": "c1b03dbfbdc256f13e44f4d73003205d634f8bbb695bae4cf5645af41cad281e"
+    },
+    {
+      "path": "cad/source/beckhoff/AX5203.stp",
+      "status": "created",
+      "bytes": 7931005,
+      "sha256": "217b6d3acd91b67a3c8e7f7d305bf3588f33a95b8b348477bcf3540f3a7ea58d"
+    },
+    {
+      "path": "cad/source/beckhoff/AX5203_stp.zip",
+      "status": "created",
+      "bytes": 1225770,
+      "sha256": "03939da646c305c59f038d350f4aad20d2548a729f285ba6ac804f9d0c3fc2a5"
+    },
+    {
+      "path": "cad/source/beckhoff/am3000_am3500_ba_en.pdf",
+      "status": "created",
+      "bytes": 3578630,
+      "sha256": "eab989658d9d810374f07da8292285bc43f7e437d0b4500b5750e746d7a92bf6"
+    },
+    {
+      "path": "cad/source/beckhoff/am3023-1xx0_stp.zip",
+      "status": "created",
+      "bytes": 446884,
+      "sha256": "4fa845f53c9fe9237f3b6f1bf993fc7953542d94bd74c423898a5a401bd87749"
+    },
+    {
+      "path": "cad/source/beckhoff/am3023-1xx1_stp.zip",
+      "status": "created",
+      "bytes": 453078,
+      "sha256": "f9d1998738c678429f493ebae884a4358aafc864e5f287ce3d2943af03844669"
+    },
+    {
+      "path": "cad/source/rexroth/EN_CKx_R999000499_2025_05_01_10_2025.pdf",
+      "status": "created",
+      "bytes": 33397427,
+      "sha256": "e4e120c2c9c051037a9c90b91b09a6bf2cb81273e2a7846c054bd01e71c12de1"
+    },
+    {
+      "path": "cad/source/rexroth/R320103982_2009_08_CMAFH.pdf",
+      "status": "created",
+      "bytes": 7352030,
+      "sha256": "21b46183b423cde12f139644dae1e867150a06ab7c69bade3915f54cf5fae7a2"
+    },
+    {
+      "path": "config/cad_integration.json",
+      "status": "created",
+      "bytes": 3765,
+      "sha256": "a2b251972abc6a527f325c78f47a1498701db2bc49bc91bd185ea00a1d6d58d3"
+    },
+    {
+      "path": "config/cad_processing.json",
+      "status": "created",
+      "bytes": 255,
+      "sha256": "379432a2c4fb5303bbcedbca0709c4740717c508f3308bde0532f06179e08740"
+    },
+    {
+      "path": "controllers/cad_visual_validation/cad_visual_validation.py",
+      "status": "created",
+      "bytes": 13808,
+      "sha256": "e7b6af4c10e0222d538de49f6c04f8df054907e32183f7beda8ea4bc25efe575"
+    },
+    {
+      "path": "controllers/cad_visual_validation/runtime.ini",
+      "status": "created",
+      "bytes": 121,
+      "sha256": "6c74f095e94f73b6fc1fd8f9836fedf92cf3ebf9f6f2311addc727308816d71a"
+    },
+    {
+      "path": "docs/cad_am3023_research_notes.md",
+      "status": "created",
+      "bytes": 7467,
+      "sha256": "f0cbff379a6dc815fc51196c5c9ce6cdfc9089dbd676f3cee504a5b92ccfd9bf"
+    },
+    {
+      "path": "docs/cad_integration.md",
+      "status": "created",
+      "bytes": 12023,
+      "sha256": "41fa688a63954ac2f956e17340934086ebc031ea846cddaa75b38bad5afb79ee"
+    },
+    {
+      "path": "docs/cad_performance.json",
+      "status": "created",
+      "bytes": 5347,
+      "sha256": "395acedd2ecb3b66dbb42583ae4ac4025aefdea338e2cc63a9ee0456aae3bf8b"
+    },
+    {
+      "path": "docs/cad_research.md",
+      "status": "created",
+      "bytes": 14835,
+      "sha256": "44458528aee623eac29988fc6aa8122c5b11e34d047095706d2aab56bf1c4b39"
+    },
+    {
+      "path": "docs/cad_rexroth_research_notes.md",
+      "status": "created",
+      "bytes": 9320,
+      "sha256": "c7f447a572530974813e38ad15e1cfe9a62e7d87056da4ac28aa68be5f924b2c"
+    },
+    {
+      "path": "docs/cad_stage2b_final_report.md",
+      "status": "created",
+      "bytes": 14688,
+      "sha256": "69be5800fe556c251a7770bf1cecd7929345161be38b9b9c90f6d952e0292cd5"
+    },
+    {
+      "path": "docs/cad_views/am3023_brake_blender.jpg",
+      "status": "created",
+      "bytes": 99538,
+      "sha256": "c944b8e8f5db545e7be7d0ab3e2450bfdb070e2692bbf1dbe670b0df6386cab0"
+    },
+    {
+      "path": "docs/cad_views/am3023_no_brake_blender.jpg",
+      "status": "created",
+      "bytes": 105984,
+      "sha256": "b6baec1db006c0156be7b62d00411a1093c399c0ffd9595321a9ba37df71cc32"
+    },
+    {
+      "path": "docs/cad_views/ax5203_blender.jpg",
+      "status": "created",
+      "bytes": 87966,
+      "sha256": "71fbf44c9531bfebd924e200dc7eb4b3403fc5c32fd7f7ae8ec32fee953582fa"
+    },
+    {
+      "path": "docs/cad_views/webots_cad_final.jpg",
+      "status": "created",
+      "bytes": 61256,
+      "sha256": "0e73224379859cdcd1f18e122bee4b81d714760b3e081734b4402afae47bb769"
+    },
+    {
+      "path": "docs/cad_views/webots_servo_z_closeup.jpg",
+      "status": "created",
+      "bytes": 30390,
+      "sha256": "0f3fdb1d8eb810f1355147abaef69a9c908791fc6dd433a81b75460a31ae2396"
+    },
+    {
+      "path": "docs/cad_views/webots_x_center.jpg",
+      "status": "created",
+      "bytes": 61242,
+      "sha256": "035cba393f5522072a5c046f8a3e8d29301938098570af9bcc39e6ab4e0156f8"
+    },
+    {
+      "path": "docs/cad_views/webots_x_negative.jpg",
+      "status": "created",
+      "bytes": 61747,
+      "sha256": "8e86d88fe168a066d19c1eb7a08eaa27841a2d1bfe6df04910a66f1a8f05772c"
+    },
+    {
+      "path": "docs/cad_views/webots_x_positive.jpg",
+      "status": "created",
+      "bytes": 61967,
+      "sha256": "76f8dcc3d95422a1857dc2fc98ce270d313da2482f2b6e3a16de0e670c1fbdd5"
+    },
+    {
+      "path": "docs/cad_views/webots_y_center.jpg",
+      "status": "created",
+      "bytes": 61517,
+      "sha256": "0899df9544c1fb202226aadff490ccc4fec8e3eae8b3f4915c56f57e616f2d1a"
+    },
+    {
+      "path": "docs/cad_views/webots_y_negative.jpg",
+      "status": "created",
+      "bytes": 61774,
+      "sha256": "6476a28286b0cfaca95a418c35bc290b1a01586b523d6b1caafa521f14e50dc1"
+    },
+    {
+      "path": "docs/cad_views/webots_y_positive.jpg",
+      "status": "created",
+      "bytes": 61801,
+      "sha256": "87c649a7b5cae9ad2dac24942877c47505db3a5d693355f8dc59b38be5d69782"
+    },
+    {
+      "path": "docs/cad_views/webots_z_center.jpg",
+      "status": "created",
+      "bytes": 61436,
+      "sha256": "797d04f431e9a7b69e8e6b342781b2e5e141c6535a100638046637887c916b33"
+    },
+    {
+      "path": "docs/cad_views/webots_z_negative.jpg",
+      "status": "created",
+      "bytes": 61296,
+      "sha256": "088736d22da57d93b6a69bd71c3530a29de334c5fc6008b343f966516c8b3d88"
+    },
+    {
+      "path": "docs/cad_views/webots_z_positive.jpg",
+      "status": "created",
+      "bytes": 61583,
+      "sha256": "1ef01f65857fa2f7f7113b180c4f1e2fff229deb6e9053c9ac41c33ff3fe2e62"
+    },
+    {
+      "path": "docs/cad_visual_validation.json",
+      "status": "created",
+      "bytes": 2375915,
+      "sha256": "e133176c9fda11c3f1e1c149437c7532615a2a9f16c873cf2872c9baaf1450ee"
+    },
+    {
+      "path": "docs/cad_visual_webots_stderr.log",
+      "status": "created",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "docs/cad_visual_webots_stdout.log",
+      "status": "created",
+      "bytes": 29244,
+      "sha256": "901d17d239574913d9aa6b21463682014fc493d1c19bf624c9c20b6ea704eab5"
+    },
+    {
+      "path": "docs/scan_performance.json",
+      "status": "modified",
+      "bytes": 4269,
+      "sha256": "d5d0c1502182b58bf0c5fd1ffbeca74f7de9ef98f358e3edcdbcf10dc2bcfd45"
+    },
+    {
+      "path": "docs/scan_views/webots_mesh_closeup.jpg",
+      "status": "modified",
+      "bytes": 63227,
+      "sha256": "8d9bf3b20e9753463a0c31e73d6a449637ad7255e4459b7e6f89f87e0cfff611"
+    },
+    {
+      "path": "docs/scan_views/webots_x_center.jpg",
+      "status": "modified",
+      "bytes": 61271,
+      "sha256": "e283b421222ee0b8520ee9580f7beb5dbef4684f795d079db084a3a8e5ff1c60"
+    },
+    {
+      "path": "docs/scan_views/webots_x_negative.jpg",
+      "status": "modified",
+      "bytes": 61325,
+      "sha256": "36a8162e473f55ecaf3b7f58fa17fa937246beb6dbc28ea5b21ad68974809be5"
+    },
+    {
+      "path": "docs/scan_views/webots_x_positive.jpg",
+      "status": "modified",
+      "bytes": 61747,
+      "sha256": "7b882414585b52b5149a500996cdec38181210b59584da1279f0423ddb0d79ef"
+    },
+    {
+      "path": "docs/scan_views/webots_y_center.jpg",
+      "status": "modified",
+      "bytes": 61283,
+      "sha256": "a71cda1b5f24eed7d976d945d0360299cc7bd81fa175c1c6a22f3e769d470870"
+    },
+    {
+      "path": "docs/scan_views/webots_y_negative.jpg",
+      "status": "modified",
+      "bytes": 61788,
+      "sha256": "8eb1969df04a710f5a825ffa71d3005b393ed3bdbdc4dc56d23a5f68789d162e"
+    },
+    {
+      "path": "docs/scan_views/webots_y_positive.jpg",
+      "status": "modified",
+      "bytes": 61552,
+      "sha256": "f80ab0222c60fed0aab053d1501665ce6ffdd0cb37706144c10baefff61756cd"
+    },
+    {
+      "path": "docs/scan_views/webots_z_center.jpg",
+      "status": "modified",
+      "bytes": 61459,
+      "sha256": "878f941cd5c0b1cbc6a4cd473564715a5fac8e761db03de9fe80fb51a7ab2af7"
+    },
+    {
+      "path": "docs/scan_views/webots_z_negative.jpg",
+      "status": "modified",
+      "bytes": 61601,
+      "sha256": "6c6b3ccebadfa4dce58d34ddae264e5b7709e818b5c89b4ad1c2f8c25ffec2f2"
+    },
+    {
+      "path": "docs/scan_views/webots_z_positive.jpg",
+      "status": "modified",
+      "bytes": 61366,
+      "sha256": "6721ec14f661d84f82f2c977d6035fba6f00ba723efdbf0971e0d645a55b6c82"
+    },
+    {
+      "path": "docs/scan_visual_validation.json",
+      "status": "modified",
+      "bytes": 2371384,
+      "sha256": "c61440efa6b64ce7f1462e6663daca8751c21f8a06c56bb7a91ecce63c885999"
+    },
+    {
+      "path": "docs/validation.jpg",
+      "status": "modified",
+      "bytes": 61526,
+      "sha256": "f05b4d847e9eb6074ea99216712ffcf0bec29e293e0ee4c6cd6869fe89f37583"
+    },
+    {
+      "path": "docs/validation_report.json",
+      "status": "modified",
+      "bytes": 1761478,
+      "sha256": "5523dac05d878a04a1319a0f2fb123292d581ffb06483cb7f2b2976014cfe5b5"
+    },
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_0.obj",
+      "status": "created",
+      "bytes": 91299,
+      "sha256": "695e82e9cabe505861ea288ff94203cbe9d4881a7e779175364f4031b6f5114e"
+    },
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_1.obj",
+      "status": "created",
+      "bytes": 547156,
+      "sha256": "79ee6ec3b56294248d752bd1cc3be263fac0b983a105dae0a800277a0b67f241"
+    },
+    {
+      "path": "meshes/cad/servo_z_am3023_brake_material_2.obj",
+      "status": "created",
+      "bytes": 502670,
+      "sha256": "54ac6925bdacf5cbceb4e9d26016b1d71d4bbbce561a9e5e4c0d5c08f38778c4"
+    },
+    {
+      "path": "protos/CartesianRobot.proto",
+      "status": "modified",
+      "bytes": 17401,
+      "sha256": "f451a6b103db4f7897e434fb6a83c3cd6d7aaba180941fc2773a39e26d3f0151"
+    },
+    {
+      "path": "tools/append_ax5203_library.py",
+      "status": "created",
+      "bytes": 9371,
+      "sha256": "dca791806d42d189581ff523429c91a012922c0493612c73822e592e14e9ffa2"
+    },
+    {
+      "path": "tools/build_model.py",
+      "status": "modified",
+      "bytes": 16436,
+      "sha256": "6ed02337cea62ddd27d53e973f4addfba3bf51983a9def428a64c45f280951a2"
+    },
+    {
+      "path": "tools/convert_official_cad.py",
+      "status": "created",
+      "bytes": 13789,
+      "sha256": "44af2faff6274034e18990dcaa0ef1da43994544cc5c281ce7776268ea6a83bf"
+    },
+    {
+      "path": "tools/fetch_ax5203_cad.py",
+      "status": "created",
+      "bytes": 6042,
+      "sha256": "848ae860dc69ca8f14d6a38b65253b5280cad5ab05e8e090a0d01ff386ee8867"
+    },
+    {
+      "path": "tools/finalize_cad_report.py",
+      "status": "created",
+      "bytes": 7004,
+      "sha256": "ea48bc9aa0f0565916747c3ea5161119973803be77d7e6b0a63a24e56e1fa311"
+    },
+    {
+      "path": "tools/inspect_am3023_mounting.py",
+      "status": "created",
+      "bytes": 2465,
+      "sha256": "478f5aa77f3dcebc8a4c2bd1ea3f529518ffb4b828faf76f08b0a32510d3fbbf"
+    },
+    {
+      "path": "tools/inspect_cad_environment.py",
+      "status": "created",
+      "bytes": 4049,
+      "sha256": "f1e8507445e702ab2f7659be087b45a707e56915ef80c2850aae489edfbebc99"
+    },
+    {
+      "path": "tools/inspect_official_cad.py",
+      "status": "created",
+      "bytes": 5102,
+      "sha256": "c6cd5029a04076843c15e782348a6603b8af2d69a3e4e57a549183bacb98cb19"
+    },
+    {
+      "path": "tools/prepare_official_cad_blender.py",
+      "status": "created",
+      "bytes": 9495,
+      "sha256": "08f6d32803ba7130376e517f43501b0c932e626732923160dbfc88dd3a0654ca"
+    },
+    {
+      "path": "tools/validate_cad_visuals.ps1",
+      "status": "created",
+      "bytes": 4979,
+      "sha256": "8d23e7d4d74dbc4036ee187e5e95f7149a136765b61f188103c4be7fb9ae3a8c"
+    },
+    {
+      "path": "worlds/.cartesian_cad_validation.wbproj",
+      "status": "created",
+      "bytes": 681,
+      "sha256": "25968ada8a1aa5fc9a4be53f2d449275aac8b797b9316df39e6350e3fb280200"
+    },
+    {
+      "path": "worlds/.cartesian_mesh_validation.wbproj",
+      "status": "modified",
+      "bytes": 681,
+      "sha256": "25968ada8a1aa5fc9a4be53f2d449275aac8b797b9316df39e6350e3fb280200"
+    },
+    {
+      "path": "worlds/.cartesian_robot.wbproj",
+      "status": "modified",
+      "bytes": 681,
+      "sha256": "8df7fe4f1f021f9b7b31540226ca89a5b7dee42dcb4ced4db43bc5d3d703dd8e"
+    },
+    {
+      "path": "worlds/cartesian_cad_validation.wbt",
+      "status": "created",
+      "bytes": 778,
+      "sha256": "cf1ea7f579672ead5ae6b8d2b6d0f1a3ffe9760bd5b66481f8f1380cc463ec03"
+    },
+    {
+      "path": "worlds/cartesian_mesh_validation.wbt",
+      "status": "modified",
+      "bytes": 779,
+      "sha256": "6c00af5f09caa38769cea13776ca355b81d03ee36dd205a17a86f2acfa2c00ab"
+    },
+    {
+      "path": "worlds/cartesian_robot.wbt",
+      "status": "modified",
+      "bytes": 743,
+      "sha256": "77d80d2f4852a7c7c006b78920338fd083f7dd504d7e0a0c3d13d5380befb85e"
+    }
+  ]
+}

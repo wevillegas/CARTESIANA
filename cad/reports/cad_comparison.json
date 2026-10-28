@@ -1,0 +1,526 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-30T02:54:41.700884+00:00",
+  "difference_definition": "CAD minus approximate physical measurement; percent uses physical measurement as denominator",
+  "measurements_are_approximate": true,
+  "rows": [
+    {
+      "component": "Beckhoff AM3023",
+      "cad_part_number": "AM3023-1xx0",
+      "target_part_number": "AM3023-0C40-0000",
+      "classification": "B",
+      "exact_part_number_match": false,
+      "cad_native_envelope_mm": [
+        58,
+        97,
+        153.4
+      ],
+      "cad_body_length_mm": 133.4,
+      "manufacturer_features_mm": {
+        "flange_width": 58,
+        "flange_height": 58,
+        "pilot_diameter": 40,
+        "shaft_diameter": 9,
+        "free_shaft_length": 20,
+        "mounting_hole_count": 4,
+        "mounting_hole_diameter": 4.8,
+        "mounting_hole_pitch_circle_diameter": 63,
+        "connector_center_spacing": 28,
+        "connector_protrusion_above_body": 39,
+        "approximate_complete_cross_section_with_connectors": [
+          58,
+          97
+        ],
+        "body_axial_length_without_brake": 133.4,
+        "body_axial_length_with_brake": 167.5,
+        "total_axial_length_with_free_shaft_without_brake": 153.4,
+        "total_axial_length_with_free_shaft_with_brake": 187.5,
+        "source": "https://download.beckhoff.com/download/Document/motion/am3000_am3500_ba_en.pdf",
+        "pdf_page": 41,
+        "dimension_endpoint_note": "Y/Z drawing dimensions start at front flange mounting plane and end at rear casing; 20 mm shaft is separate. Drawing Z is not robot Z."
+      },
+      "comparisons": [
+        {
+          "feature": "flange_width",
+          "cad_mm": 58,
+          "real_approx_mm": 60,
+          "cad_minus_real_mm": -2,
+          "absolute_difference_mm": 2,
+          "signed_difference_percent": -3.333333,
+          "absolute_difference_percent": 3.333333,
+          "scope": "Manufacturer casing/flange; excludes connector protrusion",
+          "conclusion": "Close to approximate manual section"
+        },
+        {
+          "feature": "flange_height",
+          "cad_mm": 58,
+          "real_approx_mm": 60,
+          "cad_minus_real_mm": -2,
+          "absolute_difference_mm": 2,
+          "signed_difference_percent": -3.333333,
+          "absolute_difference_percent": 3.333333,
+          "scope": "Manufacturer casing/flange; excludes connector protrusion",
+          "conclusion": "Close to approximate manual section"
+        },
+        {
+          "feature": "total_axial_with_free_shaft",
+          "cad_mm": 153.4,
+          "real_approx_mm": 200,
+          "cad_minus_real_mm": -46.6,
+          "absolute_difference_mm": 46.6,
+          "signed_difference_percent": -23.3,
+          "absolute_difference_percent": 23.3,
+          "scope": "Manual measurement endpoints unknown",
+          "conclusion": "Large difference; remeasure equivalent endpoints; no invented mount explanation or axial rescaling"
+        }
+      ],
+      "known_differences": [
+        "Keyed shaft CAD vs smooth shaft target",
+        "CAD filename has generic winding and encoder placeholders"
+      ],
+      "integration": {
+        "enabled": false,
+        "solid_def": null,
+        "scope": "Visual family geometry only; real total-length discrepancy unresolved"
+      }
+    },
+    {
+      "component": "Beckhoff AM3023",
+      "cad_part_number": "AM3023-1xx1",
+      "target_part_number": "AM3023-0C41-0000",
+      "classification": "B",
+      "exact_part_number_match": false,
+      "cad_native_envelope_mm": [
+        58,
+        97,
+        187.5
+      ],
+      "cad_body_length_mm": 167.5,
+      "manufacturer_features_mm": {
+        "flange_width": 58,
+        "flange_height": 58,
+        "pilot_diameter": 40,
+        "shaft_diameter": 9,
+        "free_shaft_length": 20,
+        "mounting_hole_count": 4,
+        "mounting_hole_diameter": 4.8,
+        "mounting_hole_pitch_circle_diameter": 63,
+        "connector_center_spacing": 28,
+        "connector_protrusion_above_body": 39,
+        "approximate_complete_cross_section_with_connectors": [
+          58,
+          97
+        ],
+        "body_axial_length_without_brake": 133.4,
+        "body_axial_length_with_brake": 167.5,
+        "total_axial_length_with_free_shaft_without_brake": 153.4,
+        "total_axial_length_with_free_shaft_with_brake": 187.5,
+        "source": "https://download.beckhoff.com/download/Document/motion/am3000_am3500_ba_en.pdf",
+        "pdf_page": 41,
+        "dimension_endpoint_note": "Y/Z drawing dimensions start at front flange mounting plane and end at rear casing; 20 mm shaft is separate. Drawing Z is not robot Z."
+      },
+      "comparisons": [
+        {
+          "feature": "flange_width",
+          "cad_mm": 58,
+          "real_approx_mm": 60,
+          "cad_minus_real_mm": -2,
+          "absolute_difference_mm": 2,
+          "signed_difference_percent": -3.333333,
+          "absolute_difference_percent": 3.333333,
+          "scope": "Manufacturer casing/flange; excludes connector protrusion",
+          "conclusion": "Close to approximate manual section"
+        },
+        {
+          "feature": "flange_height",
+          "cad_mm": 58,
+          "real_approx_mm": 60,
+          "cad_minus_real_mm": -2,
+          "absolute_difference_mm": 2,
+          "signed_difference_percent": -3.333333,
+          "absolute_difference_percent": 3.333333,
+          "scope": "Manufacturer casing/flange; excludes connector protrusion",
+          "conclusion": "Close to approximate manual section"
+        },
+        {
+          "feature": "total_axial_with_free_shaft",
+          "cad_mm": 187.5,
+          "real_approx_mm": 240,
+          "cad_minus_real_mm": -52.5,
+          "absolute_difference_mm": 52.5,
+          "signed_difference_percent": -21.875,
+          "absolute_difference_percent": 21.875,
+          "scope": "Manual measurement endpoints unknown",
+          "conclusion": "Large difference; remeasure equivalent endpoints; no invented mount explanation or axial rescaling"
+        }
+      ],
+      "known_differences": [
+        "Keyed shaft CAD vs smooth shaft target",
+        "CAD filename has generic winding and encoder placeholders"
+      ],
+      "integration": {
+        "enabled": true,
+        "solid_def": "Z_MODULE",
+        "scope": "Visual family geometry only; real total-length discrepancy unresolved"
+      }
+    },
+    {
+      "component": "Beckhoff AX5203",
+      "cad_part_number": "AX5203 historical base-model CAD",
+      "target_part_number": "AX5203; full suffix unknown",
+      "classification": "C",
+      "exact_part_number_match": false,
+      "cad_native_envelope_mm": [
+        92.75972717389602,
+        245.80000000000004,
+        356.73819582834994
+      ],
+      "manufacturer_current_dimensions_mm": {
+        "height_without_connectors": 274.0,
+        "depth_without_connectors": 232.0,
+        "width": 92.0
+      },
+      "manual_real_dimensions_mm": null,
+      "comparisons": [],
+      "difference_calculated": false,
+      "reason": "Current product dimensions exclude connectors; full historic STEP envelope endpoints and hardware revision not reconciled. No machine manual dimensions supplied.",
+      "integration": {
+        "enabled": false,
+        "solid_def": null,
+        "scope": "Prepared candidate only; no Webots integration"
+      },
+      "converted_asset": {
+        "obj": "cad\\converted\\ax5203_native.obj",
+        "obj_sha256": "097a8e5dd8fcb679d1243a931d6687fe343bdf4a9be563ff2379b5c2959aafc9",
+        "obj_bytes": 15319742,
+        "cad_bbox_mm": {
+          "min": [
+            -63.12388789882269,
+            -260.4199605057589,
+            43.56930575766933
+          ],
+          "max": [
+            29.63583927507334,
+            -14.619960505758874,
+            400.30750158601927
+          ],
+          "dimensions": [
+            92.75972717389602,
+            245.80000000000004,
+            356.73819582834994
+          ]
+        },
+        "cad_solids": 1,
+        "cad_faces": 4320,
+        "triangles": 151990,
+        "report": "cad\\reports\\ax5203_conversion.json"
+      },
+      "blender_library": {
+        "blend": "blender/official_cad_components.blend",
+        "collection": "BECKHOFF_AX5203",
+        "object": "AX5203_OFFICIAL_LIBRARY_CLASS_C",
+        "before": {
+          "vertices": 126346,
+          "faces": 151990,
+          "triangles": 151990
+        },
+        "after": {
+          "vertices": 36661,
+          "faces": 30000,
+          "triangles": 30000
+        },
+        "reduction_percent": 80.26185933285085,
+        "native_bbox_after_m": {
+          "min": [
+            -0.06313870847225189,
+            -0.26041996479034424,
+            0.043546706438064575
+          ],
+          "max": [
+            0.029650583863258362,
+            -0.014591830782592297,
+            0.4003075063228607
+          ],
+          "dimensions": [
+            0.09278929233551025,
+            0.24582813400775194,
+            0.35676079988479614
+          ]
+        },
+        "display_translation_m": [
+          0,
+          0.5,
+          0
+        ],
+        "rotation": "identity",
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "preview": "docs/cad_views/ax5203_blender.jpg",
+        "integrated_into_webots": false
+      }
+    },
+    {
+      "component": "Bosch Rexroth CKK090 current configurable candidate",
+      "target_part_number": "R036037003",
+      "generated_part_number": "R030537116",
+      "classification": "C",
+      "exact_part_number_match": false,
+      "cad_downloaded": false,
+      "cad_local_file": null,
+      "cad_sha256": null,
+      "cad_bbox_mm": null,
+      "source_url": "https://www.boschrexroth.com/ics/ref/config?c=ar&language=en&matno=R036_CKx",
+      "configuration": {
+        "product": "CKK",
+        "size": "090",
+        "length_L_mm": 750,
+        "version": "OF01",
+        "guide": "001",
+        "lubrication": "LSS",
+        "drive": "001 BASA12x5 shaft8mm",
+        "carriage": "001 Lca35mm",
+        "ratio": 1,
+        "mechanical_interface": "0",
+        "motor_attachment": "000",
+        "motor_code": "0",
+        "motor": "000",
+        "cover": "002 cover strip and plate",
+        "sensor_count": 0,
+        "duct": "000",
+        "socket_plug": "000",
+        "documentation": "001",
+        "carriage_position_mm": 0
+      },
+      "family_dimensions": {
+        "legacy_CKK12_90": {
+          "A_mm": 90,
+          "H_mm": 40,
+          "source": "R320103982 (2009.08), p.8",
+          "length_limit_proven_for_R036037003": null
+        },
+        "current_CKK090": {
+          "A_mm": 90,
+          "H_body_mm": 40,
+          "H1_carriage_top_mm": 56,
+          "OF01_shaft_diameter_mm": 8,
+          "OF01_shaft_projection_L1_mm": 20,
+          "current_Lmax_mm": 750,
+          "source": "R999000499/2025-05 pp.14-15,22,52",
+          "L_datum": "Current p.52 total body/endblock length excludes projecting journal; not proven datum of real 815mm measurement",
+          "length_limit_applies_to": "Current standard CKK090 only, not established for legacy R036037003",
+          "H1_datum": "Upper assembly height represented in p.52; real carriage/connection plate variant not confirmed. H=40 is body height."
+        },
+        "current_CKK110_control_only": {
+          "A_mm": 110,
+          "H_body_mm": 50,
+          "H1_carriage_top_mm": 66,
+          "current_Lmax_mm": 1500,
+          "source": "R999000499/2025-05 pp.14-15,52",
+          "interpretation": "Width alone is insufficient to select a different family for photographed MNR"
+        },
+        "real_approximate_user_measurements": {
+          "X_mm": [
+            815,
+            110,
+            55
+          ],
+          "Y_mm": [
+            710,
+            42,
+            93
+          ],
+          "Z_mm": [
+            355,
+            95,
+            40
+          ],
+          "measurement_datums_confirmed": false
+        },
+        "comparisons": [
+          {
+            "axis": "X",
+            "real_section_mm": [
+              110,
+              55
+            ],
+            "family_body_section_mm": [
+              90,
+              40
+            ],
+            "body_section_difference_mm": [
+              -20,
+              -15
+            ],
+            "body_relative_difference_percent": [
+              -18.1818,
+              -27.2727
+            ],
+            "family_H1_vs_measured_height_mm": [
+              56,
+              55
+            ],
+            "H1_difference_mm": 1,
+            "current750_vs_real815_difference_mm": -65,
+            "length_relative_difference_percent": -7.9755,
+            "match": "unverified",
+            "reason": "Body versus carriage measurement datum unknown; longitudinal configurable family does not establish exact variant."
+          },
+          {
+            "axis": "Y",
+            "real_rotated_section_mm": [
+              93,
+              42
+            ],
+            "family_rotated_body_section_mm": [
+              90,
+              40
+            ],
+            "difference_mm": [
+              -3,
+              -2
+            ],
+            "match": "similar section only; MNR not identified"
+          },
+          {
+            "axis": "Z",
+            "real_rotated_section_mm": [
+              95,
+              40
+            ],
+            "family_rotated_body_section_mm": [
+              90,
+              40
+            ],
+            "difference_mm": [
+              -5,
+              0
+            ],
+            "match": "similar section only; photo probable Z has different MNR"
+          }
+        ],
+        "nonuniform_scale_used": false,
+        "invented_adapter_explanation": false
+      },
+      "comparisons": [
+        {
+          "feature": "body_width",
+          "family_documented_mm": 90,
+          "real_approx_mm": 110,
+          "cad_measured_mm": null,
+          "cad_minus_real_mm": null,
+          "family_minus_real_mm": -20,
+          "absolute_difference_mm": 20,
+          "signed_difference_percent": -18.181818,
+          "absolute_difference_percent": 18.181818,
+          "scope": "Family body vs physical endpoints unconfirmed",
+          "comparison_type": "Documented family dimension, not locally measured CAD"
+        },
+        {
+          "feature": "body_height",
+          "family_documented_mm": 40,
+          "real_approx_mm": 55,
+          "cad_measured_mm": null,
+          "cad_minus_real_mm": null,
+          "family_minus_real_mm": -15,
+          "absolute_difference_mm": 15,
+          "signed_difference_percent": -27.272727,
+          "absolute_difference_percent": 27.272727,
+          "scope": "Family body vs physical endpoints unconfirmed",
+          "comparison_type": "Documented family dimension, not locally measured CAD"
+        },
+        {
+          "feature": "H1_top_of_drawing_assembly",
+          "family_documented_mm": 56,
+          "real_approx_mm": 55,
+          "cad_measured_mm": null,
+          "cad_minus_real_mm": null,
+          "family_minus_real_mm": 1,
+          "absolute_difference_mm": 1,
+          "signed_difference_percent": 1.818182,
+          "absolute_difference_percent": 1.818182,
+          "scope": "Drawing upper assembly height; real carriage/plate variant unconfirmed",
+          "comparison_type": "Documented family dimension, not locally measured CAD"
+        },
+        {
+          "feature": "deliberately_chosen_current_length_L",
+          "family_documented_mm": 750,
+          "real_approx_mm": 815,
+          "cad_measured_mm": null,
+          "cad_minus_real_mm": null,
+          "family_minus_real_mm": -65,
+          "absolute_difference_mm": 65,
+          "signed_difference_percent": -7.97546,
+          "absolute_difference_percent": 7.97546,
+          "scope": "Current body/endblock length datum not proven equivalent to real measurement; current Lmax is not legacy limit",
+          "comparison_type": "Documented family dimension, not locally measured CAD"
+        }
+      ],
+      "integration": {
+        "enabled": false,
+        "solid_def": null,
+        "scope": "Preserve X scan/primitives; no A/B CAD obtained"
+      },
+      "reasons": [
+        "MNR R036037003 is visible but its complete legacy configuration is not decoded by a primary source.",
+        "Body section 90x40 and carriage-top H1=56 require independent real datum verification against X110x55.",
+        "Official configurator generated a distinct MNR R030537116 for a deliberately chosen modern family candidate.",
+        "Official CAD generation requires email delivery; manufacturer PARTcommunity CAD export requires SSO."
+      ],
+      "nameplate_semantics": {
+        "source_document": "cad/source/rexroth/R320103982_2009_08_CMAFH.pdf",
+        "pages": [
+          8,
+          9
+        ],
+        "figure": "2.2",
+        "MNR": "Compact Module material / ordering code",
+        "SYN": "Serial number, per numbered manufacturer manual figure",
+        "CS": "Customer order number",
+        "FD": "Date of manufacture; FD005 not decoded into date",
+        "warning": "Modern product R036030000 also exists as base material, but coincidence with photographed SYN does not prove configuration."
+      },
+      "photo_axis_assignment": [
+        {
+          "file": "docs/reference_previews/IMG_0279.jpg",
+          "visible_MNR": "R036037003",
+          "visible_SYN": "R036030000",
+          "visible_CS": "1004752497 /20",
+          "visible_FD": "005",
+          "assigned_axis": "X",
+          "assignment_type": "Inference from same plate/location and four-bolt mounting in IMG0278, horizontal cross-beam supported by Y carriage and carrying Z",
+          "confidence": "high context inference, not explicit manufacturer axis marking",
+          "context_files": [
+            "docs/reference_previews/IMG_0278.jpg",
+            "docs/reference_previews/IMG_0277.jpg"
+          ],
+          "sha256": "FE63A6BBF7FCC59F22B8AFFC43CD27052021C21726658E0006BA1A006A89841A"
+        },
+        {
+          "file": "docs/reference_previews/IMG_0276.jpg",
+          "visible_MNR": "R055712186",
+          "visible_SYN": "R036030000",
+          "visible_CS": "1004752497 /40",
+          "visible_FD": "005",
+          "assigned_axis": "Z probable",
+          "assignment_type": "Inference from vertical module under black block and adjacent tooling in IMG0277",
+          "confidence": "medium-high context inference; distinct MNR, not assumed same assembly",
+          "sha256": "22F11C0DDAC64E515F70153D0B6F8B4D7C226723A80183742D47AF193C9454E9"
+        }
+      ],
+      "longitudinal_difference_alone_is_rejection": false,
+      "nonuniform_scale_used": false
+    }
+  ],
+  "rexroth_status": "Research closed: no STEP local, no A/B; modern candidate C not downloaded; email/SSO export access; no Webots integration",
+  "source_reports": [
+    "cad/reports/beckhoff_research.json",
+    "cad/reports/am3023_cad_measurements.json",
+    "cad/reports/am3023_mounting_features.json",
+    "cad/reports/ax5203_research.json",
+    "cad/reports/ax5203_blender_processing.json",
+    "cad/reports/rexroth_research.json"
+  ]
+}

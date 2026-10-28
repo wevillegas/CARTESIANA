@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\ROBOTICA\CARTESIANO\controllers\cartesian_controller\cartesian_controller.py", line 472, in run
+    self.run_validation()
+    ~~~~~~~~~~~~~~~~~~~^^
+  File "E:\ROBOTICA\CARTESIANO\controllers\mesh_visual_validation\mesh_visual_validation.py", line 86, in run_validation
+    identity = max_difference(visual.getField("scale").getSFVec3f(), [1, 1, 1]) < 1e-12
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'getSFVec3f'

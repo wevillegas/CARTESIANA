@@ -1,0 +1,39 @@
+{
+  "stage": "Etapa 2: integración piloto visual, sin modificación cinemática",
+  "source_obj": "blender/derived/scan_raw.obj",
+  "source_scan": "referencias/untitled 2.3dm",
+  "alignment_scope": "Registro de una región del módulo X. No representa registro global de toda la máquina ni posición de homing del scan.",
+  "alignment": {
+    "scale": 1.0,
+    "rotation_z": 0.0450294947014537,
+    "translation": [0.16, -0.34982, 0.0365]
+  },
+  "texture": "textures/scan_atlas.jpg",
+  "parts": [
+    {
+      "name": "axis_x_surface_visual",
+      "solid_def": "X_MODULE",
+      "origin_world": [0.0, 0.0, 1.1785],
+      "enabled": true,
+      "selection": "all_vertices",
+      "regions": [
+        {"min": [-0.4075, -0.0575, 1.151], "max": [0.4075, 0.0575, 1.2115]}
+      ],
+      "min_component_faces": 4,
+      "target_triangles": 300,
+      "remove_visual_indices": [0, 1],
+      "primitive_backing": {"position": [0, 0, 0], "size": [0.805, 0.025, 0.04], "color": "metal"},
+      "description": "Superficie parcial del módulo X. Un núcleo visual paramétrico rellena huecos; servo, tapa lateral y marcador siguen siendo primitivas. No incluye carro X, Z ni portacables móviles ambiguos."
+    }
+  ],
+  "blend_file": "blender/cartesian_scan_cleanup.blend",
+  "report_file": "docs/mesh_processing.json",
+  "discarded_regions": [
+    "Gabinete abierto y deformado: la envolvente cerrada paramétrica se conserva.",
+    "Mesa: orientación rectangular distinta a las medidas XYZ suministradas; no se gira ni deforma la cinemática para forzar el scan.",
+    "Carros Y/X/Z y herramienta: fusionados con guías y cables; no hay separación fiable en esta captura.",
+    "Módulos Y/Z y servos: no se integran hasta relevar montaje y secciones con precisión.",
+    "Portacables largos y conexiones eléctricas: se excluyen de la región seleccionada.",
+    "Nube de puntos: referencia independiente con otro registro XY, no se mezcla con la Mesh."
+  ]
+}

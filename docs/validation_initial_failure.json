@@ -1,0 +1,850 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-09-30T00:48:30.323815+00:00",
+  "passed": false,
+  "exit_status": 1,
+  "simulation_time_s": 199.504,
+  "basic_timestep_ms": 16,
+  "parameters_file": "E:\\ROBOTICA\\CARTESIANO\\config\\robot_parameters.json",
+  "parameters": {
+    "status": "PROVISIONAL: los recorridos y masas no fueron medidos en el robot real",
+    "limits": {
+      "x": {
+        "min": -0.25,
+        "max": 0.25
+      },
+      "y": {
+        "min": -0.2,
+        "max": 0.2
+      },
+      "z": {
+        "min": -0.09,
+        "max": 0.09
+      }
+    },
+    "speeds": {
+      "x": 0.04,
+      "y": 0.04,
+      "z": 0.025
+    },
+    "acceleration": 0.1,
+    "tolerance": 0.0008,
+    "settle_seconds": 0.2,
+    "telemetry_period": 1.0,
+    "timeout_seconds": 35,
+    "tool_tip_zero": [
+      0,
+      -0.15,
+      1.16
+    ],
+    "measured_dimensions": {
+      "table": [
+        0.9,
+        0.6,
+        0.85
+      ],
+      "rubber_thickness": 0.01,
+      "lower_crossbar_height": 0.205,
+      "main_bar_width": 0.045,
+      "side_bar_width": 0.055,
+      "cabinet": [
+        0.6,
+        0.334,
+        0.6
+      ],
+      "cabinet_with_cover_depth": 0.35,
+      "cabinet_floor_clearance": 0.05,
+      "support": [
+        0.035,
+        0.152,
+        0.155
+      ],
+      "x_module": [
+        0.815,
+        0.11,
+        0.055
+      ],
+      "x_servo": [
+        0.2,
+        0.06,
+        0.06
+      ],
+      "y_module": [
+        0.042,
+        0.71,
+        0.093
+      ],
+      "y_servo": [
+        0.06,
+        0.2,
+        0.06
+      ],
+      "z_module": [
+        0.04,
+        0.095,
+        0.355
+      ],
+      "z_servo": [
+        0.06,
+        0.06,
+        0.24
+      ]
+    },
+    "approximate_dimensions": {
+      "y_carriage": [
+        0.1,
+        0.16,
+        0.043
+      ],
+      "x_carriage": [
+        0.12,
+        0.14,
+        0.035
+      ],
+      "z_carriage": [
+        0.085,
+        0.035,
+        0.08
+      ],
+      "tool_body": [
+        0.06,
+        0.055,
+        0.12
+      ],
+      "tool_shaft_radius": 0.012,
+      "tool_shaft_length": 0.12
+    },
+    "approximate_mass_kg": {
+      "y_assembly": 12,
+      "x_assembly": 5,
+      "z_assembly": 1.5
+    },
+    "simulation_max_force_N": {
+      "x": 250,
+      "y": 500,
+      "z": 150
+    },
+    "geometry_margin_m": 0.02,
+    "table_surface_z": 0.86,
+    "placements": {
+      "fixed_y": [
+        -0.32,
+        0,
+        1.0615
+      ],
+      "y_carriage": [
+        -0.32,
+        0,
+        1.1295
+      ],
+      "x_module_in_y": [
+        0.32,
+        0,
+        0.049
+      ],
+      "x_carriage_in_y": [
+        0.32,
+        -0.02,
+        0.106
+      ],
+      "z_module_in_x": [
+        0,
+        -0.108,
+        0.177
+      ],
+      "z_carriage_in_x": [
+        0,
+        -0.13,
+        0.1645
+      ],
+      "tool_in_z": [
+        0,
+        0,
+        -0.16
+      ],
+      "tool_tip_in_z": [
+        0,
+        0,
+        -0.24
+      ],
+      "cabinet": [
+        0,
+        -0.475,
+        0.35
+      ]
+    }
+  },
+  "coordinate_system": "ENU (+X derecha, +Y fondo, +Z arriba)",
+  "provisional_limits": true,
+  "checks": [
+    {
+      "name": "devices_and_config",
+      "passed": true,
+      "details": {
+        "motor_names": [
+          "motor_x",
+          "motor_y",
+          "motor_z"
+        ],
+        "sensor_names": [
+          "sensor_x",
+          "sensor_y",
+          "sensor_z"
+        ],
+        "limits_m": {
+          "x": [
+            -0.25,
+            0.25
+          ],
+          "y": [
+            -0.2,
+            0.2
+          ],
+          "z": [
+            -0.09,
+            0.09
+          ]
+        },
+        "motor_limits_match_json": true,
+        "sensor_sampling_period_ms": 16
+      }
+    },
+    {
+      "name": "tool_tip_home",
+      "passed": true,
+      "details": {
+        "expected_enu_m": [
+          0.0,
+          -0.15,
+          1.16
+        ],
+        "measured_enu_m": [
+          2.311818496628877e-08,
+          -0.14999979901440477,
+          1.159792571519
+        ],
+        "maximum_error_m": 0.00019761848115473768
+      }
+    },
+    {
+      "name": "hierarchy_y",
+      "passed": true,
+      "details": {
+        "commanded_displacement_m": 0.12,
+        "measured_displacement_m": 0.12000006760940556,
+        "nodes": {
+          "FIXED_Y": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maximum_delta_error_m": 0.0,
+            "orientation_difference": 0.0,
+            "passed": true
+          },
+          "Y_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.12000006760940556,
+              0.0
+            ],
+            "observed_delta_m": [
+              7.526868017748711e-12,
+              0.12000006760808905,
+              7.077901593710578e-07
+            ],
+            "maximum_delta_error_m": 7.077901593710578e-07,
+            "orientation_difference": 7.464060604923825e-11,
+            "passed": true
+          },
+          "X_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.12000006760940556,
+              0.0
+            ],
+            "observed_delta_m": [
+              6.8349215176510825e-12,
+              0.12000006742676929,
+              7.078068846588792e-07
+            ],
+            "maximum_delta_error_m": 7.078068846588792e-07,
+            "orientation_difference": 9.697559961032809e-11,
+            "passed": true
+          },
+          "Z_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.12000006760940556,
+              0.0
+            ],
+            "observed_delta_m": [
+              7.848266534415232e-12,
+              0.12000006736476418,
+              7.077956891698989e-07
+            ],
+            "maximum_delta_error_m": 7.077956891698989e-07,
+            "orientation_difference": 4.84510078762381e-11,
+            "passed": true
+          },
+          "TOOL": {
+            "expected_delta_m": [
+              0.0,
+              0.12000006760940556,
+              0.0
+            ],
+            "observed_delta_m": [
+              6.9256519674275335e-12,
+              0.12000006737251634,
+              7.077956891698989e-07
+            ],
+            "maximum_delta_error_m": 7.077956891698989e-07,
+            "orientation_difference": 4.8451007874544035e-11,
+            "passed": true
+          },
+          "TOOL_TIP": {
+            "expected_delta_m": [
+              0.0,
+              0.12000006760940556,
+              0.0
+            ],
+            "observed_delta_m": [
+              6.464344683960154e-12,
+              0.12000006737639242,
+              7.077956891698989e-07
+            ],
+            "maximum_delta_error_m": 7.077956891698989e-07,
+            "orientation_difference": 4.8451007874544035e-11,
+            "passed": true
+          }
+        }
+      }
+    },
+    {
+      "name": "hierarchy_x",
+      "passed": true,
+      "details": {
+        "commanded_displacement_m": 0.15,
+        "measured_displacement_m": 0.15000017286550602,
+        "nodes": {
+          "FIXED_Y": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maximum_delta_error_m": 0.0,
+            "orientation_difference": 0.0,
+            "passed": true
+          },
+          "Y_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              -3.356467958570697e-07,
+              6.807178753457509e-08,
+              2.6238609047712913e-06
+            ],
+            "maximum_delta_error_m": 2.6238609047712913e-06,
+            "orientation_difference": 7.651671547800875e-06,
+            "passed": true
+          },
+          "X_CARRIAGE": {
+            "expected_delta_m": [
+              0.15000017286550602,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.1500008863121161,
+              6.780675583864526e-08,
+              -7.094022893561203e-07
+            ],
+            "maximum_delta_error_m": 7.134466100955361e-07,
+            "orientation_difference": 1.1477529255083045e-05,
+            "passed": true
+          },
+          "Z_CARRIAGE": {
+            "expected_delta_m": [
+              0.15000017286550602,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.15000277402064902,
+              6.774282279575772e-08,
+              -7.094213629876833e-07
+            ],
+            "maximum_delta_error_m": 2.601155143000522e-06,
+            "orientation_difference": 1.147755489849974e-05,
+            "passed": true
+          },
+          "TOOL": {
+            "expected_delta_m": [
+              0.15000017286550602,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.15000093761186561,
+              6.775458333274642e-08,
+              -7.094140437313712e-07
+            ],
+            "maximum_delta_error_m": 7.647463595994441e-07,
+            "orientation_difference": 1.147755489849974e-05,
+            "passed": true
+          },
+          "TOOL_TIP": {
+            "expected_delta_m": [
+              0.15000017286550602,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.15000001940747396,
+              6.776046362899635e-08,
+              -7.09410384436282e-07
+            ],
+            "maximum_delta_error_m": 7.09410384436282e-07,
+            "orientation_difference": 1.147755489849974e-05,
+            "passed": true
+          }
+        }
+      }
+    },
+    {
+      "name": "hierarchy_z",
+      "passed": true,
+      "details": {
+        "commanded_displacement_m": 0.06,
+        "measured_displacement_m": 0.059999981127530994,
+        "nodes": {
+          "FIXED_Y": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "maximum_delta_error_m": 0.0,
+            "orientation_difference": 0.0,
+            "passed": true
+          },
+          "Y_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              -1.4209685650357073e-09,
+              5.82229678957849e-11,
+              -2.1504176217490567e-10
+            ],
+            "maximum_delta_error_m": 1.4209685650357073e-09,
+            "orientation_difference": 2.8079557227676585e-10,
+            "passed": true
+          },
+          "X_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "observed_delta_m": [
+              1.7224047632602435e-07,
+              -1.1303517150063058e-11,
+              -2.417763766970893e-10
+            ],
+            "maximum_delta_error_m": 1.7224047632602435e-07,
+            "orientation_difference": 3.9338750175592417e-10,
+            "passed": true
+          },
+          "Z_CARRIAGE": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.059999981127530994
+            ],
+            "observed_delta_m": [
+              6.661023641115381e-08,
+              -5.467028542927022e-07,
+              0.05999998087770475
+            ],
+            "maximum_delta_error_m": 5.467028542927022e-07,
+            "orientation_difference": 3.76311696628026e-10,
+            "passed": true
+          },
+          "TOOL": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.059999981127530994
+            ],
+            "observed_delta_m": [
+              6.667044628261432e-08,
+              -5.466913747809166e-07,
+              0.05999998087770497
+            ],
+            "maximum_delta_error_m": 5.466913747809166e-07,
+            "orientation_difference": 3.763116966284495e-10,
+            "passed": true
+          },
+          "TOOL_TIP": {
+            "expected_delta_m": [
+              0.0,
+              0.0,
+              0.059999981127530994
+            ],
+            "observed_delta_m": [
+              6.670055121834458e-08,
+              -5.466856349833904e-07,
+              0.05999998087770497
+            ],
+            "maximum_delta_error_m": 5.466856349833904e-07,
+            "orientation_difference": 3.763116966284495e-10,
+            "passed": true
+          }
+        }
+      }
+    },
+    {
+      "name": "automatic_demo",
+      "passed": true,
+      "details": {
+        "last_position_m": {
+          "x": -5.063614997635425e-11,
+          "y": 6.401289955656082e-08,
+          "z": -9.810000669856127e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_000",
+      "passed": true,
+      "details": {
+        "target_m": [
+          -0.25,
+          -0.2,
+          -0.09
+        ],
+        "sensor_m": {
+          "x": -0.2500079444654082,
+          "y": -0.20000000071586105,
+          "z": -0.09000980999858031
+        },
+        "errors_m": {
+          "x": 7.944465408193935e-06,
+          "y": 7.158610371149621e-10,
+          "z": 9.809998580315171e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_001",
+      "passed": true,
+      "details": {
+        "target_m": [
+          -0.25,
+          -0.2,
+          0.09
+        ],
+        "sensor_m": {
+          "x": -0.2500000006839794,
+          "y": -0.2000000007136439,
+          "z": 0.08999799565932182
+        },
+        "errors_m": {
+          "x": 6.83979373139465e-10,
+          "y": 7.1364389397921e-10,
+          "z": 2.0043406781800055e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_010",
+      "passed": true,
+      "details": {
+        "target_m": [
+          -0.25,
+          0.2,
+          -0.09
+        ],
+        "sensor_m": {
+          "x": -0.2500000002011644,
+          "y": 0.1999978271268298,
+          "z": -0.0900098099650756
+        },
+        "errors_m": {
+          "x": 2.0116441845630106e-10,
+          "y": 2.1728731701975423e-06,
+          "z": 9.809965075602278e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_011",
+      "passed": true,
+      "details": {
+        "target_m": [
+          -0.25,
+          0.2,
+          0.09
+        ],
+        "sensor_m": {
+          "x": -0.25000000068401373,
+          "y": 0.19999999928635578,
+          "z": 0.08999799565554596
+        },
+        "errors_m": {
+          "x": 6.840137345420771e-10,
+          "y": 7.136442270461174e-10,
+          "z": 2.0043444540346345e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_100",
+      "passed": true,
+      "details": {
+        "target_m": [
+          0.25,
+          -0.2,
+          -0.09
+        ],
+        "sensor_m": {
+          "x": 0.25000890926838537,
+          "y": -0.20000000071505883,
+          "z": -0.09000980999898171
+        },
+        "errors_m": {
+          "x": 8.909268385370872e-06,
+          "y": 7.150588177129436e-10,
+          "z": 9.809998981716306e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_101",
+      "passed": true,
+      "details": {
+        "target_m": [
+          0.25,
+          -0.2,
+          0.09
+        ],
+        "sensor_m": {
+          "x": 0.2500000005691874,
+          "y": -0.2000000007136443,
+          "z": 0.08999799565943309
+        },
+        "errors_m": {
+          "x": 5.691874194191371e-10,
+          "y": 7.136442825572686e-10,
+          "z": 2.004340566907903e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_110",
+      "passed": true,
+      "details": {
+        "target_m": [
+          0.25,
+          0.2,
+          -0.09
+        ],
+        "sensor_m": {
+          "x": 0.25000000016788226,
+          "y": 0.19999789797883355,
+          "z": -0.09000980996513176
+        },
+        "errors_m": {
+          "x": 1.6788226364639058e-10,
+          "y": 2.1020211664612987e-06,
+          "z": 9.809965131765686e-06
+        }
+      }
+    },
+    {
+      "name": "workspace_corner_111",
+      "passed": true,
+      "details": {
+        "target_m": [
+          0.25,
+          0.2,
+          0.09
+        ],
+        "sensor_m": {
+          "x": 0.25000000056921595,
+          "y": 0.1999999992863554,
+          "z": 0.08999799565563014
+        },
+        "errors_m": {
+          "x": 5.6921595215087e-10,
+          "y": 7.13644615624176e-10,
+          "z": 2.0043443698519736e-06
+        }
+      }
+    },
+    {
+      "name": "clamp_minimum",
+      "passed": true,
+      "details": {
+        "requested_m": [
+          -1.25,
+          -1.2,
+          -1.09
+        ],
+        "applied_m": {
+          "x": -0.25,
+          "y": -0.2,
+          "z": -0.09
+        },
+        "sensor_m": {
+          "x": -0.25000891536962044,
+          "y": -0.2000000007157719,
+          "z": -0.09000980999862852
+        }
+      }
+    },
+    {
+      "name": "clamp_maximum",
+      "passed": true,
+      "details": {
+        "requested_m": [
+          1.25,
+          1.2,
+          1.09
+        ],
+        "applied_m": {
+          "x": 0.25,
+          "y": 0.2,
+          "z": 0.09
+        },
+        "sensor_m": {
+          "x": 0.25000221435690545,
+          "y": 0.19999999928506343,
+          "z": 0.08999019000103758
+        }
+      }
+    },
+    {
+      "name": "nonfinite_rejected_atomically",
+      "passed": true,
+      "details": [
+        {
+          "input": [
+            "nan",
+            "0.0",
+            "0.0"
+          ],
+          "rejected": true,
+          "targets_unchanged": true
+        },
+        {
+          "input": [
+            "0.0",
+            "inf",
+            "0.0"
+          ],
+          "rejected": true,
+          "targets_unchanged": true
+        },
+        {
+          "input": [
+            "0.0",
+            "0.0",
+            "-inf"
+          ],
+          "rejected": true,
+          "targets_unchanged": true
+        }
+      ]
+    },
+    {
+      "name": "stable_hold_3_seconds",
+      "passed": true,
+      "details": {
+        "duration_s": 3.0079999999999814,
+        "sample_count": 188,
+        "maximum_body_drift_m": 6.238169442118746e-08,
+        "maximum_sensor_error_m": 9.809999999741918e-06,
+        "drift_tolerance_m": 0.0015
+      }
+    },
+    {
+      "name": "maximum_sensor_limit_excess_m",
+      "passed": false,
+      "details": {
+        "observed": 0.005309055882782937,
+        "limit": 0.0008
+      }
+    },
+    {
+      "name": "maximum_fixed_drift_m",
+      "passed": true,
+      "details": {
+        "observed": 0.0,
+        "limit": 0.0015
+      }
+    },
+    {
+      "name": "maximum_orientation_difference",
+      "passed": true,
+      "details": {
+        "observed": 3.592393980410566e-05,
+        "limit": 0.003
+      }
+    },
+    {
+      "name": "maximum_tip_kinematic_error_m",
+      "passed": true,
+      "details": {
+        "observed": 0.00020583730426149138,
+        "limit": 0.003
+      }
+    },
+    {
+      "name": "tool_above_rubber_every_timestep",
+      "passed": true,
+      "details": {
+        "minimum_clearance_m": 0.20822955498353724,
+        "minimum_required_m": 0.01,
+        "rubber_surface_z_m": 0.86
+      }
+    }
+  ],
+  "failed_checks": [
+    "maximum_sensor_limit_excess_m"
+  ],
+  "continuous_metrics": {
+    "maximum_sensor_limit_excess_m": 0.005309055882782937,
+    "maximum_fixed_drift_m": 0.0,
+    "maximum_orientation_difference": 3.592393980410566e-05,
+    "maximum_tip_kinematic_error_m": 0.00020583730426149138,
+    "minimum_tool_clearance_m": 0.20822955498353724
+  },
+  "snapshot_count": 12476,
+  "screenshot": "E:\\ROBOTICA\\CARTESIANO\\docs\\validation.png",
+  "screenshot_error": null,
+  "iteration_note": "Primera ejecución: sobrepaso transitorio; se corrige ganancia P=15 a P=3 sin relajar la tolerancia"
+}
